@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  18 FEB 2019 21:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  19 FEB 2019 13:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -392,136 +392,23 @@ Overfull \hbox (27.28432pt too wide) in paragraph at lines 23--33
 сточником
  []
 
-[1
+! I can't write on file `waves.pdf'.
+(Press Enter to retry, or Control-Z to exit; default file extension is `.pdf')
+Please type another file name for output
+! Emergency stop.
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.33 
+     
+*** (job aborted, file error in nonstop mode)
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 41.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 41.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 41.
-
-Overfull \hbox (5.79614pt too wide) in paragraph at lines 37--91
-\T2A/cmr/m/n/12 xanthenyl)-4' -methyl-2,2'-(ethylenedioxy)dianiline-N,N,N',N'-t
-etraacetic acid
- []
-
-
-Overfull \hbox (0.37956pt too wide) in paragraph at lines 37--91
-\T2A/cmr/m/n/12 tetrakis(acetoxymethyl) es-ter, Fluo-4-AM,Tetramethylrhodamine 
-Methyl Es-
- []
-
-[2] [3]
-Overfull \hbox (2.3786pt too wide) in paragraph at lines 93--99
-\T2A/cmr/m/n/12 Кальциевые волны Каким образом образуются кальциевые волны и ка
-кие
- []
-
-<fig1.jpg, id=19, 361.35pt x 368.577pt>
-File: fig1.jpg Graphic file (type jpg)
-<use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 101.
-(pdftex.def)             Requested size: 390.0pt x 397.80412pt.
-[4]
-<fig2.png, id=24, 575.14874pt x 376.40625pt>
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 107.
-(pdftex.def)             Requested size: 390.0pt x 255.24066pt.
-
-Overfull \hbox (4.56424pt too wide) in paragraph at lines 112--117
-[]\T2A/cmr/m/n/12 The role of cal-cium in reg-u-la-tion of con-rac-tion. Роль к
-альция в регуляции
- []
-
-
-Overfull \hbox (20.98648pt too wide) in paragraph at lines 112--117
-\T2A/cmr/m/n/12 миокарде кальциевые волны рассматриватьются как аритмогенный су
-бстрат.
- []
-
-
-Overfull \hbox (51.4964pt too wide) in paragraph at lines 112--117
-\T2A/cmr/m/n/12 Эффект гипоксии на осцилляции кальция в эпикардиальном слое кар
-диомиоцитов. 
- []
-
-<fig3.png, id=26, 1250.6725pt x 619.31375pt>
-File: fig3.png Graphic file (type png)
-<use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 121.
-(pdftex.def)             Requested size: 390.0pt x 193.11926pt.
-<fig4.png, id=27, 1467.4825pt x 1039.885pt>
-File: fig4.png Graphic file (type png)
-<use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 127.
-(pdftex.def)             Requested size: 390.0pt x 276.36157pt.
-<fig5.png, id=28, 1089.06876pt x 608.2725pt>
-File: fig5.png Graphic file (type png)
-<use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 135.
-(pdftex.def)             Requested size: 390.0pt x 217.81775pt.
-[5] [6 <./fig1.jpg>] [7 <./fig2.png> <./fig3.png (PNG copy)>] [8 <./fig4.png (P
-NG copy)> <./fig5.png (PNG copy)>]
-<fig6.png, id=43, 1852.9225pt x 1051.93pt>
-File: fig6.png Graphic file (type png)
-<use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 144.
-(pdftex.def)             Requested size: 390.0pt x 221.4094pt.
-<fig7.png, id=44, 1055.945pt x 466.74374pt>
-File: fig7.png Graphic file (type png)
-<use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 152.
-(pdftex.def)             Requested size: 390.0pt x 172.38623pt.
-[9 <./fig6.png (PNG copy)>] [10 <./fig7.png>] [11]
-Overfull \hbox (24.62605pt too wide) in paragraph at lines 174--181
-\T2A/cmr/m/n/12 расписать каждую клетку. Например: образец 1 ^^U интенсивность 
-кальциевого
- []
-
-
-Overfull \hbox (19.38759pt too wide) in paragraph at lines 174--181
-\T2A/cmr/m/n/12 сигнала ???, расположение по отношению к очагу некроза ???, инт
-енсивность
- []
-
-
-Overfull \hbox (1.45813pt too wide) in paragraph at lines 174--181
-\T2A/cmr/m/n/12 нужно подробное описание каждого графика. Что изменяется конкре
-тно:
- []
-
-[12] [13] [14] [15]
-<fig0.jpg, id=68, 467.346pt x 273.6624pt>
-File: fig0.jpg Graphic file (type jpg)
-<use fig0.jpg>
-Package pdftex.def Info: fig0.jpg  used on input line 312.
-(pdftex.def)             Requested size: 390.0pt x 228.37157pt.
-(./waves.bbl [16] [17 <./fig0.jpg>]) [18] (./waves.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 4114 strings out of 492639
- 54702 string characters out of 6133087
- 155737 words of memory out of 5000000
- 7939 multiletter control sequences out of 15000+600000
- 13018 words of font info for 33 fonts, out of 8000000 for 9000
+ 4026 strings out of 492639
+ 53580 string characters out of 6133087
+ 140737 words of memory out of 5000000
+ 7876 multiletter control sequences out of 15000+600000
+ 8892 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,1381b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf
--dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfb
-x1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb>
-<c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texliv
-e/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2018/tex
-mf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2018/texmf-dist/fo
-nts/type1/public/cm-super/sfti1200.pfb>
-Output written on waves.pdf (18 pages, 7391431 bytes).
-PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 41i,6n,25p,829b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
