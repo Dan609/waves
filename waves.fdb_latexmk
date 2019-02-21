@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex waves"] 1550744430 "waves.aux" "waves.bbl" "waves" 1550744438
+["bibtex waves"] 1550747093 "waves.aux" "waves.bbl" "waves" 1550747105
   "c:/texlive/2018/texmf-dist/bibtex/bst/apacite/apacite.bst" 1539697669 141073 9d7b79dbf9d91133318126032cff8c27 ""
   "mybib.bib" 1550573539 37966 b724f020c5fb73395f8f1e5cd919c782 ""
-  "waves.aux" 1550744436 6855 a524f278edb527760c99cc71e36202e1 ""
+  "waves.aux" 1550747102 6939 c6a36c4e30a54d6b09bc0d3d44bc6327 ""
   (generated)
   "waves.bbl"
   "waves.blg"
-["pdflatex"] 1550744431 "waves.tex" "waves.pdf" "waves" 1550744438
+["pdflatex"] 1550747095 "waves.tex" "waves.pdf" "waves" 1550747105
   "c:/Users/1/.texlive2018/texmf-var/fonts/tfm/lh/lh-t2a/labx1440.tfm" 1550513077 3304 6a543c07045572737981351171e0505e ""
   "c:/Users/1/.texlive2018/texmf-var/fonts/tfm/lh/lh-t2a/labx1728.tfm" 1549731663 3312 d199be9bd555944e2403193d58a0256a ""
   "c:/Users/1/.texlive2018/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1549731633 3240 c2435f2b5cd66d4930bc29b8df87967e ""
@@ -84,10 +84,10 @@
   "fig5.png" 1549218500 944632 b2e9079ad7925c99cb25bd306515faa6 ""
   "fig6.png" 1529866505 1518977 9bfed2388b59dfbdb28255c17917d768 ""
   "fig7.png" 1529777763 1159098 20d0173bf54d4931eb841dcb394223fa ""
-  "waves.aux" 1550744436 6855 a524f278edb527760c99cc71e36202e1 ""
-  "waves.bbl" 1550744431 13436 af581ac480954ab227c1ecbc6d5dfb65 "bibtex waves"
-  "waves.tex" 1550573539 36352 3187793132950722709a20b40d363823 ""
+  "waves.aux" 1550747102 6939 c6a36c4e30a54d6b09bc0d3d44bc6327 ""
+  "waves.bbl" 1550747095 13436 af581ac480954ab227c1ecbc6d5dfb65 "bibtex waves"
+  "waves.tex" 1550747074 36470 f4b2385218b9b9fe504042e40e71dfde ""
   (generated)
-  "waves.aux"
-  "waves.pdf"
   "waves.log"
+  "waves.pdf"
+  "waves.aux"

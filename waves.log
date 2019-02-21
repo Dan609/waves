@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  21 FEB 2019 13:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  21 FEB 2019 14:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,20 +299,20 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./waves.aux)
 \openout1 = `waves.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  (c:/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
@@ -374,16 +374,16 @@ LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 13.
+(Font)              <14.4> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
+(Font)              <7> on input line 14.
 
-Overfull \hbox (46.11235pt too wide) in paragraph at lines 23--33
+Overfull \hbox (46.11235pt too wide) in paragraph at lines 26--36
 []\T2A/cmr/m/n/12 Показано уменьшение частоты осцилляций во времени если это повреждјнный
  []
 
 
-Overfull \hbox (27.28432pt too wide) in paragraph at lines 23--33
+Overfull \hbox (27.28432pt too wide) in paragraph at lines 26--36
 \T2A/cmr/m/n/12 клетки, которые находятся в процессе гиперсокращения являются источником
  []
 
@@ -391,113 +391,119 @@ Overfull \hbox (27.28432pt too wide) in paragraph at lines 23--33
 
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 41.
+(Font)              <12> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 41.
+(Font)              <8> on input line 49.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 41.
+(Font)              <6> on input line 49.
 
-Overfull \hbox (5.79614pt too wide) in paragraph at lines 37--91
-\T2A/cmr/m/n/12 xanthenyl)-4' -methyl-2,2'-(ethylenedioxy)dianiline-N,N,N',N'-tetraacetic acid
+Overfull \hbox (12.32233pt too wide) in paragraph at lines 51--99
+\T2A/cmr/m/n/12 difluoro-3-oxo-9-xanthenyl)-4' -methyl-2,2'-(ethylenedioxy)dianiline-N,N,N',N'-
  []
 
 
-Overfull \hbox (0.37956pt too wide) in paragraph at lines 37--91
-\T2A/cmr/m/n/12 tetrakis(acetoxymethyl) es-ter, Fluo-4-AM,Tetramethylrhodamine Methyl Es-
+Overfull \hbox (22.67271pt too wide) in paragraph at lines 51--99
+\T2A/cmr/m/n/12 tetraacetic acid tetrakis(acetoxymethyl) es-ter, Fluo-4-AM,Tetramethylrhodamine
+ []
+
+
+Overfull \hbox (47.72488pt too wide) in paragraph at lines 51--99
+\T2A/cmr/m/n/12 Methyl Es-ter Per-chlo-rate, TMRM, and 4-[2-[6-(dioctylamino)-2-naphthalenyl]ethenyl]-
  []
 
 [2] [3]
-Overfull \hbox (2.3786pt too wide) in paragraph at lines 93--99
+Overfull \hbox (2.3786pt too wide) in paragraph at lines 101--107
 \T2A/cmr/m/n/12 Кальциевые волны Каким образом образуются кальциевые волны и какие
  []
 
-<fig1.jpg, id=19, 361.35pt x 368.577pt>
+[4]
+<fig1.jpg, id=23, 361.35pt x 368.577pt>
 File: fig1.jpg Graphic file (type jpg)
 <use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 101.
+Package pdftex.def Info: fig1.jpg  used on input line 109.
 (pdftex.def)             Requested size: 390.0pt x 397.80412pt.
-[4]
 <fig2.png, id=24, 575.14874pt x 376.40625pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 107.
+Package pdftex.def Info: fig2.png  used on input line 115.
 (pdftex.def)             Requested size: 390.0pt x 255.24066pt.
 
-Overfull \hbox (4.56424pt too wide) in paragraph at lines 112--117
+Overfull \hbox (4.56424pt too wide) in paragraph at lines 120--125
 []\T2A/cmr/m/n/12 The role of cal-cium in reg-u-la-tion of con-rac-tion. Роль кальция в регуляции
  []
 
 
-Overfull \hbox (20.98648pt too wide) in paragraph at lines 112--117
+Overfull \hbox (20.98648pt too wide) in paragraph at lines 120--125
 \T2A/cmr/m/n/12 миокарде кальциевые волны рассматриватьются как аритмогенный субстрат.
  []
 
 
-Overfull \hbox (51.4964pt too wide) in paragraph at lines 112--117
+Overfull \hbox (51.4964pt too wide) in paragraph at lines 120--125
 \T2A/cmr/m/n/12 Эффект гипоксии на осцилляции кальция в эпикардиальном слое кардиомиоцитов. 
  []
 
 <fig3.png, id=26, 1250.6725pt x 619.31375pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 121.
+Package pdftex.def Info: fig3.png  used on input line 129.
 (pdftex.def)             Requested size: 390.0pt x 193.11926pt.
 <fig4.png, id=27, 1467.4825pt x 1039.885pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 127.
+Package pdftex.def Info: fig4.png  used on input line 135.
 (pdftex.def)             Requested size: 390.0pt x 276.36157pt.
 <fig5.png, id=28, 1089.06876pt x 608.2725pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 135.
+Package pdftex.def Info: fig5.png  used on input line 143.
 (pdftex.def)             Requested size: 390.0pt x 217.81775pt.
-[5] [6 <./fig1.jpg>] [7 <./fig2.png> <./fig3.png (PNG copy)>] [8 <./fig4.png (PNG copy)> <./fig5.png (PNG copy)>]
+[5] [6 <./fig1.jpg>] [7 <./fig2.png> <./fig3.png (PNG copy)>] [8 <./fig4.png (PNG copy)>]
 <fig6.png, id=43, 1852.9225pt x 1051.93pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 144.
+Package pdftex.def Info: fig6.png  used on input line 152.
 (pdftex.def)             Requested size: 390.0pt x 221.4094pt.
-<fig7.png, id=44, 1055.945pt x 466.74374pt>
+ [9 <./fig5.png (PNG copy)>]
+<fig7.png, id=47, 1055.945pt x 466.74374pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 152.
+Package pdftex.def Info: fig7.png  used on input line 160.
 (pdftex.def)             Requested size: 390.0pt x 172.38623pt.
- [9 <./fig6.png (PNG copy)>] [10 <./fig7.png>] [11]
-Overfull \hbox (24.62605pt too wide) in paragraph at lines 174--181
+ [10 <./fig6.png (PNG copy)>] [11 <./fig7.png>]
+Overfull \hbox (24.62605pt too wide) in paragraph at lines 182--189
 \T2A/cmr/m/n/12 расписать каждую клетку. Например: образец 1 ^^U интенсивность кальциевого
  []
 
 
-Overfull \hbox (19.38759pt too wide) in paragraph at lines 174--181
+Overfull \hbox (19.38759pt too wide) in paragraph at lines 182--189
 \T2A/cmr/m/n/12 сигнала ???, расположение по отношению к очагу некроза ???, интенсивность
  []
 
 
-Overfull \hbox (1.45813pt too wide) in paragraph at lines 174--181
+Overfull \hbox (1.45813pt too wide) in paragraph at lines 182--189
 \T2A/cmr/m/n/12 нужно подробное описание каждого графика. Что изменяется конкретно:
  []
 
-[12] [13] [14] [15]
-<fig0.jpg, id=68, 467.346pt x 273.6624pt>
+[12] [13] [14] [15] [16]
+<fig0.jpg, id=71, 467.346pt x 273.6624pt>
 File: fig0.jpg Graphic file (type jpg)
 <use fig0.jpg>
-Package pdftex.def Info: fig0.jpg  used on input line 312.
+Package pdftex.def Info: fig0.jpg  used on input line 320.
 (pdftex.def)             Requested size: 390.0pt x 228.37157pt.
- (./waves.bbl [16] [17 <./fig0.jpg>]) [18] (./waves.aux) ) 
+ (./waves.bbl [17 <./fig0.jpg>] [18]) [19] (./waves.aux) ) 
 Here is how much of TeX's memory you used:
  4114 strings out of 492639
  54702 string characters out of 6133087
- 155737 words of memory out of 5000000
+ 155815 words of memory out of 5000000
  7939 multiletter control sequences out of 15000+600000
  13018 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,25p,1381b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on waves.pdf (18 pages, 7391177 bytes).
+Output written on waves.pdf (19 pages, 7393619 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
