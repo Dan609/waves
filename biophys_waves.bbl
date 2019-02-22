@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{20}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -45,28 +45,87 @@ Matsuura, R., S.~Miyagawa, S.~Fukushima, T.~Goto, A.~Harada, Y.~Shimozaki,
   dynamics in the ischeamia-reperfused rat heart.
 \newblock \emph{Scientific reports} 8:15991.
 
-\bibitem[Chen and Nicholson(2000)]{Chen_Nicholson00}
-Chen, K.~C., and C.~Nicholson, 2000.
-\newblock Changes in brain cell shape create residual extracellular space
-  volume and explain tortuosity behavior during osmotic challenge 97.
+\bibitem[Team et~al.(2014)]{team2014r}
+Team, R.~C., et~al., 2014.
+\newblock R: A language and environment for statistical computing.
+\newblock \emph{R} .
 
-\bibitem[Stiles and Bartol(2001)]{Stiles_Bartol01}
-Stiles, J.~R., and T.~M. Bartol, 2001.
-\newblock Monte {C}arlo methods for simulating realistic synaptic
-  microphysiology using {MC}ell.
-\newblock \emph{In} E.~D. Schutter, editor, Computational Neuroscience:
-  Realistic Modeling for Experimentalists, CRC Press, Boca Raton, 87--127.
+\bibitem[Roesch and Schmidbauer(2014)]{roesch2014waveletcomp}
+Roesch, A., and H.~Schmidbauer, 2014.
+\newblock WaveletComp: Computational wavelet analysis.
+\newblock \emph{R package version} 1.
 
-\bibitem[el~Kareh et~al.(1993)el~Kareh, Braunstein, and
-  Secomb]{el-Kareh_etal93}
-el~Kareh, A.~W., S.~L. Braunstein, and T.~W. Secomb, 1993.
-\newblock Effect of cell arrangement and interstitial volume fraction on the
-  diffusivity of monoclonal antibodies in tissue.
-\newblock \emph{Biophys. J.} 64:1638--1646.
+\bibitem[Kocksk{\"a}mper and Blatter(2002)]{kockskamper2002subcellular}
+Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.
+\newblock Subcellular Ca2+ alternans represents a novel mechanism for the
+  generation of arrhythmogenic Ca2+ waves in cat atrial myocytes.
+\newblock \emph{The Journal of physiology} 545:65--79.
 
-\bibitem[Callaghan(1991)]{Callaghan91}
-Callaghan, P.~T., 1991.
-\newblock Principles of Nuclear Magnetic Resonance Microscopy.
-\newblock Clarendon Press, Oxford, first edition.
+\bibitem[Williams et~al.(2017)Williams, Wescott, Lehnart, and
+  Lederer]{williams2017does}
+Williams, G.~S., A.~P. Wescott, S.~E. Lehnart, and W.~Lederer, 2017.
+\newblock How Does Calcium Overload Generate Calcium Waves in Heart?
+\newblock \emph{Biophysical Journal} 112:541a.
+
+\bibitem[D{\'\i}az et~al.(2004)D{\'\i}az, O’neill, and
+  Eisner]{diaz2004sarcoplasmic}
+D{\'\i}az, M.~E., S.~C. O’neill, and D.~A. Eisner, 2004.
+\newblock Sarcoplasmic reticulum calcium content fluctuation is the key to
+  cardiac alternans.
+\newblock \emph{Circulation research} 94:650--656.
+
+\bibitem[Ishida et~al.(1999)Ishida, Genka, Hirota, Nakazawa, and
+  Barry]{ishida1999formation}
+Ishida, H., C.~Genka, Y.~Hirota, H.~Nakazawa, and W.~H. Barry, 1999.
+\newblock Formation of planar and spiral Ca2+ waves in isolated cardiac
+  myocytes.
+\newblock \emph{Biophysical journal} 77:2114--2122.
+
+\bibitem[Izu et~al.(2001)Izu, Wier, and Balke]{izu2001evolution}
+Izu, L.~T., W.~G. Wier, and C.~W. Balke, 2001.
+\newblock Evolution of cardiac calcium waves from stochastic calcium sparks.
+\newblock \emph{Biophysical journal} 80:103--120.
+
+\bibitem[Chen et~al.(2014)Chen, Wang, Chen, Zhong, Kong, Bai, Zhou, Xie, Zhang,
+  Guo, et~al.]{chen2014ryanodine}
+Chen, W., R.~Wang, B.~Chen, X.~Zhong, H.~Kong, Y.~Bai, Q.~Zhou, C.~Xie,
+  J.~Zhang, A.~Guo, et~al., 2014.
+\newblock The ryanodine receptor store-sensing gate controls Ca 2+ waves and Ca
+  2+-triggered arrhythmias.
+\newblock \emph{Nature medicine} 20:184.
+
+\bibitem[Tracqui and Ohayon(2009)]{tracqui2009integrated}
+Tracqui, P., and J.~Ohayon, 2009.
+\newblock An integrated formulation of anisotropic force--calcium relations
+  driving spatio-temporal contractions of cardiac myocytes.
+\newblock \emph{Philosophical Transactions of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences} 367:4887--4905.
+
+\bibitem[Chang and Glover(2010)]{chang2010time}
+Chang, C., and G.~H. Glover, 2010.
+\newblock Time--frequency dynamics of resting-state brain connectivity measured
+  with fMRI.
+\newblock \emph{Neuroimage} 50:81--98.
+
+\bibitem[Walker et~al.(2017)Walker, Gurev, Rice, Greenstein, and
+  Winslow]{walker2017estimating}
+Walker, M.~A., V.~Gurev, J.~J. Rice, J.~L. Greenstein, and R.~L. Winslow, 2017.
+\newblock Estimating the probabilities of rare arrhythmic events in multiscale
+  computational models of cardiac cells and tissue.
+\newblock \emph{PLoS computational biology} 13:e1005783.
+
+\bibitem[Jiang et~al.(2014)Jiang, Tanaka, Matsuyama, Yamaoka, and
+  Takamatsu]{jiang2014pacing}
+Jiang, Y., H.~Tanaka, T.-a. Matsuyama, Y.~Yamaoka, and T.~Takamatsu, 2014.
+\newblock Pacing-induced non-uniform Ca2+ dynamics in rat atria revealed by
+  rapid-scanning confocal microscopy.
+\newblock \emph{Acta histochemica et cytochemica} 47:59--65.
+
+\bibitem[Aguirre et~al.(2014)Aguirre, Vinegoni, Sebas, and
+  Weissleder]{aguirre2014intravital}
+Aguirre, A.~D., C.~Vinegoni, M.~Sebas, and R.~Weissleder, 2014.
+\newblock Intravital imaging of cardiac function at the single-cell level.
+\newblock \emph{Proceedings of the National Academy of Sciences}
+  111:11257--11262.
 
 \end{thebibliography}

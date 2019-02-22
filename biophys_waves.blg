@@ -2,48 +2,51 @@ This is BibTeX, Version 0.99d (TeX Live 2018/W32TeX)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: biophys_waves.aux
 The style file: biophysj.bst
-Database file #1: sample.bib
+Database file #1: mybib.bib
+Warning--I didn't find a database entry for "Chen_Nicholson00"
+Warning--I didn't find a database entry for "Stiles_Bartol01"
+Warning--I didn't find a database entry for "el-Kareh_etal93"
+Warning--I didn't find a database entry for "Callaghan91"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Warning--empty journal in Chen_Nicholson00
-You've used 11 entries,
+You've used 20 entries,
             3176 wiz_defined-function locations,
-            727 strings with 7484 characters,
-and the built_in function-call counts, 5212 in all, are:
-= -- 374
-> -- 247
-< -- 7
-+ -- 88
-- -- 65
-* -- 349
-:= -- 740
-add.period$ -- 32
-call.type$ -- 11
-change.case$ -- 14
-chr.to.int$ -- 10
-cite$ -- 12
-duplicate$ -- 456
-empty$ -- 446
-format.name$ -- 92
-if$ -- 1091
+            789 strings with 9465 characters,
+and the built_in function-call counts, 10001 in all, are:
+= -- 712
+> -- 556
+< -- 9
++ -- 189
+- -- 148
+* -- 710
+:= -- 1434
+add.period$ -- 60
+call.type$ -- 20
+change.case$ -- 20
+chr.to.int$ -- 19
+cite$ -- 20
+duplicate$ -- 852
+empty$ -- 798
+format.name$ -- 199
+if$ -- 2056
 int.to.chr$ -- 2
-int.to.str$ -- 12
-missing$ -- 100
-newline$ -- 59
-num.names$ -- 35
-pop$ -- 153
+int.to.str$ -- 21
+missing$ -- 191
+newline$ -- 105
+num.names$ -- 60
+pop$ -- 270
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 20
 quote$ -- 0
-skip$ -- 114
+skip$ -- 188
 stack$ -- 0
-substring$ -- 195
-swap$ -- 239
+substring$ -- 414
+swap$ -- 455
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
-warning$ -- 1
-while$ -- 36
+type$ -- 140
+warning$ -- 0
+while$ -- 69
 width$ -- 0
-write$ -- 146
-(There was 1 warning)
+write$ -- 263
+(There were 4 warnings)
