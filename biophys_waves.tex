@@ -147,7 +147,7 @@ Use \verb|\section*{...}| and \verb|\subsection*{...}| to create first- and seco
 
 Use the table and tabular commands for basic tables --- see Table \ref{tab:widgets}, for example. \href{http://tablesgenerator.com}{TablesGenerator.com} is a handy tool for designing tables and generating the \LaTeX{} \texttt{tabular} code, which you can copy and paste into your article here.
 
-You can upload a figure (JPG, PNG or PDF) using the PROJECT menu (Files\ldots > Add files). To include it in your document, use the \verb|graphicx| package and the \verb|\includegraphics| command as in the code for Figure \ref{fig:view}.
+You can upload a figure (JPG, PNG or PDF) using the PROJECT menu (Files\ldots > Add files). To include it in your document, use the \verb|graphicx| package and the \verb|\includegraphics| command as in the code for Figure \ref{fig:fig1}.
 
 In addition, you can use \verb|\ref{...}| and \verb|\label{...}| commands for cross-references.
 
@@ -155,9 +155,7 @@ In addition, you can use \verb|\ref{...}| and \verb|\label{...}| commands for cr
 \caption{An example table}
 \label{tab:widgets}
 \centering
-
 \begin{threeparttable}
-
 \begin{tabular}{c l r}
 \hline
 Code & Item & Quantity \\\hline
@@ -165,24 +163,12 @@ W1 & Widgets\tnote{a} & 42 \\
 G35 & Gadgets & 13\tnote{b} \\
 \hline
 \end{tabular}
-
 \begin{tablenotes}
 \item[a] This is a table note.
 \item[b] This is another table note.
 \end{tablenotes}
-
 \end{threeparttable}
-
 \end{table}
-
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.6\linewidth]{example-image}
-\caption{A figure example.}
-\label{fig:view}
-
-\end{figure}
-
 \section*{Results}
 
 Calcium waves
@@ -197,13 +183,39 @@ We decided to apply a wavelet analysis of calcium oscillation frequencies.
 \includegraphics[width=0.6\linewidth]{fig1.jpg}
 \caption{Arrhythmia}
 \label{fig:fig1}
+\end{figure}
 
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.6\linewidth]{fig11.png}
+\caption{Arrhythmia}
+\label{fig:fig11}
 \end{figure}
 
 \begin{figure}
     \includegraphics[width=\linewidth]{fig2.png}
     \caption{Arrhythmia}
     \label{fig:fig2}
+\end{figure}
+
+fig8
+fig67
+
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.6\linewidth]{fig8.png}
+\caption{A figure example.}
+\label{fig:fig8}
+\end{figure}
+
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.6\linewidth]{fig67.png}
+\caption{A more complex figure example.}
+\label{fig:fig67}
 \end{figure}
 
 The role of calcium in regulation of conraction.
@@ -238,21 +250,9 @@ Fig. 1. Cardiomyocytes adjacent to the epicardial surface of the heart. Based on
 
 Fig. 11. Pairwise comparison of calcium waves of cardiomyocytes located in the perinekrozic zone of the epicardial region of the ventricular myocardium of an isolated working rat heart. Fluorescence intensity curves of Fluo-4 versus time are presented. A, B - comparison of signals in neighboring cells, C - comparison of signals in cells lying at a distance of 100 $\mu$ m from each other, D - comparison of signals in cells lying at a distance of 300 $\mu$  mfrom each other.
 The FFT analysis of calcium oscillations showed that in the cardiomyocytes of the perineecrosis boundary zone, as the concentration of Ca2 + increases, the amplitude of normal fluctuations in the concentration of ionized Ca2 + first increases (Figure 11, A), then single calcium waves break the sinus rhythm (Figure 11, B) , then autonomous high-frequency calcium oscillations arise that attenuate, reaching a certain threshold, (Figure 11, Figure 13, Figure 13), after which the cardiomyocytes begin to hyper-shrink. Such calcium waves can be a source of arrhythmias and contribute to the development of contractile dysfunction in heart diseases.
-
-\begin{figure}
-    \includegraphics[width=\linewidth]{fig6.png}
-    \caption{Arrhythmia}
-    \label{fig:fig6}
-\end{figure}
-
+\\
 Fig. 2.  Calcium waves in rat myocardium against a background of global calcium release. Optical section of the epicardial region of the ventricular myocardium of the isolated working heart of the rat, painted Di-8-ANEPPS (red) and Fluo-4 (green), combined image. The scale segment is 100 $\mu$m. White squares indicate the selected ROI size of 100 $\mu$m x 100 $\mu$m. Fluorescent fluorescence intensity plots in selected ROI: red line - ROI 01, green line - ROI 02. Measurement of the fluorescence intensity versus time in the myocardium, stained for active mitochondria (red) and free calcium ions (green). The scale segment is 20 $\mu$m. Shooting for 25 min, the frame corresponding to a point of 500 seconds is presented. A plot of the fluorescence intensity measured in the frame is plotted against time.
-
-\begin{figure}
-    \includegraphics[width=\linewidth]{fig7.png}
-    \caption{Arrhythmia}
-    \label{fig:fig7}
-\end{figure}
-
+\\
 Pairwise comparison of the frequencies of calcium waves of cardiomyocytes located in the perinekrozic zone of the ventricular myocardial epicardial region of an isolated working rat heart. A - comparison of signals in neighboring cells, B - comparison of signals in cells lying at a distance of 200 $\mu$m from each other
 Comparison of calcium waves of cardiomyocytes located in the perinekrozic zone of the ventricular myocardial epicardial region of an isolated working rat heart. Plots of fluorescence intensity of Fluo-4 versus time are shown, which are typical for cells located at different stages of damage. The green line is a cell with a normal rhythm; blue line - a cell with a high content of Ca2 + and sinus rhythm disturbances; red line - high-frequency spindle-shaped oscillations; turquoise line - damped oscillations, cell in terminal stage; the black line is a cell in the stage of hypercontraction
 Calcium waves in cardiomyocytes lying near the necrosis zone. Optical section of the myocardium stained with Fluo-4 (green) and Di-8-ANEPPS (red). On the combined image, the dotted rectangles indicate the selected ROI. The scale segment is 100 $\mu$m. On the fluorescence intensity curves of Fluo-4 in the selected ROI, damped oscillations are seen. Total observation time is 90 sec.
@@ -276,11 +276,11 @@ Fig. 1 A shows a comparison of [Ca2+]i levels in normal (ROI1) and locally damag
 Studies were made of the frequency characteristics of calcium waves arising in cardiomyocytes of the border zone. For comparison, 12 cells were selected located next to the necrosis zone (Fig. 9). In each cell, an ROI was determined in which fluorescence fluctuation values of Fluo-4 were measured. The obtained values were processed by the FFT method in the Origin program, some of the frequency characteristics of the calcium waves are shown in Fig. 10 (the data table is presented in the file Fluo-4.
 When the mitochondria and free Ca2 + ions were stained in the absence of contractile activity and sinus rhythm (inhibition by BDM) in the heart, they were detected as areas of the normal myocardium, characterized by a high $\Delta$ $\psi$ and a low value of [Ca2 +] (Fig.2, a, Fig.3, ROI 4-6), and areas of the myocardium, which is in different stages of ischemic damage.
 An area was identified where, in one field of view of the microscope, it was possible to take readings from cells in successive stages of approach to death. A number of characteristics of the cells were built up, with increasing signs of ischemic damage.
-For the initial stage of the lesion, groups of cardiomyocytes with a reduced  характер and a high value of [Ca2 +] are characteristic (Fig. 2b, Fig. 3, ROI 2-3). In such cells, oscillations of [Ca2 +] (calcium waves) were observed. At further stages of damage in the tissue, foci of necrosis appear, which are noticeable by the appearance of necrotic striation (Fig. 2, c, d). When a normal myocardium section was observed for 25 min, a continuous decrease in the fluorescence intensity of TMRM was recorded, fluorescence intensity of Fluo-4 first increased for 15 min, and only then began to decrease (Fig. 4). These data are consistent with the notion that as the снижения decreases, the mitochondria begin to accumulate Ca2 +.
+For the initial stage of the lesion, groups of cardiomyocytes with a reduced and a high value of [Ca2 +] are characteristic (Fig. 2b, Fig. 3, ROI 2-3). In such cells, oscillations of [Ca2 +] (calcium waves) were observed. At further stages of damage in the tissue, foci of necrosis appear, which are noticeable by the appearance of necrotic striation (Fig. 2, c, d). When a normal myocardium section was observed for 25 min, a continuous decrease in the fluorescence intensity of TMRM was recorded, fluorescence intensity of Fluo-4 first increased for 15 min, and only then began to decrease (Fig. 4). These data are consistent with the notion that as the decreases, the mitochondria begin to accumulate Ca2 +.
 
 % By how many cells were investigated in different areas? Those graphs that you give it for individual cells? If so, it is necessary to paint each cell in detail. For example: sample 1 - intensity of the calcium signal ???, location relative to the necrosis focus ???, intensity MX ??? and all that we can say (contractility, the distribution of MX ...). Please do this for each schedule.
 
-% Кроме того, нужно подробное описание каждого графика. Что изменяется конкретно: амплитуда, частота и т.д. Тоже распиши подробно.
+% In addition, you need a detailed description of each schedule. What changes specifically: amplitude, frequency, etc. Also write down in detail.
 
 For the initial stage of damage, groups of cardiomyocytes with an elevated value of [Ca2 +], in which high-frequency calcium waves were observed (Fig. 6), are characteristic. Nascent on the edge of the cell or in its middle, these waves can spread to neighboring cells (Figure 7). With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in [Ca2 +] in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D). Undoubtedly, the prognostic significance can be the detection of the switching point from the state of the cell, in which global waves can crush pathological, contributing to the restoration of a normal rhythm, to a transition through the "point of no return" when recovery is no longer possible.
 We found that cardiomyocytes located in the border zone adjacent to the necrosis zone are characterized by an increased content of Ca2 + ions, a reduced mitochondrial potential and contractile activity. Studies were made of the frequency characteristics of calcium waves arising in cardiomyocytes of the border zone. For comparison, 12 cells were selected located next to the necrosis zone (Fig. 9). In each cell, an ROI was determined in which fluorescence fluctuation values of Fluo-4 were measured. The obtained values were processed by the FFT method in the Origin program, some frequency characteristics of the calcium waves are shown in Fig. 10 (the data table is presented in the file Fluo-4 ROI 01-12.xlsx
@@ -475,6 +475,9 @@ beat variability of durations and amplitude alternans of
 Ca2+ transients, all of which emerged on excitation instead
 of uniform Ca2+ transients (Figs. 3 and 4). \cite{jiang2014pacing}, \cite{aguirre2014intravital}
 
+Spontaneous Ca waves during diastole are indicative of cellular Ca 21 overload \cite{macquaide2007measurement}
+
+
 \begin{figure}
     \includegraphics[width=\linewidth]{fig0.jpg}
     \caption{Arrhythmia}
@@ -486,7 +489,6 @@ calcium overloading
 cardiac function.
 spectrum
 
-\LaTeX{} formats citations and references automatically using the bibliography records in your .bib file, which you can edit via the project menu. Use the \verb|\cite| command to insert a citation, like this: \cite{Chen_Nicholson00} Multiple citations can be given as \cite{Stiles_Bartol01,el-Kareh_etal93,Callaghan91}. You can use either BibTeX or biblatex: see the following subsections.
 
 If your manuscript is accepted, the Biophysical production team will re-format the references for publication. \emph{It is not necessary to format the reference list yourself to mirror the final published form.}
 

@@ -3,50 +3,45 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: biophys_waves.aux
 The style file: biophysj.bst
 Database file #1: mybib.bib
-Warning--I didn't find a database entry for "Chen_Nicholson00"
-Warning--I didn't find a database entry for "Stiles_Bartol01"
-Warning--I didn't find a database entry for "el-Kareh_etal93"
-Warning--I didn't find a database entry for "Callaghan91"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 20 entries,
+You've used 21 entries,
             3176 wiz_defined-function locations,
-            789 strings with 9465 characters,
-and the built_in function-call counts, 10001 in all, are:
-= -- 712
-> -- 556
+            788 strings with 9522 characters,
+and the built_in function-call counts, 10513 in all, are:
+= -- 753
+> -- 579
 < -- 9
-+ -- 189
-- -- 148
-* -- 710
-:= -- 1434
-add.period$ -- 60
-call.type$ -- 20
-change.case$ -- 20
-chr.to.int$ -- 19
-cite$ -- 20
-duplicate$ -- 852
-empty$ -- 798
-format.name$ -- 199
-if$ -- 2056
++ -- 197
+- -- 154
+* -- 748
+:= -- 1505
+add.period$ -- 63
+call.type$ -- 21
+change.case$ -- 21
+chr.to.int$ -- 20
+cite$ -- 21
+duplicate$ -- 893
+empty$ -- 841
+format.name$ -- 207
+if$ -- 2162
 int.to.chr$ -- 2
-int.to.str$ -- 21
-missing$ -- 191
-newline$ -- 105
-num.names$ -- 60
-pop$ -- 270
+int.to.str$ -- 22
+missing$ -- 200
+newline$ -- 110
+num.names$ -- 63
+pop$ -- 283
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 21
 quote$ -- 0
-skip$ -- 188
+skip$ -- 197
 stack$ -- 0
-substring$ -- 414
-swap$ -- 455
+substring$ -- 447
+swap$ -- 477
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 140
+type$ -- 147
 warning$ -- 0
-while$ -- 69
+while$ -- 73
 width$ -- 0
-write$ -- 263
-(There were 4 warnings)
+write$ -- 276

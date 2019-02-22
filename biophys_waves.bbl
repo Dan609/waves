@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{21}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -127,5 +127,12 @@ Aguirre, A.~D., C.~Vinegoni, M.~Sebas, and R.~Weissleder, 2014.
 \newblock Intravital imaging of cardiac function at the single-cell level.
 \newblock \emph{Proceedings of the National Academy of Sciences}
   111:11257--11262.
+
+\bibitem[Macquaide et~al.(2007)Macquaide, Dempster, and
+  Smith]{macquaide2007measurement}
+Macquaide, N., J.~Dempster, and G.~Smith, 2007.
+\newblock Measurement and modeling of Ca2+ waves in isolated rabbit ventricular
+  cardiomyocytes.
+\newblock \emph{Biophysical journal} 93:2581--2595.
 
 \end{thebibliography}

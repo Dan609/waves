@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  22 FEB 2019 20:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  22 FEB 2019 21:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1289,263 +1289,55 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 148.
-<example-image.pdf, id=42, 321.2pt x 240.9pt>
-File: example-image.pdf Graphic file (type pdf)
-<use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 180.
-(pdftex.def)             Requested size: 299.52309pt x 224.64853pt.
-<fig1.jpg, id=44, 361.35pt x 368.577pt>
+<fig1.jpg, id=43, 602.25pt x 720.7728pt>
 File: fig1.jpg Graphic file (type jpg)
 <use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 197.
-(pdftex.def)             Requested size: 299.52309pt x 305.51389pt.
+Package pdftex.def Info: fig1.jpg  used on input line 183.
+(pdftex.def)             Requested size: 299.52309pt x 358.48283pt.
+<fig11.png, id=44, 1751.54375pt x 1063.975pt>
+File: fig11.png Graphic file (type png)
+<use fig11.png>
+Package pdftex.def Info: fig11.png  used on input line 191.
+(pdftex.def)             Requested size: 299.52309pt x 181.94485pt.
 <fig2.png, id=45, 575.14874pt x 376.40625pt>
 File: fig2.png Graphic file (type png)
 <use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 204.
+Package pdftex.def Info: fig2.png  used on input line 197.
 (pdftex.def)             Requested size: 499.20007pt x 326.71265pt.
- [3] [4 <c:/texlive/2018/texmf-dist/tex/latex/mwe/example-image.pdf> <./fig1.jpg>] [5 <./fig2.png>]
-<fig3.png, id=75, 1250.6725pt x 619.31375pt>
+<fig8.png, id=47, 1812.7725pt x 1077.02374pt>
+File: fig8.png Graphic file (type png)
+<use fig8.png>
+Package pdftex.def Info: fig8.png  used on input line 208.
+(pdftex.def)             Requested size: 299.52309pt x 177.94775pt.
+<fig67.png, id=48, 1185.42876pt x 1005.7575pt>
+File: fig67.png Graphic file (type png)
+<use fig67.png>
+Package pdftex.def Info: fig67.png  used on input line 216.
+(pdftex.def)             Requested size: 299.52309pt x 254.1244pt.
+ [3] [4 <./fig1.jpg> <./fig11.png (PNG copy)>] [5 <./fig2.png>]
+<fig3.png, id=71, 1250.6725pt x 619.31375pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 217.
+Package pdftex.def Info: fig3.png  used on input line 229.
 (pdftex.def)             Requested size: 499.20007pt x 247.19191pt.
-<fig4.png, id=76, 1467.4825pt x 1039.885pt>
+<fig4.png, id=72, 1467.4825pt x 1039.885pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 226.
+Package pdftex.def Info: fig4.png  used on input line 238.
 (pdftex.def)             Requested size: 499.20007pt x 353.73076pt.
-<fig5.png, id=77, 1089.06876pt x 608.2725pt>
+ [6 <./fig8.png (PNG copy)> <./fig67.png (PNG copy)>] [7 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>]
+<fig5.png, id=86, 1089.06876pt x 608.2725pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 234.
+Package pdftex.def Info: fig5.png  used on input line 246.
 (pdftex.def)             Requested size: 499.20007pt x 278.81563pt.
-<fig6.png, id=78, 1852.9225pt x 1051.93pt>
-File: fig6.png Graphic file (type png)
-<use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 243.
-(pdftex.def)             Requested size: 499.20007pt x 283.3989pt.
-<fig7.png, id=79, 1055.945pt x 466.74374pt>
-File: fig7.png Graphic file (type png)
-<use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 251.
-(pdftex.def)             Requested size: 499.20007pt x 220.65154pt.
- [6 <./fig3.png (PNG copy)>] [7 <./fig4.png (PNG copy)>] [8 <./fig5.png (PNG copy)> <./fig6.png (PNG copy)>]
-<fig9.png, id=97, 1630.09pt x 1083.04625pt>
+ [8 <./fig5.png (PNG copy)>]
+<fig9.png, id=92, 1630.09pt x 1083.04625pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
 Package pdftex.def Info: fig9.png  used on input line 268.
 (pdftex.def)             Requested size: 499.20007pt x 331.67549pt.
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character х (U+445)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...oups of cardiomyocytes with a reduced  х
-                                                  арактер and a high ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character а (U+430)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...ps of cardiomyocytes with a reduced  ха
-                                                  рактер and a high va...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character р (U+440)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ... of cardiomyocytes with a reduced  хар
-                                                  актер and a high valu...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character а (U+430)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...f cardiomyocytes with a reduced  хара
-                                                  ктер and a high value ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character к (U+43A)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...cardiomyocytes with a reduced  харак
-                                                  тер and a high value of...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character т (U+442)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...rdiomyocytes with a reduced  характ
-                                                  ер and a high value of [...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character е (U+435)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...iomyocytes with a reduced  характе
-                                                  р and a high value of [Ca...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character р (U+440)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...myocytes with a reduced  характер
-                                                   and a high value of [Ca2 ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character с (U+441)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...consistent with the notion that as the с
-                                                  нижения decreases, ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character н (U+43D)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...nsistent with the notion that as the сн
-                                                  ижения decreases, th...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character и (U+438)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...istent with the notion that as the сни
-                                                  жения decreases, the ...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character ж (U+436)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...tent with the notion that as the сниж
-                                                  ения decreases, the mi...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character е (U+435)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...nt with the notion that as the сниже
-                                                  ния decreases, the mito...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character н (U+43D)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ... with the notion that as the снижен
-                                                  ия decreases, the mitoch...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character и (U+438)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...ith the notion that as the снижени
-                                                  я decreases, the mitochon...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./biophys_waves.tex:279: Package inputenc Error: Unicode character я (U+44F)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...h the notion that as the снижения
-                                                   decreases, the mitochondr...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[9 <./fig7.png>] [10 <./fig9.png (PNG copy)>]
+ [9 <./fig9.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 294.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 313.
@@ -1554,38 +1346,26 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 313.
- [11] [12]
+ [10] [11]
 Overfull \hbox (29.87234pt too wide) in paragraph at lines 400--401
 []\T1/ntxtlf/m/n/10 (-20) 1. Phase shift and an-gle. A right-ward ar-row in-di-cates 0 lag; a bottom-right ar-row in-di-cates a small lehttp://www.alivelearn.net/?p=1169
  []
 
-<fig0.jpg, id=144, 467.346pt x 273.6624pt>
+<fig0.jpg, id=134, 467.346pt x 273.6624pt>
 File: fig0.jpg Graphic file (type jpg)
 <use fig0.jpg>
-Package pdftex.def Info: fig0.jpg  used on input line 479.
+Package pdftex.def Info: fig0.jpg  used on input line 482.
 (pdftex.def)             Requested size: 499.20007pt x 292.31476pt.
 
-Package natbib Warning: Citation `Chen_Nicholson00' on page 13 undefined on input line 489.
+Underfull \vbox (badness 6461) has occurred while \output is active []
 
-
-Package natbib Warning: Citation `Stiles_Bartol01' on page 13 undefined on input line 489.
-
-
-Package natbib Warning: Citation `el-Kareh_etal93' on page 13 undefined on input line 489.
-
-
-Package natbib Warning: Citation `Callaghan91' on page 13 undefined on input line 489.
-
-[13] (./biophys_waves.bbl [14 <./fig0.jpg>])
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 538.
-[15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
+ [12] (./biophys_waves.bbl [13 <./fig0.jpg>]) [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
  (./biophys_waves.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
 Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 (rerunfilecheck)             Checksum: AE5FB7D6D7FA502C2B16008D75F2C630;59.
 
@@ -1595,19 +1375,19 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 23429 strings out of 492639
- 393436 string characters out of 6133087
- 597408 words of memory out of 5000000
- 26872 multiletter control sequences out of 15000+600000
+ 23422 strings out of 492639
+ 393449 string characters out of 6133087
+ 597493 words of memory out of 5000000
+ 26864 multiletter control sequences out of 15000+600000
  602560 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,94p,1389b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2018/texmf-dist/fonts/type1/
-public/newtx/txexs.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txmia.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (15 pages, 7768916 bytes).
+ 60i,15n,94p,1389b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/txfonts/txmia.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on biophys_waves.pdf (15 pages, 13114653 bytes).
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
+ 224 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
  19515 words of extra memory for PDF output out of 20736 (max. 10000000)
 
