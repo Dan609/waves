@@ -1,6 +1,49 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{11}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
+
+\bibitem[Shen and Jennings(1972{\natexlab{a}})]{shen1972myocardial}
+Shen, A.~C., and R.~B. Jennings, 1972.
+\newblock Myocardial calcium and magnesium in acute ischemic injury.
+\newblock \emph{The American journal of pathology} 67:417.
+
+\bibitem[Shen and Jennings(1972{\natexlab{b}})]{shen1972kinetics}
+Shen, A.~C., and R.~B. Jennings, 1972.
+\newblock Kinetics of calcium accumulation in acute myocardial ischemic injury.
+\newblock \emph{The American journal of pathology} 67:441.
+
+\bibitem[Nayler(1981)]{nayler1981role}
+Nayler, W.~G., 1981.
+\newblock The role of calcium in the ischemic myocardium.
+\newblock \emph{The American journal of pathology} 102:262.
+
+\bibitem[Minamikawa et~al.(1997)Minamikawa, Cody, and
+  Williams]{minamikawa1997situ}
+Minamikawa, T., S.~H. Cody, and D.~A. Williams, 1997.
+\newblock In situ visualization of spontaneous calcium waves within perfused
+  whole rat heart by confocal imaging.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology} 272:H236--H243.
+
+\bibitem[Hama et~al.(1998)Hama, Takahashi, Ichihara, and
+  Takamatsu]{hama1998real}
+Hama, T., A.~Takahashi, A.~Ichihara, and T.~Takamatsu, 1998.
+\newblock Real time in situ confocal imaging of calcium wave in the perfused
+  whole heart of the rat.
+\newblock \emph{Cellular signalling} 10:331--337.
+
+\bibitem[Takamatsu(2008)]{takamatsu2008arrhythmogenic}
+Takamatsu, T., 2008.
+\newblock Arrhythmogenic substrates in myocardial infarct.
+\newblock \emph{Pathology international} 58:533--543.
+
+\bibitem[Matsuura et~al.(2018)Matsuura, Miyagawa, Fukushima, Goto, Harada,
+  Shimozaki, Yamaki, Sanami, Kikuta, Ishii, et~al.]{matsuura2018intravital}
+Matsuura, R., S.~Miyagawa, S.~Fukushima, T.~Goto, A.~Harada, Y.~Shimozaki,
+  K.~Yamaki, S.~Sanami, J.~Kikuta, M.~Ishii, et~al., 2018.
+\newblock Intravital imaging with two-photon microscopy reveals cellular
+  dynamics in the ischeamia-reperfused rat heart.
+\newblock \emph{Scientific reports} 8:15991.
 
 \bibitem[Chen and Nicholson(2000)]{Chen_Nicholson00}
 Chen, K.~C., and C.~Nicholson, 2000.

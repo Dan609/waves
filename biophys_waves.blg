@@ -5,45 +5,45 @@ The style file: biophysj.bst
 Database file #1: sample.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in Chen_Nicholson00
-You've used 4 entries,
+You've used 11 entries,
             3176 wiz_defined-function locations,
-            679 strings with 6089 characters,
-and the built_in function-call counts, 1818 in all, are:
-= -- 133
-> -- 67
-< -- 3
-+ -- 25
-- -- 17
-* -- 114
-:= -- 254
-add.period$ -- 11
-call.type$ -- 4
-change.case$ -- 7
-chr.to.int$ -- 4
-cite$ -- 5
-duplicate$ -- 162
-empty$ -- 168
-format.name$ -- 28
-if$ -- 390
-int.to.chr$ -- 1
-int.to.str$ -- 5
-missing$ -- 34
-newline$ -- 24
-num.names$ -- 14
-pop$ -- 62
+            727 strings with 7484 characters,
+and the built_in function-call counts, 5212 in all, are:
+= -- 374
+> -- 247
+< -- 7
++ -- 88
+- -- 65
+* -- 349
+:= -- 740
+add.period$ -- 32
+call.type$ -- 11
+change.case$ -- 14
+chr.to.int$ -- 10
+cite$ -- 12
+duplicate$ -- 456
+empty$ -- 446
+format.name$ -- 92
+if$ -- 1091
+int.to.chr$ -- 2
+int.to.str$ -- 12
+missing$ -- 100
+newline$ -- 59
+num.names$ -- 35
+pop$ -- 153
 preamble$ -- 1
-purify$ -- 4
+purify$ -- 11
 quote$ -- 0
-skip$ -- 50
+skip$ -- 114
 stack$ -- 0
-substring$ -- 58
-swap$ -- 80
+substring$ -- 195
+swap$ -- 239
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 25
+type$ -- 74
 warning$ -- 1
-while$ -- 12
+while$ -- 36
 width$ -- 0
-write$ -- 55
+write$ -- 146
 (There was 1 warning)
