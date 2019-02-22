@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  22 FEB 2019 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  22 FEB 2019 17:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -476,64 +476,64 @@ Package pdftex.def Info: fig9.png  used on input line 179.
 (pdftex.def)             Requested size: 390.0pt x 259.1101pt.
  [12 <./fig9.png (PNG copy)>] [13]
 
-./waves.tex:207: LaTeX Error: Command \th unavailable in encoding T2A.
+./waves.tex:212: LaTeX Error: Command \th unavailable in encoding T2A.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 ...d activate RyR2 channels and modify Ca2þ
+l.212 ...d activate RyR2 channels and modify Ca2þ
                                                    spark dynamics in a manne...
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./waves.tex:208: LaTeX Error: Command \th unavailable in encoding T2A.
+./waves.tex:213: LaTeX Error: Command \th unavailable in encoding T2A.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.208 ...ns. However, detailed comparison of Ca2þ
+l.213 ...ns. However, detailed comparison of Ca2þ
                                                    wave
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./waves.tex:209: LaTeX Error: Command \th unavailable in encoding T2A.
+./waves.tex:214: LaTeX Error: Command \th unavailable in encoding T2A.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.209 generation and CRU-to-CRU Ca2þ
+l.214 generation and CRU-to-CRU Ca2þ
                                       wave propagation shows that CICR alone
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./waves.tex:210: LaTeX Error: Command \th unavailable in encoding T2A.
+./waves.tex:215: LaTeX Error: Command \th unavailable in encoding T2A.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 ...and necessary, mechanism to explain Ca2þ
+l.215 ...and necessary, mechanism to explain Ca2þ
                                                    release in heart under
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14] [15] [16]
-<fig0.jpg, id=72, 467.346pt x 273.6624pt>
+[14] [15] [16] [17]
+<fig0.jpg, id=75, 467.346pt x 273.6624pt>
 File: fig0.jpg Graphic file (type jpg)
 <use fig0.jpg>
-Package pdftex.def Info: fig0.jpg  used on input line 345.
+Package pdftex.def Info: fig0.jpg  used on input line 350.
 (pdftex.def)             Requested size: 390.0pt x 228.37157pt.
- (./waves.bbl [17] [18 <./fig0.jpg>]) [19] (./waves.aux) ) 
+ (./waves.bbl [18 <./fig0.jpg>] [19]) [20] (./waves.aux) ) 
 Here is how much of TeX's memory you used:
  4125 strings out of 492639
  54838 string characters out of 6133087
@@ -543,10 +543,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,6n,25p,1381b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on waves.pdf (19 pages, 7719480 bytes).
+Output written on waves.pdf (20 pages, 7719976 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

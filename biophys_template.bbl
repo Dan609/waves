@@ -1,0 +1,29 @@
+\begin{thebibliography}{4}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{ }
+
+\bibitem[Chen and Nicholson(2000)]{Chen_Nicholson00}
+Chen, K.~C., and C.~Nicholson, 2000.
+\newblock Changes in brain cell shape create residual extracellular space
+  volume and explain tortuosity behavior during osmotic challenge 97.
+
+\bibitem[Stiles and Bartol(2001)]{Stiles_Bartol01}
+Stiles, J.~R., and T.~M. Bartol, 2001.
+\newblock Monte {C}arlo methods for simulating realistic synaptic
+  microphysiology using {MC}ell.
+\newblock \emph{In} E.~D. Schutter, editor, Computational Neuroscience:
+  Realistic Modeling for Experimentalists, CRC Press, Boca Raton, 87--127.
+
+\bibitem[el~Kareh et~al.(1993)el~Kareh, Braunstein, and
+  Secomb]{el-Kareh_etal93}
+el~Kareh, A.~W., S.~L. Braunstein, and T.~W. Secomb, 1993.
+\newblock Effect of cell arrangement and interstitial volume fraction on the
+  diffusivity of monoclonal antibodies in tissue.
+\newblock \emph{Biophys. J.} 64:1638--1646.
+
+\bibitem[Callaghan(1991)]{Callaghan91}
+Callaghan, P.~T., 1991.
+\newblock Principles of Nuclear Magnetic Resonance Microscopy.
+\newblock Clarendon Press, Oxford, first edition.
+
+\end{thebibliography}
