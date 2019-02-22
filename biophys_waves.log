@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  22 FEB 2019 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  22 FEB 2019 22:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1289,75 +1289,83 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 {c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 148.
-<fig1.jpg, id=43, 602.25pt x 720.7728pt>
-File: fig1.jpg Graphic file (type jpg)
-<use fig1.jpg>
-Package pdftex.def Info: fig1.jpg  used on input line 183.
-(pdftex.def)             Requested size: 299.52309pt x 358.48283pt.
-<fig11.png, id=44, 1751.54375pt x 1063.975pt>
-File: fig11.png Graphic file (type png)
-<use fig11.png>
-Package pdftex.def Info: fig11.png  used on input line 191.
+<fig0.jpg, id=43, 361.35pt x 368.577pt>
+File: fig0.jpg Graphic file (type jpg)
+<use fig0.jpg>
+Package pdftex.def Info: fig0.jpg  used on input line 183.
+(pdftex.def)             Requested size: 299.52309pt x 305.51389pt.
+<fig1.png, id=44, 1751.54375pt x 1063.975pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 190.
 (pdftex.def)             Requested size: 299.52309pt x 181.94485pt.
-<fig2.png, id=45, 1264.725pt x 1081.03876pt>
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 197.
-(pdftex.def)             Requested size: 499.20007pt x 426.68398pt.
-<fig67.png, id=46, 1185.42876pt x 1005.7575pt>
-File: fig67.png Graphic file (type png)
-<use fig67.png>
-Package pdftex.def Info: fig67.png  used on input line 205.
-(pdftex.def)             Requested size: 299.52309pt x 254.1244pt.
- [3] [4 <./fig1.jpg> <./fig11.png (PNG copy)>] [5 <./fig2.png (PNG copy)>]
-<fig35.png, id=68, 1276.77pt x 1083.04625pt>
-File: fig35.png Graphic file (type png)
-<use fig35.png>
-Package pdftex.def Info: fig35.png  used on input line 218.
-(pdftex.def)             Requested size: 499.20007pt x 423.46053pt.
-<fig4.png, id=69, 1467.4825pt x 1039.885pt>
+<fig2.jpg, id=45, 602.25pt x 720.7728pt>
+File: fig2.jpg Graphic file (type jpg)
+<use fig2.jpg>
+Package pdftex.def Info: fig2.jpg  used on input line 197.
+(pdftex.def)             Requested size: 299.52309pt x 358.48283pt.
+<fig3.png, id=46, 1276.77pt x 1083.04625pt>
+File: fig3.png Graphic file (type png)
+<use fig3.png>
+Package pdftex.def Info: fig3.png  used on input line 205.
+(pdftex.def)             Requested size: 299.52309pt x 254.0697pt.
+ [3]
+<fig4.png, id=58, 1467.4825pt x 1039.885pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 227.
-(pdftex.def)             Requested size: 499.20007pt x 353.73076pt.
+Package pdftex.def Info: fig4.png  used on input line 219.
+(pdftex.def)             Requested size: 299.52309pt x 212.24162pt.
+<fig5.png, id=59, 1214.5375pt x 1083.04625pt>
+File: fig5.png Graphic file (type png)
+<use fig5.png>
+Package pdftex.def Info: fig5.png  used on input line 229.
+(pdftex.def)             Requested size: 299.52309pt x 267.09213pt.
+ [4 <./fig0.jpg> <./fig1.png (PNG copy)>]
+<fig6.png, id=65, 1185.42876pt x 1005.7575pt>
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 235.
+(pdftex.def)             Requested size: 299.52309pt x 254.1244pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
-[6 <./fig67.png (PNG copy)>] [7 <./fig35.png (PNG copy)>] [8 <./fig4.png (PNG copy)>]
-<fig9.png, id=86, 1214.5375pt x 1083.04625pt>
-File: fig9.png Graphic file (type png)
-<use fig9.png>
-Package pdftex.def Info: fig9.png  used on input line 252.
-(pdftex.def)             Requested size: 499.20007pt x 445.14255pt.
- [9] [10 <./fig9.png (PNG copy)>]
+[5 <./fig2.jpg>] [6 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
+
+ []
+
+[7 <./fig5.png (PNG copy)>] [8 <./fig6.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 278.
-LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 297.
+(Font)              scaled to size 5.5pt on input line 281.
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 300.
  (c:/texlive/2018/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 297.
- [11]
-Overfull \hbox (29.87234pt too wide) in paragraph at lines 384--385
+(Font)              scaled to size 10.0pt on input line 300.
+ [9]
+Overfull \hbox (29.87234pt too wide) in paragraph at lines 387--388
 []\T1/ntxtlf/m/n/10 (-20) 1. Phase shift and an-gle. A right-ward ar-row in-di-cates 0 lag; a bottom-right ar-row in-di-cates a small lehttp://www.alivelearn.net/?p=1169
  []
 
-[12]
-<fig0.jpg, id=133, 467.346pt x 273.6624pt>
-File: fig0.jpg Graphic file (type jpg)
-<use fig0.jpg>
-Package pdftex.def Info: fig0.jpg  used on input line 466.
-(pdftex.def)             Requested size: 499.20007pt x 292.31476pt.
- [13 <./fig0.jpg>] (./biophys_waves.bbl [14])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 524.
- [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 524.
+[10]
+<figA.jpg, id=125, 467.346pt x 273.6624pt>
+File: figA.jpg Graphic file (type jpg)
+<use figA.jpg>
+Package pdftex.def Info: figA.jpg  used on input line 469.
+(pdftex.def)             Requested size: 299.52309pt x 175.3897pt.
+
+Underfull \vbox (badness 3758) has occurred while \output is active []
+
+ [11 <./figA.jpg>] (./biophys_waves.bbl [12])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
  (./biophys_waves.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 524.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 524.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 527.
 Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 (rerunfilecheck)             Checksum: AE5FB7D6D7FA502C2B16008D75F2C630;59.
 
@@ -1367,19 +1375,19 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 23408 strings out of 492639
- 393283 string characters out of 6133087
- 601440 words of memory out of 5000000
+ 23406 strings out of 492639
+ 393251 string characters out of 6133087
+ 601529 words of memory out of 5000000
  26854 multiletter control sequences out of 15000+600000
  602560 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,94p,1389b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,15n,94p,1389b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2018/texmf-dist/fonts/type
 1/public/txfonts/txmia.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (15 pages, 11873312 bytes).
+Output written on biophys_waves.pdf (13 pages, 11735140 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 178 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
  19505 words of extra memory for PDF output out of 20736 (max. 10000000)
 
