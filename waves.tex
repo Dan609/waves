@@ -19,6 +19,8 @@ Key words: calcium waves, calcium overloading, cardiomyocytes, myocardium, ische
 
 Spectral analysis of hypoxia-indused calcium waves in isolated rat heart on the subcellular level
 
+Spontaneous calcium oscillations in unstimulated heart muscle
+
 Local hypercontracture induces hight-frequency calcium oscillations
 
 И увидели там, что с течением времени частота высокочастотных волн снижается, и это в клетках которые постепенно гиперсокращаются, судя по всему..
@@ -174,8 +176,8 @@ Graphs of fluorescence intensity of fluo-4 versus time (left column) and the dep
 Calcium waves in the subepicardial myocardium in Langendorff-perfused rat heart. Fig.1. Cross-sections through image stacks acquired with laser scanning confocal microscopy of … loaded with
 
 \begin{figure}
-    \includegraphics{fig9.png}
-    \caption{Calcium oscillations}
+    \includegraphics[width=\linewidth]{fig9.png}
+    \caption{Simultaneous recordings of [Ca2+]i during spontaneous firing in neighboring epicardial cardiomyocytes. [Ca2+]i was monitored with the fluorescent probe Fluo-4 (see Experimental Procedures). [Ca2+]i measurement covers the 10x20 mkm ROI. AP occurred spontaneously without any stimulation}
     \label{fig:fig9}
 \end{figure}
 
@@ -185,8 +187,10 @@ When the mitochondria and free Ca2 + ions were stained in the absence of contrac
 An area was identified where, in one field of view of the microscope, it was possible to take readings from cells in successive stages of approach to death. A number of characteristics of the cells were built up, with increasing signs of ischemic damage.
 For the initial stage of the lesion, groups of cardiomyocytes with a reduced  характер and a high value of [Ca2 +] are characteristic (Fig. 2b, Fig. 3, ROI 2-3). In such cells, oscillations of [Ca2 +] (calcium waves) were observed. At further stages of damage in the tissue, foci of necrosis appear, which are noticeable by the appearance of necrotic striation (Fig. 2, c, d). When a normal myocardium section was observed for 25 min, a continuous decrease in the fluorescence intensity of TMRM was recorded, fluorescence intensity of Fluo-4 first increased for 15 min, and only then began to decrease (Fig. 4). These data are consistent with the notion that as the снижения decreases, the mitochondria begin to accumulate Ca2 +.
 
-По сколько клеток было исследовано в разных областях? Те графики, которые ты даешь, это для отдельных клеток? Если так, надо подробно расписать каждую клетку. Например: образец 1 – интенсивность кальциевого сигнала ???, расположение по отношению к очагу некроза ???, интенсивность МХ ??? и все, что мы еще можем сказать (сократимость, распределение МХ …). Сделай это, пожалуйста, для каждого графика.
-Кроме того, нужно подробное описание каждого графика. Что изменяется конкретно: амплитуда, частота и т.д. Тоже распиши подробно.
+% По сколько клеток было исследовано в разных областях? Те графики, которые ты даешь, это для отдельных клеток? Если так, надо подробно расписать каждую клетку. Например: образец 1 – интенсивность кальциевого сигнала ???, расположение по отношению к очагу некроза ???, интенсивность МХ ??? и все, что мы еще можем сказать (сократимость, распределение МХ …). Сделай это, пожалуйста, для каждого графика.
+
+% Кроме того, нужно подробное описание каждого графика. Что изменяется конкретно: амплитуда, частота и т.д. Тоже распиши подробно.
+
 For the initial stage of damage, groups of cardiomyocytes with an elevated value of [Ca2 +], in which high-frequency calcium waves were observed (Fig. 6), are characteristic. Nascent on the edge of the cell or in its middle, these waves can spread to neighboring cells (Figure 7). With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in [Ca2 +] in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D). Undoubtedly, the prognostic significance can be the detection of the switching point from the state of the cell, in which global waves can crush pathological, contributing to the restoration of a normal rhythm, to a transition through the "point of no return" when recovery is no longer possible.
 We found that cardiomyocytes located in the border zone adjacent to the necrosis zone are characterized by an increased content of Ca2 + ions, a reduced mitochondrial potential and contractile activity. Studies were made of the frequency characteristics of calcium waves arising in cardiomyocytes of the border zone. For comparison, 12 cells were selected located next to the necrosis zone (Fig. 9). In each cell, an ROI was determined in which fluorescence fluctuation values of Fluo-4 were measured. The obtained values were processed by the FFT method in the Origin program, some frequency characteristics of the calcium waves are shown in Fig. 10 (the data table is presented in the file Fluo-4 ROI 01-12.xlsx
 The FFT analysis of calcium oscillations showed that in the cardiomyocytes of the perineecrosis boundary zone, as the concentration of Ca2 + increases, the amplitude of normal fluctuations in the concentration of ionized Ca2 + first increases (Figure 11, A), then single calcium waves break the sinus rhythm (Figure 11, B) ,
@@ -198,6 +202,14 @@ As was clearly demonstrated \cite{matsuura2018intravital},
 Ischemic myocardial damage manifests itself as a source of calcium waves.
 We show in this paper, on a model of an isolated rat heart, what a the frequency characteristics of calcium oscillations recorded in the border zone near necrosis.
 Intracellular calcium accumulation caused by weakening of ATP-dependent mechanisms due to lack of oxygen supply causes foci of high-frequency calcium oscillations that go out of control by sino-atrial thythm.
+
+scale modeling approach that spans from single channel to whole-cell and spatial
+simulations, we show that both CICR and SOICR gating modes can indeed activate RyR2 channels and modify Ca2þ spark dynamics in a manner consistent
+with experimental observations. However, detailed comparison of Ca2þ wave
+generation and CRU-to-CRU Ca2þ wave propagation shows that CICR alone
+is a sufficient, and necessary, mechanism to explain Ca2þ release in heart under
+both physiological and pathological conditions
+\cite{williams2017does}
 
 We assume that such high-frequency activity may cause arrhythmias.
 
@@ -300,16 +312,23 @@ membrane depolarization increases the frequency of Ca2+ waves by reducing NCX-me
 Ca2+ efflux and thus promoting Ca2+ waves due to increased intracellular [Ca2+] \cite{walker2017estimating}.
 In the present study we visualized precise [Ca2+]i dynamics of atrial myocytes in the perfused rat heart.
 By
-using the innovative in situ rapid confocal imaging system
-we constructed, we found that atrial appendage in
-Langendorff-perfused rat heart has a propensity to show
-spatiotemporally non-uniform [Ca2+]i dynamics on systole
-especially during high-frequency excitation. According to
+using the in situ rapid confocal imaging system
+we found that
+u in
+Langendorff-perfused rat heart has to show
+spatiotemporally
+[Ca2+]i dynamics
+especially
+According to
+\iffalse
 our [Ca2+]i dynamics studies to date [9, 11, 25], such nonuniformity
 in the Ca2+ transients was not predominantly
 observed in intact ventricles, and the observed features in
 the atrial [Ca2+]i dynamics would partly be related to the
 structural difference, i.e., paucity of t-tubules.
+
+\fi
+
 In principle, individual atrial myocytes in the perfused
 hearts showed spatiotemporally uniform [Ca2+]i dynamics
 with frequency-dependent abbreviation of Ca2+-transient

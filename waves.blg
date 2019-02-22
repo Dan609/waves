@@ -14,45 +14,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: mybib.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 19 entries,
+You've used 20 entries,
             6951 wiz_defined-function locations,
-            1400 strings with 14697 characters,
-and the built_in function-call counts, 40887 in all, are:
-= -- 4933
-> -- 357
-< -- 2146
-+ -- 2280
-- -- 45
-* -- 2805
-:= -- 7854
-add.period$ -- 73
-call.type$ -- 19
-change.case$ -- 339
+            1406 strings with 14877 characters,
+and the built_in function-call counts, 43062 in all, are:
+= -- 5199
+> -- 380
+< -- 2252
++ -- 2400
+- -- 47
+* -- 2945
+:= -- 8227
+add.period$ -- 77
+call.type$ -- 20
+change.case$ -- 356
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 1107
-empty$ -- 1469
-format.name$ -- 640
-if$ -- 7449
+cite$ -- 40
+duplicate$ -- 1179
+empty$ -- 1549
+format.name$ -- 681
+if$ -- 7862
 int.to.chr$ -- 0
-int.to.str$ -- 61
+int.to.str$ -- 64
 missing$ -- 0
-newline$ -- 500
-num.names$ -- 152
-pop$ -- 508
+newline$ -- 528
+num.names$ -- 160
+pop$ -- 538
 preamble$ -- 1
-purify$ -- 76
+purify$ -- 80
 quote$ -- 0
-skip$ -- 2505
+skip$ -- 2642
 stack$ -- 0
-substring$ -- 2441
-swap$ -- 665
-text.length$ -- 41
+substring$ -- 2572
+swap$ -- 704
+text.length$ -- 43
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1520
+type$ -- 1600
 warning$ -- 1
-while$ -- 209
+while$ -- 223
 width$ -- 0
-write$ -- 652
+write$ -- 691
 (There was 1 warning)

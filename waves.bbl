@@ -540,4 +540,33 @@ Walker, M\BPBI A.%
 \APACjournalVolNumPages{PLoS computational biology}{13}{11}{e1005783}.
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Williams%
+, Wescott%
+, Lehnart%
+\BCBL {}\ \BBA {} Lederer%
+}{%
+Williams%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+williams2017does}
+\APACinsertmetastar {%
+williams2017does}%
+\begin{APACrefauthors}%
+Williams, G\BPBI S.%
+, Wescott, A\BPBI P.%
+, Lehnart, S\BPBI E.%
+\BCBL {}\ \BBA {} Lederer, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {How Does Calcium Overload Generate Calcium Waves in
+  Heart?} {How does calcium overload generate calcium waves in heart?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biophysical Journal}{112}{3}{541a}.
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}

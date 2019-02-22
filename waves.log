@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  22 FEB 2019 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  22 FEB 2019 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,54 +378,175 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 14.
 
-
-LaTeX Warning: Citation `shen1972myocardial' undefined on input line 29.
-
-
-LaTeX Warning: Citation `shen1972kinetics' undefined on input line 29.
-
-
-LaTeX Warning: Citation `nayler1981role' undefined on input line 29.
-
-
-LaTeX Warning: Citation `minamikawa1997situ' undefined on input line 30.
-
-
-LaTeX Warning: Citation `hama1998real' undefined on input line 30.
-
-
-LaTeX Warning: Citation `takamatsu2008arrhythmogenic' undefined on input line 32.
-
-
-LaTeX Warning: Citation `matsuura2018intravital' undefined on input line 35.
-
-
-Overfull \hbox (46.11235pt too wide) in paragraph at lines 26--36
+Overfull \hbox (46.11235pt too wide) in paragraph at lines 28--38
 []\T2A/cmr/m/n/12 Показано уменьшение частоты осцилляций во времени если это повреждјнный
  []
 
 
-Overfull \hbox (27.28432pt too wide) in paragraph at lines 26--36
+Overfull \hbox (27.28432pt too wide) in paragraph at lines 28--38
 \T2A/cmr/m/n/12 клетки, которые находятся в процессе гиперсокращения являются источником
  []
 
-./waves.tex:36: I can't write on file `waves.pdf'.
-(Press Enter to retry, or Control-Z to exit; default file extension is `.pdf')
-Please type another file name for output
-./waves.tex:36: Emergency stop.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.36 
-     
-*** (job aborted, file error in nonstop mode)
+[1
 
- 
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 51.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 51.
+
+Overfull \hbox (12.32233pt too wide) in paragraph at lines 53--101
+\T2A/cmr/m/n/12 difluoro-3-oxo-9-xanthenyl)-4' -methyl-2,2'-(ethylenedioxy)dianiline-N,N,N',N'-
+ []
+
+
+Overfull \hbox (22.67271pt too wide) in paragraph at lines 53--101
+\T2A/cmr/m/n/12 tetraacetic acid tetrakis(acetoxymethyl) es-ter, Fluo-4-AM,Tetramethylrhodamine
+ []
+
+
+Overfull \hbox (47.72488pt too wide) in paragraph at lines 53--101
+\T2A/cmr/m/n/12 Methyl Es-ter Per-chlo-rate, TMRM, and 4-[2-[6-(dioctylamino)-2-naphthalenyl]ethenyl]-
+ []
+
+[2] [3] [4]
+Overfull \hbox (2.3786pt too wide) in paragraph at lines 103--109
+\T2A/cmr/m/n/12 Кальциевые волны Каким образом образуются кальциевые волны и какие
+ []
+
+<fig1.jpg, id=22, 361.35pt x 368.577pt>
+File: fig1.jpg Graphic file (type jpg)
+<use fig1.jpg>
+Package pdftex.def Info: fig1.jpg  used on input line 111.
+(pdftex.def)             Requested size: 390.0pt x 397.80412pt.
+<fig2.png, id=23, 575.14874pt x 376.40625pt>
+File: fig2.png Graphic file (type png)
+<use fig2.png>
+Package pdftex.def Info: fig2.png  used on input line 117.
+(pdftex.def)             Requested size: 390.0pt x 255.24066pt.
+
+Overfull \hbox (4.56424pt too wide) in paragraph at lines 122--127
+[]\T2A/cmr/m/n/12 The role of cal-cium in reg-u-la-tion of con-rac-tion. Роль кальция в регуляции
+ []
+
+
+Overfull \hbox (20.98648pt too wide) in paragraph at lines 122--127
+\T2A/cmr/m/n/12 миокарде кальциевые волны рассматриватьются как аритмогенный субстрат.
+ []
+
+
+Overfull \hbox (51.4964pt too wide) in paragraph at lines 122--127
+\T2A/cmr/m/n/12 Эффект гипоксии на осцилляции кальция в эпикардиальном слое кардиомиоцитов. 
+ []
+
+<fig3.png, id=25, 1250.6725pt x 619.31375pt>
+File: fig3.png Graphic file (type png)
+<use fig3.png>
+Package pdftex.def Info: fig3.png  used on input line 131.
+(pdftex.def)             Requested size: 390.0pt x 193.11926pt.
+<fig4.png, id=26, 1467.4825pt x 1039.885pt>
+File: fig4.png Graphic file (type png)
+<use fig4.png>
+Package pdftex.def Info: fig4.png  used on input line 137.
+(pdftex.def)             Requested size: 390.0pt x 276.36157pt.
+[5] [6 <./fig1.jpg>] [7 <./fig2.png> <./fig3.png (PNG copy)>] [8 <./fig4.png (PNG copy)>]
+<fig5.png, id=42, 1089.06876pt x 608.2725pt>
+File: fig5.png Graphic file (type png)
+<use fig5.png>
+Package pdftex.def Info: fig5.png  used on input line 145.
+(pdftex.def)             Requested size: 390.0pt x 217.81775pt.
+<fig6.png, id=43, 1852.9225pt x 1051.93pt>
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 154.
+(pdftex.def)             Requested size: 390.0pt x 221.4094pt.
+ [9 <./fig5.png (PNG copy)>]
+<fig7.png, id=47, 1055.945pt x 466.74374pt>
+File: fig7.png Graphic file (type png)
+<use fig7.png>
+Package pdftex.def Info: fig7.png  used on input line 162.
+(pdftex.def)             Requested size: 390.0pt x 172.38623pt.
+ [10 <./fig6.png (PNG copy)>] [11 <./fig7.png>]
+<fig9.png, id=55, 1630.09pt x 1083.04625pt>
+File: fig9.png Graphic file (type png)
+<use fig9.png>
+Package pdftex.def Info: fig9.png  used on input line 179.
+(pdftex.def)             Requested size: 390.0pt x 259.1101pt.
+ [12 <./fig9.png (PNG copy)>] [13]
+
+./waves.tex:207: LaTeX Error: Command \th unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.207 ...d activate RyR2 channels and modify Ca2Гѕ
+                                                   spark dynamics in a manne...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./waves.tex:208: LaTeX Error: Command \th unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 ...ns. However, detailed comparison of Ca2Гѕ
+                                                   wave
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./waves.tex:209: LaTeX Error: Command \th unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.209 generation and CRU-to-CRU Ca2Гѕ
+                                      wave propagation shows that CICR alone
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./waves.tex:210: LaTeX Error: Command \th unavailable in encoding T2A.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...and necessary, mechanism to explain Ca2Гѕ
+                                                   release in heart under
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[14] [15] [16]
+<fig0.jpg, id=72, 467.346pt x 273.6624pt>
+File: fig0.jpg Graphic file (type jpg)
+<use fig0.jpg>
+Package pdftex.def Info: fig0.jpg  used on input line 345.
+(pdftex.def)             Requested size: 390.0pt x 228.37157pt.
+ (./waves.bbl [17] [18 <./fig0.jpg>]) [19] (./waves.aux) ) 
 Here is how much of TeX's memory you used:
- 3987 strings out of 492639
- 52854 string characters out of 6133087
- 138555 words of memory out of 5000000
- 7837 multiletter control sequences out of 15000+600000
- 8892 words of font info for 23 fonts, out of 8000000 for 9000
+ 4125 strings out of 492639
+ 54838 string characters out of 6133087
+ 155969 words of memory out of 5000000
+ 7949 multiletter control sequences out of 15000+600000
+ 13018 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,829b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-./waves.tex:36:  ==> Fatal error occurred, no output PDF file produced!
+ 41i,6n,25p,1381b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on waves.pdf (19 pages, 7719480 bytes).
+PDF statistics:
+ 115 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+
