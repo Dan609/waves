@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex biophys_waves"] 1550852506 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1550853247
+["bibtex biophys_waves"] 1550852506 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1550853836
   "./biophysj.bst" 1550848129 34286 722d689a6da86bdb747990ba23e79977 ""
-  "biophys_waves.aux" 1550853245 2318 325759cda1d7e9161f1bfef09fab8acf ""
+  "biophys_waves.aux" 1550853833 2318 325759cda1d7e9161f1bfef09fab8acf ""
   "sample.bib" 1550848755 41156 1ec4531b920390312c7069b800b545d1 ""
   (generated)
   "biophys_waves.blg"
   "biophys_waves.bbl"
-["pdflatex"] 1550853241 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1550853247
+["pdflatex"] 1550853829 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1550853836
   "biophys-new.cls" 1550848067 4310 d188048c9408d6a770a5e13a77ba754b ""
-  "biophys_waves.aux" 1550853245 2318 325759cda1d7e9161f1bfef09fab8acf ""
+  "biophys_waves.aux" 1550853833 2318 325759cda1d7e9161f1bfef09fab8acf ""
   "biophys_waves.bbl" 1550852508 3142 2113b67e4b70a5eb8477bc067d32041a "bibtex biophys_waves"
-  "biophys_waves.out" 1550853244 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "biophys_waves.tex" 1550853233 9151 15d60d5e61df01037c6f02dc3fed9a19 ""
+  "biophys_waves.out" 1550853832 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "biophys_waves.tex" 1550853821 9363 17d962932ce8227f963a056b20f250d0 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1539698694 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1539700140 2880 847ca622ad468c3dafba6a3f9d89a636 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1539700140 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -180,7 +180,7 @@
   "c:/texlive/2018/texmf.cnf" 1539701981 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "nul" 0 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "biophys_waves.aux"
-  "biophys_waves.pdf"
   "biophys_waves.log"
+  "biophys_waves.pdf"
   "biophys_waves.out"
+  "biophys_waves.aux"
