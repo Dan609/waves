@@ -291,12 +291,12 @@ INPUT ./fig2.jpg
 INPUT fig3.png
 INPUT ./fig3.png
 INPUT ./fig3.png
-INPUT c:/texlive/2018/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
-INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT fig4.png
 INPUT ./fig4.png
 INPUT ./fig4.png
+INPUT c:/texlive/2018/texmf-dist/fonts/vf/public/newtx/ntxsy.vf
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/newtx/txsys.tfm
+INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT fig5.png
 INPUT ./fig5.png
 INPUT ./fig5.png

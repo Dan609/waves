@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex biophys_waves"] 1550941335 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1550941397
+["bibtex biophys_waves"] 1550943457 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1550943467
   "./biophysj.bst" 1550848129 34286 722d689a6da86bdb747990ba23e79977 ""
-  "biophys_waves.aux" 1550941394 6215 5504042399847f87d49fc5d8da4135a1 ""
+  "biophys_waves.aux" 1550943465 6215 4922851080dc2d2751849499a864395c ""
   "mybib.bib" 1550936486 38630 354c4a466917f5b338111cc81e54c31e ""
   (generated)
   "biophys_waves.blg"
   "biophys_waves.bbl"
-["pdflatex"] 1550941390 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1550941397
+["pdflatex"] 1550943459 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1550943467
   "biophys-new.cls" 1550848067 4310 d188048c9408d6a770a5e13a77ba754b ""
-  "biophys_waves.aux" 1550941394 6215 5504042399847f87d49fc5d8da4135a1 ""
-  "biophys_waves.bbl" 1550941337 6448 0901ca1f4ad6272679c34e976cc0d42e "bibtex biophys_waves"
-  "biophys_waves.out" 1550941394 59 ae5fb7d6d7fa502c2b16008d75f2c630 ""
-  "biophys_waves.tex" 1550941384 43727 06c802d99c69b3a99cd34103647e5578 ""
+  "biophys_waves.aux" 1550943465 6215 4922851080dc2d2751849499a864395c ""
+  "biophys_waves.bbl" 1550943458 6448 0901ca1f4ad6272679c34e976cc0d42e "bibtex biophys_waves"
+  "biophys_waves.out" 1550943465 59 ae5fb7d6d7fa502c2b16008d75f2c630 ""
+  "biophys_waves.tex" 1550943445 43369 1b7cee20983f9f5a6e555a8be86237e7 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1539698694 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1539700140 2880 847ca622ad468c3dafba6a3f9d89a636 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1539700140 2083 60e36f8eac802fcaf19eabe2633b406e ""
