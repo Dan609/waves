@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -44,6 +44,13 @@ Matsuura, R., S.~Miyagawa, S.~Fukushima, T.~Goto, A.~Harada, Y.~Shimozaki,
 \newblock Intravital imaging with two-photon microscopy reveals cellular
   dynamics in the ischeamia-reperfused rat heart.
 \newblock \emph{Scientific reports} 8:15991.
+
+\bibitem[Rueden et~al.(2017)Rueden, Schindelin, Hiner, DeZonia, Walter, Arena,
+  and Eliceiri]{rueden2017imagej2}
+Rueden, C.~T., J.~Schindelin, M.~C. Hiner, B.~E. DeZonia, A.~E. Walter, E.~T.
+  Arena, and K.~W. Eliceiri, 2017.
+\newblock ImageJ2: ImageJ for the next generation of scientific image data.
+\newblock \emph{BMC bioinformatics} 18:529.
 
 \bibitem[Team et~al.(2014)]{team2014r}
 Team, R.~C., et~al., 2014.

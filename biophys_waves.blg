@@ -3,50 +3,50 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: biophys_waves.aux
 The style file: biophysj.bst
 Database file #1: mybib.bib
-Repeated entry---line 1947 of file mybib.bib
+Repeated entry---line 1967 of file mybib.bib
  : @article{sato2014depolarization
  :                                ,
 I'm skipping whatever remains of this entry
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-You've used 22 entries,
+You've used 23 entries,
             3176 wiz_defined-function locations,
-            794 strings with 9727 characters,
-and the built_in function-call counts, 11063 in all, are:
-= -- 794
-> -- 609
+            801 strings with 9987 characters,
+and the built_in function-call counts, 11660 in all, are:
+= -- 825
+> -- 660
 < -- 9
-+ -- 207
-- -- 162
-* -- 790
-:= -- 1582
-add.period$ -- 66
-call.type$ -- 22
-change.case$ -- 22
-chr.to.int$ -- 21
-cite$ -- 22
-duplicate$ -- 937
-empty$ -- 885
-format.name$ -- 217
-if$ -- 2275
++ -- 223
+- -- 176
+* -- 837
+:= -- 1670
+add.period$ -- 69
+call.type$ -- 23
+change.case$ -- 23
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 990
+empty$ -- 926
+format.name$ -- 233
+if$ -- 2395
 int.to.chr$ -- 2
-int.to.str$ -- 23
-missing$ -- 210
-newline$ -- 115
-num.names$ -- 66
-pop$ -- 297
+int.to.str$ -- 24
+missing$ -- 223
+newline$ -- 120
+num.names$ -- 69
+pop$ -- 314
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 23
 quote$ -- 0
-skip$ -- 206
+skip$ -- 215
 stack$ -- 0
-substring$ -- 480
-swap$ -- 501
+substring$ -- 491
+swap$ -- 531
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 154
+type$ -- 161
 warning$ -- 0
-while$ -- 77
+while$ -- 80
 width$ -- 0
-write$ -- 289
+write$ -- 302
 (There was 1 error message)
