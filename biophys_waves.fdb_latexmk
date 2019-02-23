@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex biophys_waves"] 1550938463 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1550938472
+["bibtex biophys_waves"] 1550941335 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1550941397
   "./biophysj.bst" 1550848129 34286 722d689a6da86bdb747990ba23e79977 ""
-  "biophys_waves.aux" 1550938470 6215 3b9c6b051cfd3f5a13530c24d35d58f8 ""
+  "biophys_waves.aux" 1550941394 6215 5504042399847f87d49fc5d8da4135a1 ""
   "mybib.bib" 1550936486 38630 354c4a466917f5b338111cc81e54c31e ""
   (generated)
   "biophys_waves.blg"
   "biophys_waves.bbl"
-["pdflatex"] 1550938465 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1550938472
+["pdflatex"] 1550941390 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1550941397
   "biophys-new.cls" 1550848067 4310 d188048c9408d6a770a5e13a77ba754b ""
-  "biophys_waves.aux" 1550938470 6215 3b9c6b051cfd3f5a13530c24d35d58f8 ""
-  "biophys_waves.bbl" 1550938465 6448 0901ca1f4ad6272679c34e976cc0d42e "bibtex biophys_waves"
-  "biophys_waves.out" 1550938470 59 ae5fb7d6d7fa502c2b16008d75f2c630 ""
-  "biophys_waves.tex" 1550938451 43737 3e3a3e1da98fa5dfbf54038a6c1ffd00 ""
+  "biophys_waves.aux" 1550941394 6215 5504042399847f87d49fc5d8da4135a1 ""
+  "biophys_waves.bbl" 1550941337 6448 0901ca1f4ad6272679c34e976cc0d42e "bibtex biophys_waves"
+  "biophys_waves.out" 1550941394 59 ae5fb7d6d7fa502c2b16008d75f2c630 ""
+  "biophys_waves.tex" 1550941384 43727 06c802d99c69b3a99cd34103647e5578 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1539698694 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1539700140 2880 847ca622ad468c3dafba6a3f9d89a636 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1539700140 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -182,12 +182,12 @@
   "fig2.jpg" 1508866486 4332128 863f8cd42b1775d3435023a660aaf5b9 ""
   "fig3.png" 1550860199 1189135 c16c40233d4db754c480d0d59dbc44fe ""
   "fig4.png" 1550938377 1216142 ae027cea06512fc4af64e9a41a574bc6 ""
-  "fig5.png" 1550860599 361556 7b69454aef767a4667fbe33b11d3e2db ""
-  "fig6.png" 1550857054 876199 a071beab278af349bc8e7c62779fb766 ""
+  "fig5.png" 1550941204 1111138 2723c58212e4bf1703ad5b325a4e4d3c ""
+  "fig6.png" 1550941181 845036 de45f2b5e017fed5048d7ec16c1cca8c ""
   "figA.jpg" 1545149756 1272893 c4f1ba84d615125e168be8f6f088674b ""
   "nul" 0 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "biophys_waves.out"
   "biophys_waves.log"
-  "biophys_waves.pdf"
   "biophys_waves.aux"
+  "biophys_waves.pdf"
+  "biophys_waves.out"
