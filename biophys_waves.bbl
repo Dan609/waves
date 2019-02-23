@@ -1,4 +1,4 @@
-\begin{thebibliography}{21}
+\begin{thebibliography}{22}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -134,5 +134,12 @@ Macquaide, N., J.~Dempster, and G.~Smith, 2007.
 \newblock Measurement and modeling of Ca2+ waves in isolated rabbit ventricular
   cardiomyocytes.
 \newblock \emph{Biophysical journal} 93:2581--2595.
+
+\bibitem[Sato et~al.(2014)Sato, Bartos, Ginsburg, and
+  Bers]{sato2014depolarization}
+Sato, D., D.~C. Bartos, K.~S. Ginsburg, and D.~M. Bers, 2014.
+\newblock Depolarization of cardiac membrane potential synchronizes calcium
+  sparks and waves in tissue.
+\newblock \emph{Biophysical journal} 107:1313--1317.
 
 \end{thebibliography}
