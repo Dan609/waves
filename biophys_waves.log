@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  23 FEB 2019 18:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  23 FEB 2019 19:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,26 +6,8 @@ entering extended mode
 **biophys_waves.tex
 (./biophys_waves.tex
 LaTeX2e <2018-04-01> patch level 5
-
-./biophys_waves.tex:1: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 u
-     % \documentclass[lineno,twocolumn,endfloat,biblatex]{biophys-new}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no u in font nullfont!
 (./biophys-new.cls
 Document Class: biophys-new 
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
-[] 
- []
-
 (c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (c:/texlive/2018/texmf-dist/tex/latex/base/size10.clo
@@ -42,7 +24,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
- [1{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (c:/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
+) (c:/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
  (c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -1302,44 +1284,44 @@ LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <8> not available
 (Font)              Font shape `T1/qhv/b/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 7.19995pt on input line 83.
- [2
+ [1
 
-] [3]
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 146.
-<fig0.jpg, id=47, 361.35pt x 368.577pt>
+<fig0.jpg, id=43, 361.35pt x 368.577pt>
 File: fig0.jpg Graphic file (type jpg)
 <use fig0.jpg>
 Package pdftex.def Info: fig0.jpg  used on input line 181.
 (pdftex.def)             Requested size: 299.52309pt x 305.51389pt.
-<fig1.png, id=48, 1751.54375pt x 1063.975pt>
+<fig1.png, id=44, 1751.54375pt x 1063.975pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
 Package pdftex.def Info: fig1.png  used on input line 188.
 (pdftex.def)             Requested size: 299.52309pt x 181.94485pt.
-<fig2.jpg, id=49, 602.25pt x 720.7728pt>
+<fig2.jpg, id=45, 602.25pt x 720.7728pt>
 File: fig2.jpg Graphic file (type jpg)
 <use fig2.jpg>
 Package pdftex.def Info: fig2.jpg  used on input line 195.
 (pdftex.def)             Requested size: 299.52309pt x 358.48283pt.
-<fig3.png, id=50, 1276.77pt x 1083.04625pt>
+<fig3.png, id=46, 1276.77pt x 1083.04625pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
 Package pdftex.def Info: fig3.png  used on input line 203.
 (pdftex.def)             Requested size: 299.52309pt x 254.0697pt.
- [4]
-<fig4.png, id=62, 1467.4825pt x 1039.885pt>
+ [3]
+<fig4.png, id=58, 1754.555pt x 1049.9225pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
 Package pdftex.def Info: fig4.png  used on input line 217.
-(pdftex.def)             Requested size: 299.52309pt x 212.24162pt.
-<fig5.png, id=63, 1214.5375pt x 1083.04625pt>
+(pdftex.def)             Requested size: 299.52309pt x 179.2214pt.
+<fig5.png, id=59, 1214.5375pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
 Package pdftex.def Info: fig5.png  used on input line 227.
 (pdftex.def)             Requested size: 299.52309pt x 267.09213pt.
- [5 <./fig0.jpg> <./fig1.png (PNG copy)>]
-<fig6.png, id=69, 1185.42876pt x 1005.7575pt>
+ [4 <./fig0.jpg> <./fig1.png (PNG copy)>]
+<fig6.png, id=65, 1185.42876pt x 1005.7575pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
 Package pdftex.def Info: fig6.png  used on input line 233.
@@ -1349,12 +1331,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--240
 
  []
 
-[6 <./fig2.jpg>] [7 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>]
+[5 <./fig2.jpg>] [6 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 253--257
 
  []
 
-[8 <./fig5.png (PNG copy)>] [9 <./fig6.png (PNG copy)>]
+[7 <./fig5.png (PNG copy)>] [8 <./fig6.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 5.5pt on input line 279.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 298.
@@ -1363,13 +1345,13 @@ File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 10.0pt on input line 298.
- [10]
+ [9]
 Overfull \hbox (29.87234pt too wide) in paragraph at lines 385--386
 []\T1/ntxtlf/m/n/10 (-20) 1. Phase shift and an-gle. A right-ward ar-row in-di-cates 0 lag; a bottom-right ar-row in-di-cates a small lehttp://www.alivelearn.net/?p=1169
  []
 
-[11]
-<figA.jpg, id=129, 467.346pt x 273.6624pt>
+[10]
+<figA.jpg, id=125, 467.346pt x 273.6624pt>
 File: figA.jpg Graphic file (type jpg)
 <use figA.jpg>
 Package pdftex.def Info: figA.jpg  used on input line 467.
@@ -1377,7 +1359,7 @@ Package pdftex.def Info: figA.jpg  used on input line 467.
 
 Underfull \vbox (badness 3758) has occurred while \output is active []
 
- [12 <./figA.jpg>]
+ [11 <./figA.jpg>]
 
 ./biophys_waves.tex:498: Package inputenc Error: Unicode character Ц (U+426)
 (inputenc)                not set up for use with LaTeX.
@@ -1456,9 +1438,9 @@ l.498 Цитата
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-(./biophys_waves.bbl [13])
+(./biophys_waves.bbl [12])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 527.
- [14]
+ [13]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 527.
  (./biophys_waves.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 527.
@@ -1473,18 +1455,18 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  23414 strings out of 492639
- 393389 string characters out of 6133087
- 601583 words of memory out of 5000000
+ 393388 string characters out of 6133087
+ 601654 words of memory out of 5000000
  26861 multiletter control sequences out of 15000+600000
  602560 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,94p,1389b,493s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2018/texmf-dist/font
-s/type1/public/newtx/txexs.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txmia.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (14 pages, 11742590 bytes).
+{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2018/texmf-dist/fonts/type
+1/public/txfonts/txmia.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on biophys_waves.pdf (13 pages, 12407545 bytes).
 PDF statistics:
- 220 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
  50 named destinations out of 1000 (max. 500000)
  19505 words of extra memory for PDF output out of 20736 (max. 10000000)
 

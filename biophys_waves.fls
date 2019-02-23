@@ -10,8 +10,6 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2018/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2018/texmf-dist/tex/latex/base/size10.clo
 INPUT c:/texlive/2018/texmf-dist/tex/latex/base/size10.clo
-OUTPUT biophys_waves.pdf
-INPUT c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/mathtools/mathtools.sty
 INPUT c:/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
@@ -203,6 +201,7 @@ INPUT biophys_waves.out
 INPUT biophys_waves.out
 INPUT biophys_waves.out
 INPUT biophys_waves.out
+OUTPUT biophys_waves.pdf
 INPUT ./biophys_waves.out
 INPUT ./biophys_waves.out
 OUTPUT biophys_waves.out
@@ -261,6 +260,7 @@ INPUT c:/texlive/2018/texmf-dist/tex/latex/newtx/t1ntxtt.fd
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/t1xtt.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/tex-gyre/ec-qhvr.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/tex-gyre/ec-qhvb.tfm
+INPUT c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2018/texmf-dist/fonts/vf/public/newtx/ntxmi.vf
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/txmi.tfm
 INPUT c:/texlive/2018/texmf-dist/fonts/tfm/public/newtx/rntxmi.tfm
@@ -328,7 +328,6 @@ INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc
 INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc
-INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb
 INPUT c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb
