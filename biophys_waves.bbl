@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{24}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -44,6 +44,13 @@ Matsuura, R., S.~Miyagawa, S.~Fukushima, T.~Goto, A.~Harada, Y.~Shimozaki,
 \newblock Intravital imaging with two-photon microscopy reveals cellular
   dynamics in the ischeamia-reperfused rat heart.
 \newblock \emph{Scientific reports} 8:15991.
+
+\bibitem[Kong and Fast(2014)]{kong2014role}
+Kong, W., and V.~G. Fast, 2014.
+\newblock The role of dye affinity in optical measurements of Cai2+ transients
+  in cardiac muscle.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology} .
 
 \bibitem[Rueden et~al.(2017)Rueden, Schindelin, Hiner, DeZonia, Walter, Arena,
   and Eliceiri]{rueden2017imagej2}
