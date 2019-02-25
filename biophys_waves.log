@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  25 FEB 2019 20:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.16)  25 FEB 2019 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1286,58 +1286,41 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 7.19995pt on input line 83.
  [1
 
-{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-./biophys_waves.tex:88: Missing $ inserted.
-<inserted text> 
-                $
-l.88 ...scle contraction was inhibited with 20 \mu
-                                                   mol/l of blebbistatin \ci...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./biophys_waves.tex:89: Missing $ inserted.
-<inserted text> 
-                $
-l.89 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[2]
+{c:/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 145.
-<fig0.jpg, id=49, 361.35pt x 368.577pt>
+<fig0.jpg, id=46, 361.35pt x 368.577pt>
 File: fig0.jpg Graphic file (type jpg)
 <use fig0.jpg>
 Package pdftex.def Info: fig0.jpg  used on input line 180.
 (pdftex.def)             Requested size: 299.52309pt x 305.51389pt.
-<fig1.png, id=50, 1751.54375pt x 1063.975pt>
+<fig1.png, id=47, 1751.54375pt x 1063.975pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
 Package pdftex.def Info: fig1.png  used on input line 187.
 (pdftex.def)             Requested size: 299.52309pt x 181.94485pt.
-<fig2.jpg, id=51, 602.25pt x 720.7728pt>
+<fig2.jpg, id=48, 602.25pt x 720.7728pt>
 File: fig2.jpg Graphic file (type jpg)
 <use fig2.jpg>
 Package pdftex.def Info: fig2.jpg  used on input line 194.
 (pdftex.def)             Requested size: 299.52309pt x 358.48283pt.
-<fig3.png, id=52, 1276.77pt x 1083.04625pt>
+<fig3.png, id=49, 1276.77pt x 1083.04625pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
 Package pdftex.def Info: fig3.png  used on input line 202.
 (pdftex.def)             Requested size: 499.20007pt x 423.46053pt.
-<fig4.png, id=53, 1754.555pt x 1049.9225pt>
+<fig4.png, id=50, 1754.555pt x 1049.9225pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
 Package pdftex.def Info: fig4.png  used on input line 216.
 (pdftex.def)             Requested size: 499.20007pt x 298.71837pt.
  [3]
-<fig5.png, id=65, 1300.86pt x 1083.04625pt>
+<fig5.png, id=63, 1300.86pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
 Package pdftex.def Info: fig5.png  used on input line 226.
 (pdftex.def)             Requested size: 499.20007pt x 415.6107pt.
-<fig6.png, id=66, 1430.34375pt x 956.57375pt>
+<fig6.png, id=64, 1430.34375pt x 956.57375pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
 Package pdftex.def Info: fig6.png  used on input line 232.
@@ -1398,14 +1381,14 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  23423 strings out of 492639
  393631 string characters out of 6133087
- 598803 words of memory out of 5000000
+ 597803 words of memory out of 5000000
  26863 multiletter control sequences out of 15000+600000
  602732 words of font info for 144 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,94p,1389b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}{c:/texlive/2018/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}<c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qhvr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb><c:/texlive/2018/texmf-dist/fonts/type
 1/public/txfonts/txmia.pfb><c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb><c:/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (14 pages, 13121730 bytes).
+Output written on biophys_waves.pdf (14 pages, 13119550 bytes).
 PDF statistics:
  221 PDF objects out of 1000 (max. 8388607)
  182 compressed objects within 2 object streams
