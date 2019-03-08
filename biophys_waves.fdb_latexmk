@@ -1,17 +1,17 @@
 # Fdb version 3
-["bibtex biophys_waves"] 1551117427 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1551118457
+["bibtex biophys_waves"] 1552066303 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1552066311
   "./biophysj.bst" 1550848129 34286 722d689a6da86bdb747990ba23e79977 ""
-  "biophys_waves.aux" 1551118455 6487 cc9547f706e7d3a1a34d3cf248a12627 ""
-  "mybib.bib" 1551117075 39670 cbb2e916e8e8aafeab58bf15774c34e5 ""
+  "biophys_waves.aux" 1552066309 6489 fbd2843836ccd648ca14b076c8e4e37d ""
+  "mybib.bib" 1551725470 40103 278da82c91051b3e488a2c34aa186b36 ""
   (generated)
-  "biophys_waves.blg"
   "biophys_waves.bbl"
-["pdflatex"] 1551118451 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1551118457
+  "biophys_waves.blg"
+["pdflatex"] 1552066305 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1552066311
   "biophys-new.cls" 1550848067 4310 d188048c9408d6a770a5e13a77ba754b ""
-  "biophys_waves.aux" 1551118455 6487 cc9547f706e7d3a1a34d3cf248a12627 ""
-  "biophys_waves.bbl" 1551117428 7058 47ca39e4bf0a1d3ba07cccf55019c1ae "bibtex biophys_waves"
-  "biophys_waves.out" 1551118455 59 ae5fb7d6d7fa502c2b16008d75f2c630 ""
-  "biophys_waves.tex" 1551118445 43492 dc3f78fa3de0a53ce8cc055711dfa65e ""
+  "biophys_waves.aux" 1552066309 6489 fbd2843836ccd648ca14b076c8e4e37d ""
+  "biophys_waves.bbl" 1552066304 7058 47ca39e4bf0a1d3ba07cccf55019c1ae "bibtex biophys_waves"
+  "biophys_waves.out" 1552066309 59 ae5fb7d6d7fa502c2b16008d75f2c630 ""
+  "biophys_waves.tex" 1552066269 43117 72b0f3bb653019c6e15ac17d04d4a4a1 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1539698694 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc" 1539700140 2880 847ca622ad468c3dafba6a3f9d89a636 ""
   "c:/texlive/2018/texmf-dist/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc" 1539700140 2083 60e36f8eac802fcaf19eabe2633b406e ""
@@ -62,6 +62,7 @@
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/txr.tfm" 1539701587 2408 aec793a3c45e495f7ad15b227c91f508 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/txsyb.tfm" 1539701587 988 098ca7e8cc5647b9ac21b82dbdce1f01 ""
   "c:/texlive/2018/texmf-dist/fonts/tfm/public/txfonts/txsyc.tfm" 1539701587 1084 75e807e9e71f7a312e4e1187dce5e93b ""
+  "c:/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1539697644 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb" 1539700141 15929 f4ad36d9b7ab28e7323976b6fab0ef97 ""
   "c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txexs.pfb" 1539700141 33353 09ab21ee50375c770acac474ded14d20 ""
   "c:/texlive/2018/texmf-dist/fonts/type1/public/newtx/txsys.pfb" 1539700141 43662 caa6b1a15a692b245428edef9d4a3ed2 ""
@@ -187,7 +188,7 @@
   "figA.jpg" 1545149756 1272893 c4f1ba84d615125e168be8f6f088674b ""
   "nul" 0 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
-  "biophys_waves.log"
+  "biophys_waves.aux"
   "biophys_waves.out"
   "biophys_waves.pdf"
-  "biophys_waves.aux"
+  "biophys_waves.log"

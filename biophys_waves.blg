@@ -3,11 +3,15 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: biophys_waves.aux
 The style file: biophysj.bst
 Database file #1: mybib.bib
-Repeated entry---line 1703 of file mybib.bib
+Repeated entry---line 287 of file mybib.bib
+ : @article{jiang2014pacing
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1723 of file mybib.bib
  : @article{kong2014role
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2001 of file mybib.bib
+Repeated entry---line 2021 of file mybib.bib
  : @article{sato2014depolarization
  :                                ,
 I'm skipping whatever remains of this entry
@@ -53,4 +57,4 @@ warning$ -- 0
 while$ -- 82
 width$ -- 0
 write$ -- 314
-(There were 2 error messages)
+(There were 3 error messages)
