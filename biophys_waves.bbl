@@ -64,10 +64,11 @@ Team, R.~C., et~al., 2014.
 \newblock R: A language and environment for statistical computing.
 \newblock \emph{R} .
 
-\bibitem[Roesch and Schmidbauer(2014)]{roesch2014waveletcomp}
-Roesch, A., and H.~Schmidbauer, 2014.
-\newblock WaveletComp: Computational wavelet analysis.
-\newblock \emph{R package version} 1.
+\bibitem[R{\"o}sch and Schmidbauer(2016)]{rosch2016waveletcomp}
+R{\"o}sch, A., and H.~Schmidbauer, 2016.
+\newblock WaveletComp 1.1: A guided tour through the R package.
+\newblock \emph{URL: http://www. hsstat.
+  com/projects/WaveletComp/WaveletComp\_guided\_tour. pdf} .
 
 \bibitem[Kocksk{\"a}mper and Blatter(2002)]{kockskamper2002subcellular}
 Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.
