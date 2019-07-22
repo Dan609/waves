@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{25}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -74,6 +74,14 @@ Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.
 \newblock Subcellular Ca2+ alternans represents a novel mechanism for the
   generation of arrhythmogenic Ca2+ waves in cat atrial myocytes.
 \newblock \emph{The Journal of physiology} 545:65--79.
+
+\bibitem[Bonilla et~al.(2019)Bonilla, Belevych, Baine, Stepanov, Mezache,
+  Bodnar, Liu, Volpe, Priori, Weisleder, et~al.]{bonilla2019enhancement}
+Bonilla, I.~M., A.~E. Belevych, S.~Baine, A.~Stepanov, L.~Mezache, T.~Bodnar,
+  B.~Liu, P.~Volpe, S.~Priori, N.~Weisleder, et~al., 2019.
+\newblock Enhancement of Cardiac Store Operated Calcium Entry (SOCE) within
+  Novel Intercalated Disk Microdomains in Arrhythmic Disease.
+\newblock \emph{Scientific Reports} 9:10179.
 
 \bibitem[Williams et~al.(2017)Williams, Wescott, Lehnart, and
   Lederer]{williams2017does}
