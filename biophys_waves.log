@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  22 JUL 2019 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  22 JUL 2019 18:47
 entering extended mode
 **./biophys_waves.tex
 (biophys_waves.tex
@@ -1196,47 +1196,51 @@ LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 (Font)              scaled to size 10.79993pt on input line 38.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 75.
+(Font)              scaled to size 7.19995pt on input line 78.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <8> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 75.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 78.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 75.
+(Font)              scaled to size 7.19995pt on input line 78.
 [1
 
-{C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+{C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 125.
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 125
+(Font)              scaled to size 7.3pt on input line 124.
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 124
 .
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\t1ntxtt.fd"
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 125.
+(Font)              scaled to size 10.0pt on input line 124.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<fig0.jpg, id=46, 361.35pt x 368.577pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+<fig0.jpg, id=47, 361.35pt x 368.577pt>
 File: fig0.jpg Graphic file (type jpg)
 <use fig0.jpg>
-Package pdftex.def Info: fig0.jpg  used on input line 161.
+Package pdftex.def Info: fig0.jpg  used on input line 160.
 (pdftex.def)             Requested size: 299.52309pt x 305.51389pt.
-<fig1.png, id=47, 1751.54375pt x 1063.975pt>
+<fig1.png, id=48, 1751.54375pt x 1063.975pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 168.
+Package pdftex.def Info: fig1.png  used on input line 167.
 (pdftex.def)             Requested size: 299.52309pt x 181.94485pt.
-<fig2.jpg, id=48, 602.25pt x 720.7728pt>
+<fig2.jpg, id=49, 602.25pt x 720.7728pt>
 File: fig2.jpg Graphic file (type jpg)
 <use fig2.jpg>
-Package pdftex.def Info: fig2.jpg  used on input line 175.
+Package pdftex.def Info: fig2.jpg  used on input line 174.
 (pdftex.def)             Requested size: 299.52309pt x 358.48283pt.
-<fig3.png, id=49, 1276.77pt x 1083.04625pt>
+<fig3.png, id=50, 1276.77pt x 1083.04625pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 183.
+Package pdftex.def Info: fig3.png  used on input line 182.
 (pdftex.def)             Requested size: 499.20007pt x 423.46053pt.
 
 [3 <./fig0.jpg>] [4 <./fig1.png (PNG copy)> <./fig2.jpg>] [5 <./fig3.png (PNG c
@@ -1244,51 +1248,35 @@ opy)>]
 <fig4.png, id=71, 1754.555pt x 1049.9225pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 197.
+Package pdftex.def Info: fig4.png  used on input line 196.
 (pdftex.def)             Requested size: 499.20007pt x 298.71837pt.
 <fig5.png, id=72, 1300.86pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 207.
+Package pdftex.def Info: fig5.png  used on input line 206.
 (pdftex.def)             Requested size: 499.20007pt x 415.6107pt.
 <fig6.png, id=73, 1430.34375pt x 956.57375pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 213.
+Package pdftex.def Info: fig6.png  used on input line 212.
 (pdftex.def)             Requested size: 499.20007pt x 333.85707pt.
+ [6 <./fig4.png (PNG copy)>]
+Underfull \vbox (badness 4391) has occurred while \output is active []
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
-
- []
-
-[6 <./fig4.png (PNG copy)>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./fig5.png (PNG copy)>] [8 <./fig6.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 233--237
-
- []
-
-[9] [10]
-Overfull \hbox (29.87234pt too wide) in paragraph at lines 341--342
-[]\T1/ntxtlf/m/n/10 (-20) 1. Phase shift and an-gle. A right-ward ar-row in-di-
-cates 0 lag; a bottom-right ar-row in-di-cates a small lehttp://www.alivelearn.
-net/?p=1169
- []
-
-[11]
-<figA.jpg, id=125, 467.346pt x 273.6624pt>
+ [7 <./fig5.png (PNG copy)>] [8 <./fig6.png (PNG copy)>] [9] [10]
+<figA.jpg, id=119, 467.346pt x 273.6624pt>
 File: figA.jpg Graphic file (type jpg)
 <use figA.jpg>
-Package pdftex.def Info: figA.jpg  used on input line 423.
+Package pdftex.def Info: figA.jpg  used on input line 444.
 (pdftex.def)             Requested size: 299.52309pt x 175.3897pt.
- (biophys_waves.bbl [12 <./figA.jpg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 472.
+ [11] (biophys_waves.bbl
+[12 <./figA.jpg>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
  [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 472.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
  (biophys_waves.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 472.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 472.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
 Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 (rerunfilecheck)             Checksum: 046E01DEC5FE039E5DA7F9B2C650F4A4;60.
 
@@ -1300,11 +1288,11 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  24237 strings out of 492895
  418389 string characters out of 3125603
- 678721 words of memory out of 3000000
+ 677721 words of memory out of 3000000
  27710 multiletter control sequences out of 15000+200000
  597416 words of font info for 137 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,94p,1392b,483s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,15n,94p,1392b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ec-tl
 f.enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-
 ec.enc}<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/tex-gyr
@@ -1317,7 +1305,7 @@ blic/tex-gyre/qtmr.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 onts/type1/public/txfonts/t1xtt.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/newtx/txsys.pfb>
-Output written on biophys_waves.pdf (13 pages, 13116706 bytes).
+Output written on biophys_waves.pdf (13 pages, 13116227 bytes).
 PDF statistics:
  189 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
