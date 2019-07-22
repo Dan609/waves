@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  22 JUL 2019 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  22 JUL 2019 19:29
 entering extended mode
 **./biophys_waves.tex
 (biophys_waves.tex
@@ -956,67 +956,100 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
-))
-LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 26
+)) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mhchem\mhchem.sty"
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/l3keys2e\l3
+keys2e.sty"
+Package: l3keys2e 2019-05-28 LaTeX2e option processing using LaTeX3 keys
+)
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chemgreek\chemgreek.st
+y"
+Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
+stry (CN)
+\l__chemgreek_tmpa_int=\count303
+\g__chemgreek_tmpa_int=\count304
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count305
+\__mhchem_arrow_extPgfLength_skip=\skip78
+\mhchem@minispace@tmp=\skip79
+\mhchem@minibackspace@tmp=\skip80
+\mhchem@bondwidth=\skip81
+\mhchem@bondheight=\skip82
+\mhchem@smallbondwidth@tmpA=\skip83
+\mhchem@smallbondwidth@tmpB=\skip84
+\mhchem@smallbondwidth=\skip85
+\mhchem@bondtmp@minussidebearingleft=\skip86
+\mhchem@bondtmp@minussidebearingright=\skip87
+\l__mhchem_option_version_int=\count306
+\mhchem@option@minusmathsidebearingleft=\dimen186
+\mhchem@option@minusmathsidebearingright=\dimen187
+\mhchem@option@minustextsidebearingleft=\dimen188
+\mhchem@option@minustextsidebearingright=\dimen189
+) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/was\gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 28
 .
- ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\t1ntxtlf.fd"
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\t1ntxtlf.fd"
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 26.
+(Font)              scaled to size 10.0pt on input line 28.
+
 (biophys_waves.aux)
 \openout1 = `biophys_waves.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 26.
-LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 26
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 28.
+LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 28
 .
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\omlntxmi.fd"
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 28.
 
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\untxexa.fd"
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 26
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for LMS+ntxsy on input line 28
 .
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\lmsntxsy.fd"
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 28.
 LaTeX Font Info:    Try loading font information for LMX+ntxexx on input line 2
-6.
+8.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\lmxntxexx.fd"
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Info: Redefining \microtypecontext on input line 26.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \microtypecontext on input line 28.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1030,22 +1063,22 @@ Package microtype Info: No adjustment of character kerning.
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/microtype\mt-ptm.cfg"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-\c@mv@tabular=\count303
-\c@mv@boldtabular=\count304
+\c@mv@tabular=\count307
+\c@mv@boldtabular=\count308
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen186
+\scratchcounter=\count309
+\scratchdimen=\dimen190
 \scratchbox=\box51
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\nofMPsegments=\count310
+\nofMParguments=\count311
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen187
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen191
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
 \everyMPtoPDFconversion=\toks29
 )
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base
@@ -1100,7 +1133,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box52
-Package hyperref Info: Link coloring ON on input line 26.
+Package hyperref Info: Link coloring ON on input line 28.
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1108,78 +1141,104 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ing.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
  (biophys_waves.out) (biophys_waves.out)
 \@outlinefile=\write3
 \openout3 = `biophys_waves.out'.
 
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 36.
+
+Package chemgreek Info: Activating mapping `newtx' on line 28.
+
+\symgns@font=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/ntxtlf/m/n --> TS1/ntxtlf/bx/n on input line 28.
+Package gensymb Info: Math companion symbols declared on input line 28.
+LaTeX Info: Redefining \degree on input line 28.
+LaTeX Info: Redefining \celsius on input line 28.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 28.
+LaTeX Info: Redefining \ohm on input line 28.
+Package gensymb Info: Using \textohm for \ohm on input line 28.
+Package gensymb Info: Using \textmu for \micro on input line 28.
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 40.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tex-gyre\t1qhv.fd"
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 36.
+(Font)              scaled to size 8.99994pt on input line 40.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <10> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 36.
+(Font)              scaled to size 8.99994pt on input line 40.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 10.0pt on input line 36.
+(Font)              scaled to size 10.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 36.
+(Font)              scaled to size 17.28pt on input line 40.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 36.
+(Font)              scaled to size 15.55188pt on input line 40.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 36.
+(Font)              scaled to size 15.55188pt on input line 40.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 36.
+(Font)              scaled to size 10.0pt on input line 40.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 36.
-LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 3
-6.
+(Font)              scaled to size 18.66588pt on input line 40.
+LaTeX Font Info:    Try loading font information for OT1+ntxtlf on input line 4
+0.
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\ot1ntxtlf.fd"
 File: ot1ntxtlf.fd 2015/01/17 v1.0 font definition file for OT1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 36.
+(Font)              scaled to size 10.0pt on input line 40.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 36.
+(Font)              scaled to size 7.3pt on input line 40.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 36.
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 36.
+(Font)              scaled to size 5.5pt on input line 40.
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 40.
 
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\untxmia.fd"
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 36.
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 40.
 
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\untxsym.fd"
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 36.
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 40.
 
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\untxsyc.fd"
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
+LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 4
+0.
+
+("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\ts1ntxtlf.fd"
+File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
+)
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 40.
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 40.
+LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 40.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1187,96 +1246,98 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sl' in size <5.5> not available
-(Font)              size <5> substituted on input line 36.
+(Font)              size <5> substituted on input line 40.
 
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 6.56995pt on input line 36.
+(Font)              scaled to size 6.56995pt on input line 40.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <12> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 38.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 42.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 38.
+(Font)              scaled to size 10.79993pt on input line 42.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 45.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 5.5pt on input line 45.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 78.
+(Font)              scaled to size 7.19995pt on input line 82.
 LaTeX Font Info:    Font shape `T1/qhv/bx/n' in size <8> not available
-(Font)              Font shape `T1/qhv/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/qhv/b/n' tried instead on input line 82.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 78.
+(Font)              scaled to size 7.19995pt on input line 82.
 [1
 
 {C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 124.
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 124
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 127
 .
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\t1ntxtt.fd"
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 124.
+(Font)              scaled to size 10.0pt on input line 127.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-<fig0.jpg, id=47, 361.35pt x 368.577pt>
+<fig0.jpg, id=37, 361.35pt x 368.577pt>
 File: fig0.jpg Graphic file (type jpg)
 <use fig0.jpg>
-Package pdftex.def Info: fig0.jpg  used on input line 160.
+Package pdftex.def Info: fig0.jpg  used on input line 159.
 (pdftex.def)             Requested size: 299.52309pt x 305.51389pt.
+
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+ [2]
 <fig1.png, id=48, 1751.54375pt x 1063.975pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 167.
+Package pdftex.def Info: fig1.png  used on input line 166.
 (pdftex.def)             Requested size: 299.52309pt x 181.94485pt.
 <fig2.jpg, id=49, 602.25pt x 720.7728pt>
 File: fig2.jpg Graphic file (type jpg)
 <use fig2.jpg>
-Package pdftex.def Info: fig2.jpg  used on input line 174.
+Package pdftex.def Info: fig2.jpg  used on input line 173.
 (pdftex.def)             Requested size: 299.52309pt x 358.48283pt.
 <fig3.png, id=50, 1276.77pt x 1083.04625pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 182.
+Package pdftex.def Info: fig3.png  used on input line 181.
 (pdftex.def)             Requested size: 499.20007pt x 423.46053pt.
-
-[3 <./fig0.jpg>] [4 <./fig1.png (PNG copy)> <./fig2.jpg>] [5 <./fig3.png (PNG c
-opy)>]
-<fig4.png, id=71, 1754.555pt x 1049.9225pt>
+<fig4.png, id=51, 1754.555pt x 1049.9225pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 196.
+Package pdftex.def Info: fig4.png  used on input line 195.
 (pdftex.def)             Requested size: 499.20007pt x 298.71837pt.
-<fig5.png, id=72, 1300.86pt x 1083.04625pt>
+
+[3 <./fig0.jpg>]
+<fig5.png, id=60, 1300.86pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 206.
+Package pdftex.def Info: fig5.png  used on input line 205.
 (pdftex.def)             Requested size: 499.20007pt x 415.6107pt.
-<fig6.png, id=73, 1430.34375pt x 956.57375pt>
+<fig6.png, id=61, 1430.34375pt x 956.57375pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 212.
+Package pdftex.def Info: fig6.png  used on input line 211.
 (pdftex.def)             Requested size: 499.20007pt x 333.85707pt.
- [6 <./fig4.png (PNG copy)>]
+ [4 <./fig1.png (PNG copy)> <./fig2.jpg>] [5 <./fig3.png (PNG copy)>] [6 <./fig
+4.png (PNG copy)>]
 Underfull \vbox (badness 4391) has occurred while \output is active []
 
  [7 <./fig5.png (PNG copy)>] [8 <./fig6.png (PNG copy)>] [9] [10]
 <figA.jpg, id=119, 467.346pt x 273.6624pt>
 File: figA.jpg Graphic file (type jpg)
 <use figA.jpg>
-Package pdftex.def Info: figA.jpg  used on input line 444.
+Package pdftex.def Info: figA.jpg  used on input line 443.
 (pdftex.def)             Requested size: 299.52309pt x 175.3897pt.
  [11] (biophys_waves.bbl
 [12 <./figA.jpg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 493.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 492.
  [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 493.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 492.
  (biophys_waves.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 493.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 493.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 492.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 492.
 Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 (rerunfilecheck)             Checksum: 046E01DEC5FE039E5DA7F9B2C650F4A4;60.
 
@@ -1286,28 +1347,30 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 24237 strings out of 492895
- 418389 string characters out of 3125603
- 677721 words of memory out of 3000000
- 27710 multiletter control sequences out of 15000+200000
- 597416 words of font info for 137 fonts, out of 3000000 for 9000
+ 25063 strings out of 492895
+ 438635 string characters out of 3125603
+ 678721 words of memory out of 3000000
+ 28518 multiletter control sequences out of 15000+200000
+ 601266 words of font info for 140 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,94p,1392b,489s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,15n,94p,1428b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ec-tl
 f.enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-
-ec.enc}<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/tex-gyr
-e/qhvb.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/tex
--gyre/qhvr.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/tex-gyre/qtmb.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/tex-gyre/qtmr.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/tex-gyre/qtmri.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/txfonts/rtxmi.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/txfonts/t1xtt.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/newtx/txsys.pfb>
-Output written on biophys_waves.pdf (13 pages, 13116227 bytes).
+ts1.enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx
+-ot1-tlf.enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/tex-
+gyre/q-ec.enc}<C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+tex-gyre/qhvb.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/tex-gyre/qhvr.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/tex-gyre/qtmb.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/tex-gyre/qtmr.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/tex-gyre/qtmri.pfb><C:/Users/1/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/1/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/1/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb>
+Output written on biophys_waves.pdf (13 pages, 13116997 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
+ 193 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
- 18481 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 20529 words of extra memory for PDF output out of 20736 (max. 10000000)
 
