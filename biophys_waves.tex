@@ -8,10 +8,10 @@
 \usepackage[version=3]{mhchem}
 \usepackage{gensymb}
 
-\title{ Unstationarity in Calcium Oscillations in Isolated Heart Revealed by Wavelet Analysis }
+\title{ Wavelet analysis reveals coherence dynamics between trigerred and spontaneous \ce{Ca^2+} oscillations in subepicardial cardiomyocytes }
 \runningtitle{runningtitle} %% For page header
 \author[1,*]{Danila Bobkov}
-\author[2]{Galina Sakuta}
+\author[7]{Galina Sakuta}
 \author[3]{Ekaterina Baidyuk}
 \author[4]{Andrei Stepanov}
 \author[5]{Igor Kubasov}
@@ -19,8 +19,8 @@
 \author[7]{Sandor Gyorke}
 \runningauthor{Bobkov et al.} %% For page header
 \affil[1,2,3]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia}
-\affil[4,5]{Sechenov Institute of Evolutionary Physiology and Biochemistry of the Russian Academy of Science, 194223 Russia Saint-Petersburg pr.Torez 44}
-\affil[6]{Department of Anesthesiology, University of Arkansas for Medical Sciences, Little Rock, AR, United States}
+\affil[4,5,6]{Sechenov Institute of Evolutionary Physiology and Biochemistry of the Russian Academy of Science, 194223 Russia Saint-Petersburg pr.Torez 44}
+% \affil[6]{Department of Anesthesiology, University of Arkansas for Medical Sciences, Little Rock, AR, United States}
 \affil[7]{Dorothy M. Davis Heart and Lung Research Institute, College of Medicine, Ohio State University, Columbus, OH, United States}
 \corrauthor[*]{bobkov@incras.ru}
 \papertype{Article}
@@ -29,30 +29,30 @@
 \begin{frontmatter}
 \begin{abstract}
 
-Spectral analysis of hypoxia-indused calcium waves in isolated rat heart on the subcellular level reveal local hypercontraction sites as sources for hight-frequency oscillations.
-Local hypercontracts are centers of high-frequency calcium oscillations
-damage progression line
-
-
-Key words: calcium waves, calcium overloading, cardiomyocytes, myocardium, ischemia, arrhytmia
+\textit{Key words:} calcium waves, calcium overloading, cardiomyocytes, myocardium, ischemia, arrhytmia, wavelet coherence
 
 \end{abstract}
 \end{frontmatter}
 
 \section*{Introduction}
 
-Measurement of Ca waves in isolated rat heart
+
+Arrhythmias associated with myocardial damage are one of the leading causes of death in the ageing human population (\cite{xiao2011cardiac}, \cite{}).
+CICR and sinus rhythm
+Measurement of \ce{Ca^2+} waves in isolated rat heart
 An intracellular accumulation of \ce{Ca^2+} caused by a failure of the ATP-dependent mechanisms known to be the key events in myocardial damage during ischemia \cite{shen1972myocardial,shen1972kinetics,nayler1981role}.
 In the process of damage progression functional myocardial tissue becomes \ce{Ca^2+} -overloaded and then lost functionality with the properties of \ce{Ca^2+} waves changing progressively over time \cite{minamikawa1997situ,hama1998real}.
-Now it is well acknowledged that \ce{Ca^2+} -overloaded cardiomyocytes are essential substrate for arrhythmias and contractile failure, especially in acute myocardial infarct.
+Now it is well acknowledged that \ce{Ca^2+} - overloaded cardiomyocytes are essential substrate for arrhythmias and contractile failure, especially in acute myocardial infarct.
 \ce{Ca^2+} dynamics at the border zones between the infarcted and non-infarcted myocardium is considered to be a key element for arrhythmogenesis \cite{takamatsu2008arrhythmogenic}.
 In this study, we applied the method of confocal microscopy and carried out a frequency analysis of calcium oscillations in cardiomyocytes from border zone between the necrotic and healthy myocardium.
+Wavelet tranform of electrocardiogram (ECG)
+ECG-derived data \cite{sharma2017use}
 For optical registration of calcium waves \cite{matsuura2018intravital} ...
-
-\iffalse
-А не посчитать ли дифференциальное уравнение, декремент затухания?..
-причина затуханий - сокращение клетки?
-\fi
+Here we provide an approach
+Unstationarity in Calcium Oscillations in Isolated Heart Revealed by Wavelet Analysis
+Spectral analysis of hypoxia-indused calcium waves in isolated rat heart on the subcellular level reveal local hypercontraction sites as sources for hight-frequency oscillations.
+Local hypercontracts are centers of high-frequency calcium oscillations
+damage progression line
 
 \section*{Materials and Methods}
 
@@ -76,12 +76,12 @@ The dyes Fluo-4-AM,Tetramethylrhodamine Methyl Ester Perchlorate, TMRM, and Di-8
 Heart perfusion was performed using a modified Langendorff system. Tyrode solution with \ce{CaCl2} (1 mM/L) was used as the perfusion medium.
 A similar solution with the addition of the fluorescent dyes Fluo-4 (20 $\mu$ M/L) and Di-8-ANEPPS (20 $\mu$ M/L) was used for visualization of the \ce{Ca^2+} waves.
 
+
 \subsection{Confocal microscopy}
 To investigate spontaneous \ce{Ca^2+} waves in myocardium, we positioned isolated perfused heart in organ bath with thin bottom (180 $\mu$ m), left ventricle in conjunction with an oil-immersible objective lens on an inverted microscope (Leica).
 This combination provide sufficient depth discrimination to focus directly onto the epicardial layers and individual cells within the intact functioning organ.
 
-To the simultaneous detection of fluorescence of Fluo-4 and TMRM we used an argon laser with a wavelength 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\%.
-The fluorescence detection was carried out in the spectral range 493 nm -- 540 nm for Fluo-4 and 552 nm -- 792 nm for TMRM. Since the specific values of the background fluorescence depended on the density of the capillary network, the amount of connective tissue in the field of view, and other factors, the sensitivity of the PMT detector (gain) was selected individually each time, depending on the conditions of the survey, and was usually 600 to 800 units.
+To the simultaneous detection of fluorescence of Fluo-4 and TMRM we used an argon laser with a wavelength 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\%. The fluorescence detection was carried out in the spectral range 493 nm -- 540 nm for Fluo-4 and 552 nm -- 792 nm for TMRM. Since the specific values of the background fluorescence depended on the density of the capillary network, the amount of connective tissue in the field of view, and other factors, the sensitivity of the PMT detector (gain) was selected individually each time, depending on the conditions of the survey, and was usually 600 to 800 units.
 changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, a resonant scanner (8000 Hz) was used, and the diameter of the confocal pinhole was set to 100\ mu m.
 A fluorescent signal was registered in the first layer of cardiomyocytes adjacent to the epicardial surface of an isolated heart (Fig. 1). The fluorescent signal was measured in a whole frame or in certain regions of interest (regions of interest, ROI).
 Spectral analysis of calcium oscillations was carried out using a fast Fourier transform.
@@ -89,7 +89,7 @@ Studies were carried out on the model of an isolated working rat heart perfused 
 The subepicardial layers of the myocardium were examined using an inverted Leica TCS SP5 laser scanning confocal microscope equipped with a resonance scanner and x20, x63 lenses with oil immersion.
 For visualization of cardiomyocytes, vascular network and connective tissue, perfusion of the hearts was performed with a solution with the addition of the fluorescent dye Di-8-ANEPPS.
 To visualize free \ce{Ca^2+} ions, the Fluo-4 dye was used.
-For dyeing mitochondria, the TMRM dye was used, the fluorescence intensity of which is proportional to the value of the mitochondrial membrane potential ( $\Delta$ $\psi$).
+For dyeing mitochondria, the TMRM dye was used, the fluorescence intensity of which is proportional to the value of the mitochondrial membrane potential ( $\Delta\psi$).
 With the simultaneous detection of fluorescence Fluo-4 and Di-8-ANEPPS, an argon laser with a wavelength of 488 nm and a power of 80\% was used to excite the fluorescence.
 Fluorescence detection was carried out using two photomultiplier tubes (PMT), 491nm - 581nm for Fluo-4 and 611nm - 792nm for Di-8-ANEPPS.
 With the simultaneous detection of fluorescence Fluo-4 and TMRM, an argon laser with a wavelength of 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\% were used to excite the fluorescence.
@@ -103,13 +103,19 @@ The pinhole was set to 200 mm, resulting in , 2.5-mm optical slices. Amplifier g
 The membrane structure of epicardial myocytes was analyzed in situ by confocal microscopy Leica SP5 equipped with x63 (NA = 1.4) oil-immersion lens]. The epicardial images were used to define the
 
 \subsection*{Data analysis}
-ImageJ \cite{rueden2017imagej2}
+Recorded time-series image stack were analyzed in ImageJ v.1.52p software\cite{rueden2017imagej2}.
 measurement duration= 109.6 s sampling frequency 14.29745 Hz
+Time series analysis in BAR plugin:
+normalization against F0, multi ROI profiler
+16 ROI 10 x 20 $\mu$m were manually selected
+Wavelet analysis
+Formula from \cite{grinsted2004application} and from \cite{kahraman2016multiple} ...
 To cite R in publications use:  \cite{team2014r}
 To cite package WaveletComp in publications use: \cite{rosch2016waveletcomp}
 Wavelet methodology is a reasonable choice to study periodic phenomena in time series, particularly in
 the presence of potential frequency changes across time.
 packages for wavelet analysis in R
+number of simulations = 100
 WaveletComp (version 1.1) analyzes the frequency structure of uni- and bivariate time series using the Morlet wavelet. 2
 Contour lines added to the wavelet power spectrum delineate areas of high significance.
 Wavelet power spectrum of the series with variable period
@@ -118,6 +124,9 @@ Likewise, horizontal arrows pointing to the left indicate that the two series ar
 The arrows are plotted only within white contour lines indicating significance (with respect to the null hypothesis of white noise processes) at the 10\% level.
 Cross-Wavelet power spectrum of the series with interval color key and restricted arrow area
 Limit the area where arrows are drawn to the region where both individual wavelet transforms of x and y show significance (set which.arrow.sig = "wt"), and avoid the artifacts of the
+The significance level of contour lines defined to . The plot of the ridge can be restricted to a high-level region ("high" according to a given level of plotted values). In particular, the area to be filled with arrows can be determined in several ways: to reflect significance (at a given level) with respect to cross-wavelet power, wavelet coherence, or individual wavelet power, and/or to flag a high-value region. Furthermore, there is an option to clear out the area where the p-values of cross-wavelet power (coherence, respectively) exceed a given level.
+
+
 ( for 094--: 455.9 mkm / 512px = 0,8904296875
 Area = 318,363, x = 17.8427296118, $\approx$ 17.8 $\mu$ m
 analyze - tools - scale bar
@@ -159,33 +168,14 @@ Solitons
 \end{figure}
 
 
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.6\linewidth]{fig2.jpg}
-\caption{Simultaneous recordings of AP-induced and spontaneous calcium transients}
-\label{fig:fig2}
-\end{figure}
+%\begin{figure}
+%    \includegraphics[width=\linewidth]{fig3.png}
+%    \caption{Arrhythmia}
+%    \label{fig:fig3}
+%\end{figure}
 
 
-\begin{figure}
-    \includegraphics[width=\linewidth]{fig3.png}
-    \caption{Arrhythmia}
-    \label{fig:fig3}
-\end{figure}
 
-
-We decided to apply a wavelet analysis of calcium oscillation frequencies.
-
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.9\linewidth]{coh.png}
-\caption{Wavelet coherence}
-\label{fig:coherence}
-\end{figure}
-
-We performed a calculation of the \ref{fig:coherence} coherence between the sinus rhythm and cardiomyocytes in various stages of damage.
-The role of calcium in regulation of conraction.
-in the occurrence of arrhythmias.
 In ischemic myocardium, calcium waves are considered as an arrhythmogenic substrate.
 The effect of hypoxia on calcium oscillations in the epicardial layer of cardiomyocytes.
 \\
@@ -207,11 +197,37 @@ We found that cardiomyocytes located in the border zone adjacent to the necrosis
 \label{fig:fig5}
 \end{figure}
 
-\begin{figure}
-    \includegraphics[width=\linewidth]{fig6.png}
-    \caption{Image analysis and roi clustaring}
-    \label{fig:fig6}
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.9\linewidth]{fig2.png}
+\caption{clustering and kinesiogramms}
+\label{fig:fig2}
 \end{figure}
+
+Simultaneous recordings of AP-induced and spontaneous calcium transients
+
+
+We decided to apply a wavelet analysis of calcium oscillation frequencies. \cite{addison2018introduction}
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.9\linewidth]{coh.png}
+\caption{Wavelet coherence images of two time series provided by correspondent ROI fluorescent imaging within subepicardial layer.
+The vertical axis shows the Fourier periods. The horizontal axis shows time step counts.
+Further plot design options concern: plot of the cone of influence, plot of contour lines to border areas of significance, plot of the ridge, and plot of arrows to reflect phase differences.}
+\label{fig:coherence}
+\end{figure}
+
+We performed a calculation of the \ref{fig:coherence} coherence between the sinus rhythm and cardiomyocytes in various stages of damage.
+The role of calcium in regulation of conraction.
+in the occurrence of arrhythmias.
+
+
+%\begin{figure}
+%    \includegraphics[width=\linewidth]{fig6.png}
+%    \caption{Image analysis and roi clustaring}
+%    \label{fig:fig6}
+%\end{figure}
 
 Fig. 1. Cardiomyocytes adjacent to the epicardial surface of the heart.
 Based on a series of optical sections, a three-dimensional image of a portion of the myocardium of an isolated rat heart stained with a potential dependent Di-8-ANEPPS dye.
@@ -475,7 +491,7 @@ Author2 designed the research. Author1 carried out all simulations, analyzed the
 
 \section*{Acknowledgments}
 
-We thank G. Harrison, B. Harper, and J. Doe for their help.
+We thank Dr. Polyanski , B. Harper, and J. Doe for their help.
 
 % Uncomment if using bibtex (default)
 \bibliography{mybib}
@@ -491,5 +507,10 @@ An online supplement to this article can be found by visiting BJ Online at \url{
 % 1) scv tables
 % 2) R scripts
 % 3) videos
+
+\iffalse
+А не посчитать ли дифференциальное уравнение, декремент затухания?..
+причина затуханий - сокращение клетки?
+\fi
 
 \end{document}

@@ -1,6 +1,11 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{29}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
+
+\bibitem[Xiao(2011)]{xiao2011cardiac}
+Xiao, Y.-F., 2011.
+\newblock Cardiac arrhythmia and heart failure: From bench to bedside.
+\newblock \emph{Journal of geriatric cardiology: JGC} 8:131.
 
 \bibitem[Shen and Jennings(1972{\natexlab{a}})]{shen1972myocardial}
 Shen, A.~C., and R.~B. Jennings, 1972.
@@ -59,6 +64,18 @@ Rueden, C.~T., J.~Schindelin, M.~C. Hiner, B.~E. DeZonia, A.~E. Walter, E.~T.
 \newblock ImageJ2: ImageJ for the next generation of scientific image data.
 \newblock \emph{BMC bioinformatics} 18:529.
 
+\bibitem[Grinsted et~al.(2004)Grinsted, Moore, and
+  Jevrejeva]{grinsted2004application}
+Grinsted, A., J.~C. Moore, and S.~Jevrejeva, 2004.
+\newblock Application of the cross wavelet transform and wavelet coherence to
+  geophysical time series.
+\newblock \emph{Nonlinear processes in geophysics} 11:561--566.
+
+\bibitem[Kahraman and {\"U}nal(2016)]{kahraman2016multiple}
+Kahraman, E., and G.~{\"U}nal, 2016.
+\newblock Multiple wavelet coherency analysis and forecasting of metal prices.
+\newblock \emph{arXiv preprint arXiv:1602.01960} .
+
 \bibitem[Team et~al.(2014)]{team2014r}
 Team, R.~C., et~al., 2014.
 \newblock R: A language and environment for statistical computing.
@@ -69,6 +86,11 @@ R{\"o}sch, A., and H.~Schmidbauer, 2016.
 \newblock WaveletComp 1.1: A guided tour through the R package.
 \newblock \emph{URL: http://www. hsstat.
   com/projects/WaveletComp/WaveletComp\_guided\_tour. pdf} .
+
+\bibitem[Addison(2018)]{addison2018introduction}
+Addison, P.~S., 2018.
+\newblock Introduction to redundancy rules: the continuous wavelet transform
+  comes of age.
 
 \bibitem[Kocksk{\"a}mper and Blatter(2002)]{kockskamper2002subcellular}
 Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.

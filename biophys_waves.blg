@@ -1,16 +1,18 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: biophys_waves.aux
 The style file: biophysj.bst
 Database file #1: mybib.bib
-Repeated entry---line 708 of file mybib.bib
+Repeated entry---line 738 of file mybib.bib
  : @article{jiang2014pacing
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1426 of file mybib.bib
+Repeated entry---line 1456 of file mybib.bib
  : @article{kong2014role
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1575 of file mybib.bib
+Repeated entry---line 1605 of file mybib.bib
  : @article{sato2014depolarization
  :                                ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "sharma2017use"
 (There were 3 error messages)
