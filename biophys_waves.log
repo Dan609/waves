@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  24 JUL 2019 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  24 JUL 2019 19:03
 entering extended mode
 **./biophys_waves.tex
 (biophys_waves.tex
@@ -1309,49 +1309,58 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: fig1.png Graphic file (type png)
 <use fig1.png>
 Package pdftex.def Info: fig1.png  used on input line 167.
-(pdftex.def)             Requested size: 449.27701pt x 503.25491pt.
-<fig2.png, id=53, 1250.6725pt x 1015.795pt>
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 174.
-(pdftex.def)             Requested size: 449.27701pt x 364.89543pt.
-<fig3.png, id=54, 1405.25pt x 1003.75pt>
+(pdftex.def)             Requested size: 399.36157pt x 447.34103pt.
+<fig2.jpg, id=53, 602.25pt x 720.7728pt>
+File: fig2.jpg Graphic file (type jpg)
+<use fig2.jpg>
+Package pdftex.def Info: fig2.jpg  used on input line 174.
+(pdftex.def)             Requested size: 399.36157pt x 477.97711pt.
+<fig3.png, id=54, 1150.2975pt x 1043.9pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 187.
-(pdftex.def)             Requested size: 449.27701pt x 320.91556pt.
-<fig4.png, id=55, 844.15375pt x 1044.90375pt>
+Package pdftex.def Info: fig3.png  used on input line 181.
+(pdftex.def)             Requested size: 399.36157pt x 362.42368pt.
+<fig4.png, id=55, 1405.25pt x 1003.75pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 194.
-(pdftex.def)             Requested size: 449.27701pt x 556.12416pt.
-<fig5.png, id=56, 1408.26125pt x 1083.04625pt>
+Package pdftex.def Info: fig4.png  used on input line 193.
+(pdftex.def)             Requested size: 399.36157pt x 285.25998pt.
+<fig5.png, id=56, 1434.35875pt x 1074.0125pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 204.
-(pdftex.def)             Requested size: 449.27701pt x 345.52422pt.
-<fig6.png, id=58, 1069.9975pt x 1058.95625pt>
+Package pdftex.def Info: fig5.png  used on input line 200.
+(pdftex.def)             Requested size: 399.36157pt x 299.03348pt.
+<fig6.png, id=57, 1008.76875pt x 1083.04625pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 218.
-(pdftex.def)             Requested size: 449.27701pt x 444.6455pt.
+Package pdftex.def Info: fig6.png  used on input line 211.
+(pdftex.def)             Requested size: 299.52309pt x 321.57814pt.
+<fig7.png, id=58, 1686.3pt x 1083.04625pt>
+File: fig7.png Graphic file (type png)
+<use fig7.png>
+Package pdftex.def Info: fig7.png  used on input line 220.
+(pdftex.def)             Requested size: 449.27701pt x 288.5428pt.
+<fig8.png, id=60, 1069.9975pt x 1058.95625pt>
+File: fig8.png Graphic file (type png)
+<use fig8.png>
+Package pdftex.def Info: fig8.png  used on input line 234.
+(pdftex.def)             Requested size: 399.36157pt x 395.2494pt.
 
-[3] [4 <./fig1.png (PNG copy)>] [5 <./fig2.png (PNG copy)>] [6 <./fig3.png (PNG
- copy)>] [7 <./fig4.png (PNG copy)>]
-Underfull \vbox (badness 1019) has occurred while \output is active []
+[3] [4 <./fig1.png (PNG copy)>] [5 <./fig2.jpg>] [6 <./fig3.png (PNG copy)>]
+[7 <./fig4.png (PNG copy)> <./fig5.png (PNG copy)>] [8 <./fig6.png (PNG copy)>]
+[9 <./fig7.png (PNG copy)>]
+Underfull \vbox (badness 4193) has occurred while \output is active []
 
- [8 <./fig5.png (PNG copy)>] [9 <./fig6.png (PNG copy)>] [10] [11] (biophys_wav
-es.bbl
-[12] [13])
+ [10 <./fig8.png (PNG copy)>] [11] [12] (biophys_waves.bbl [13])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 529.
 [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 529.
  (biophys_waves.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 513.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 529.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
 Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 (rerunfilecheck)             Checksum: 046E01DEC5FE039E5DA7F9B2C650F4A4;60.
 
@@ -1361,13 +1370,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 25136 strings out of 492895
- 440426 string characters out of 3125603
- 678721 words of memory out of 3000000
- 28582 multiletter control sequences out of 15000+200000
+ 25151 strings out of 492895
+ 440596 string characters out of 3125603
+ 680721 words of memory out of 3000000
+ 28592 multiletter control sequences out of 15000+200000
  623035 words of font info for 174 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,94p,1428b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,15n,94p,1428b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ts1.
 enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ot1
 -tlf.enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/nt
@@ -1383,9 +1392,9 @@ eX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/1/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/1/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb>
-Output written on biophys_waves.pdf (14 pages, 5676713 bytes).
+Output written on biophys_waves.pdf (14 pages, 10670225 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 26663 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 26673 words of extra memory for PDF output out of 29859 (max. 10000000)
 
