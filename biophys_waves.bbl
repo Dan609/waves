@@ -2,11 +2,6 @@
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
-\bibitem[Xiao(2011)]{xiao2011cardiac}
-Xiao, Y.-F., 2011.
-\newblock Cardiac arrhythmia and heart failure: From bench to bedside.
-\newblock \emph{Journal of geriatric cardiology: JGC} 8:131.
-
 \bibitem[Shen and Jennings(1972{\natexlab{a}})]{shen1972myocardial}
 Shen, A.~C., and R.~B. Jennings, 1972.
 \newblock Myocardial calcium and magnesium in acute ischemic injury.
@@ -21,6 +16,11 @@ Shen, A.~C., and R.~B. Jennings, 1972.
 Nayler, W.~G., 1981.
 \newblock The role of calcium in the ischemic myocardium.
 \newblock \emph{The American journal of pathology} 102:262.
+
+\bibitem[Xiao(2011)]{xiao2011cardiac}
+Xiao, Y.-F., 2011.
+\newblock Cardiac arrhythmia and heart failure: From bench to bedside.
+\newblock \emph{Journal of geriatric cardiology: JGC} 8:131.
 
 \bibitem[Minamikawa et~al.(1997)Minamikawa, Cody, and
   Williams]{minamikawa1997situ}

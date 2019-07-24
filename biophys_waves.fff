@@ -1,31 +1,8 @@
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.6\linewidth]{fig0.jpg}
-\caption{Different stages of myocardial damage ..Mitochondrial}
-\label{fig:fig0}
-\end{figure}
-\efloatseparator
- 
-\begin{figure}[hbt!]
-\centering
 \includegraphics[width=0.6\linewidth]{fig1.png}
 \caption{Confocal view and 3D models of epecardial cardiomyocytes, connective tissue and cappillaries}
 \label{fig:fig1}
-\end{figure}
-\efloatseparator
- 
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.6\linewidth]{fig2.jpg}
-\caption{Simultaneous recordings of AP-induced and spontaneous calcium transients}
-\label{fig:fig2}
-\end{figure}
-\efloatseparator
- 
-\begin{figure}
-    \includegraphics[width=\linewidth]{fig3.png}
-    \caption{Arrhythmia}
-    \label{fig:fig3}
 \end{figure}
 \efloatseparator
  
@@ -44,15 +21,19 @@
 \end{figure}
 \efloatseparator
  
-\begin{figure}
-    \includegraphics[width=\linewidth]{fig6.png}
-    \caption{Image analysis and roi clustaring}
-    \label{fig:fig6}
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.9\linewidth]{fig2.png}
+\caption{clustering and kinesiogramms}
+\label{fig:fig2}
 \end{figure}
 \efloatseparator
  
-\begin{figure}
-    \includegraphics[width=0.6\linewidth]{figA.jpg}
-    \caption{Arrhythmia}
-    \label{fig:figA}
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.9\linewidth]{coh.png}
+\caption{Wavelet coherence images of two time series provided by correspondent ROI fluorescent imaging within subepicardial layer.
+The vertical axis shows the Fourier periods. The horizontal axis shows time step counts.
+Further plot design options concern: plot of the cone of influence, plot of contour lines to border areas of significance, plot of the ridge, and plot of arrows to reflect phase differences.}
+\label{fig:coherence}
 \end{figure}

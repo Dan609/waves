@@ -1,4 +1,4 @@
-% \documentclass[lineno,twocolumn,endfloat]{biophys-new}
+%\documentclass[lineno,twocolumn,endfloat]{biophys-new}
 \documentclass{biophys-new}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -29,18 +29,19 @@
 \begin{frontmatter}
 \begin{abstract}
 
-\textit{Key words:} calcium waves, calcium overloading, cardiomyocytes, myocardium, ischemia, arrhytmia, wavelet coherence
+\textit{Key words:} calcium waves, cardiomyocytes, myocardium, ischemia, arrhytmia, wavelet coherence
 
 \end{abstract}
 \end{frontmatter}
 
 \section*{Introduction}
 
+An intracellular accumulation of \ce{Ca^2+} caused by a failure of the ATP-dependent mechanisms known to be the key events in myocardial damage during ischemia \cite{shen1972myocardial,shen1972kinetics,nayler1981role}.
 
 Arrhythmias associated with myocardial damage are one of the leading causes of death in the ageing human population (\cite{xiao2011cardiac}, \cite{}).
 CICR and sinus rhythm
 Measurement of \ce{Ca^2+} waves in isolated rat heart
-An intracellular accumulation of \ce{Ca^2+} caused by a failure of the ATP-dependent mechanisms known to be the key events in myocardial damage during ischemia \cite{shen1972myocardial,shen1972kinetics,nayler1981role}.
+
 In the process of damage progression functional myocardial tissue becomes \ce{Ca^2+} -overloaded and then lost functionality with the properties of \ce{Ca^2+} waves changing progressively over time \cite{minamikawa1997situ,hama1998real}.
 Now it is well acknowledged that \ce{Ca^2+} - overloaded cardiomyocytes are essential substrate for arrhythmias and contractile failure, especially in acute myocardial infarct.
 \ce{Ca^2+} dynamics at the border zones between the infarcted and non-infarcted myocardium is considered to be a key element for arrhythmogenesis \cite{takamatsu2008arrhythmogenic}.
@@ -48,7 +49,7 @@ In this study, we applied the method of confocal microscopy and carried out a fr
 Wavelet tranform of electrocardiogram (ECG)
 ECG-derived data \cite{sharma2017use}
 For optical registration of calcium waves \cite{matsuura2018intravital} ...
-Here we provide an approach
+Here we provide an approach for investigation the spatio–temporal frequency domains in multicellular speciemen.
 Unstationarity in Calcium Oscillations in Isolated Heart Revealed by Wavelet Analysis
 Spectral analysis of hypoxia-indused calcium waves in isolated rat heart on the subcellular level reveal local hypercontraction sites as sources for hight-frequency oscillations.
 Local hypercontracts are centers of high-frequency calcium oscillations
@@ -126,6 +127,7 @@ Cross-Wavelet power spectrum of the series with interval color key and restricte
 Limit the area where arrows are drawn to the region where both individual wavelet transforms of x and y show significance (set which.arrow.sig = "wt"), and avoid the artifacts of the
 The significance level of contour lines defined to . The plot of the ridge can be restricted to a high-level region ("high" according to a given level of plotted values). In particular, the area to be filled with arrows can be determined in several ways: to reflect significance (at a given level) with respect to cross-wavelet power, wavelet coherence, or individual wavelet power, and/or to flag a high-value region. Furthermore, there is an option to clear out the area where the p-values of cross-wavelet power (coherence, respectively) exceed a given level.
 
+Calibration with a sine wave signal
 
 ( for 094--: 455.9 mkm / 512px = 0,8904296875
 Area = 318,363, x = 17.8427296118, $\approx$ 17.8 $\mu$ m
@@ -162,17 +164,17 @@ Solitons
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.6\linewidth]{fig1.png}
+\includegraphics[width=0.9\linewidth]{fig1.png}
 \caption{Confocal view and 3D models of epecardial cardiomyocytes, connective tissue and cappillaries}
 \label{fig:fig1}
 \end{figure}
 
 
-%\begin{figure}
-%    \includegraphics[width=\linewidth]{fig3.png}
-%    \caption{Arrhythmia}
-%    \label{fig:fig3}
-%\end{figure}
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{fig2.png}
+    \caption{clustering and kinesiogramms, Normalized against F0 (left) and not normalized (right) frames with ROI selection and heat maps of Flou-4 fluorescence intensity signals }
+    \label{fig:fig3}
+\end{figure}
 
 
 
@@ -182,9 +184,16 @@ The effect of hypoxia on calcium oscillations in the epicardial layer of cardiom
 In the course of myocardial observations after simultaneous staining of Di-8-ANEPPS and Fluo-4 under conditions where cardiac contractions were inhibited by blebbistatin, normal myocardial regions characterized by passage of a global calcium-ejection wave corresponding to sinus rhythm and small contractions were revealed. Tissue abbreviations were determined by averaging the Di-8-ANEPPS fluorescent signal from ten arbitrarily selected ROIs of 20 $\mu$ m x 20 $\mu$ m size (Figure 5). Also, the areas of the myocardium, located in different stages of ischemic damage, were identified. For the initial stage of damage, groups of cardiomyocytes with an increased value of \ce{Ca^2+}, in which high-frequency calcium waves were observed (Fig. 6), are characteristic. Nascent on the edge of the cell or in its middle, these waves can spread to neighboring cells (Figure 7). With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in \ce{Ca^2+} in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D). The cardiomyocytes adjacent to the necrosis zone were characterized mainly by slow, damped calcium waves with a large amplitude (Fig. 8).
 
 \begin{figure}
-    \includegraphics[width=\linewidth]{fig4.png}
+    \includegraphics[width=0.9\linewidth]{fig3.png}
     \caption{Time series analysis and wavelet coherence}
     \label{fig:fig4}
+\end{figure}
+
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{fig4.png}
+    \caption{Nested ROI with the appropriate pixel dimensions: 512x512 - whole frame, 180x40 - one cell, 40x40,10x10, 2x2 - cell areas containing HFOLS.}
+    \label{fig:fig6}
 \end{figure}
 
 Calcium waves in the subepicardial myocardium in Langendorff-perfused rat heart.
@@ -192,17 +201,12 @@ We found that cardiomyocytes located in the border zone adjacent to the necrosis
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=\linewidth]{fig5.png}
+\includegraphics[width=0.9\linewidth]{fig5.png}
 \caption{Simultaneous recordings of [Ca2+]i during spontaneous firing in neighboring epicardial cardiomyocytes. [Ca2+]i was monitored with the fluorescent probe Fluo-4 (see Experimental Procedures). [Ca2+]i measurement covers the 10x20 mkm ROI. AP occurred spontaneously without any stimulation}
 \label{fig:fig5}
 \end{figure}
 
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.9\linewidth]{fig2.png}
-\caption{clustering and kinesiogramms}
-\label{fig:fig2}
-\end{figure}
+
 
 Simultaneous recordings of AP-induced and spontaneous calcium transients
 
@@ -211,7 +215,7 @@ We decided to apply a wavelet analysis of calcium oscillation frequencies. \cite
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.9\linewidth]{coh.png}
+\includegraphics[width=0.9\linewidth]{fig6.png}
 \caption{Wavelet coherence images of two time series provided by correspondent ROI fluorescent imaging within subepicardial layer.
 The vertical axis shows the Fourier periods. The horizontal axis shows time step counts.
 Further plot design options concern: plot of the cone of influence, plot of contour lines to border areas of significance, plot of the ridge, and plot of arrows to reflect phase differences.}
@@ -222,12 +226,6 @@ We performed a calculation of the \ref{fig:coherence} coherence between the sinu
 The role of calcium in regulation of conraction.
 in the occurrence of arrhythmias.
 
-
-%\begin{figure}
-%    \includegraphics[width=\linewidth]{fig6.png}
-%    \caption{Image analysis and roi clustaring}
-%    \label{fig:fig6}
-%\end{figure}
 
 Fig. 1. Cardiomyocytes adjacent to the epicardial surface of the heart.
 Based on a series of optical sections, a three-dimensional image of a portion of the myocardium of an isolated rat heart stained with a potential dependent Di-8-ANEPPS dye.
@@ -457,12 +455,11 @@ of uniform \ce{Ca^2+} transients (Figs. 3 and 4). \cite{jiang2014pacing}, \cite{
 
 Spontaneous \ce{Ca^2+} waves during diastole are indicative of cellular Ca 21 overload \cite{macquaide2007measurement}
 
-
-\begin{figure}
-    \includegraphics[width=0.6\linewidth]{figA.jpg}
-    \caption{Arrhythmia}
-    \label{fig:figA}
-\end{figure}
+%\begin{figure}
+%    \includegraphics[width=0.6\linewidth]{figA.jpg}
+%    \caption{Arrhythmia}
+%    \label{fig:figA}
+%\end{figure}
 
 Analysis of calcium alternans in ischemic condition
 calcium overloading
