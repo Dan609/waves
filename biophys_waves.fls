@@ -182,6 +182,12 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.st
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\newtx\t1ntxtlf.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\newtx\t1ntxtlf.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
@@ -321,6 +327,7 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmssi10.t
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmssi8.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmssi8.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\tex-gyre\ec-qhvr.tfm
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\tex-gyre\ec-qhvr.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\tex-gyre\ec-qhvri.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\tex-gyre\ec-qhvb.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\ntx-Regular-tlf-t1.tfm
@@ -404,11 +411,18 @@ INPUT .\fig8.png
 INPUT .\fig8.png
 INPUT biophys_waves.bbl
 INPUT biophys_waves.bbl
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang2.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang2.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang3.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang3.sty
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\tex-gyre\ts1-qtmb.tfm
 INPUT biophys_waves.aux
 INPUT .\biophys_waves.out
 INPUT .\biophys_waves.out
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\tex-gyre\q-ts1.enc
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\newtx\ntx-ot1-tlf.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\newtx\ntx-ec-tlf.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\tex-gyre\q-ec.enc

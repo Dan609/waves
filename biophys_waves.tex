@@ -8,6 +8,7 @@
 \usepackage[version=3]{mhchem}
 \usepackage{gensymb}
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{listings}
 
 \title{ Wavelet analysis reveals coherence dynamics between trigerred and spontaneous \ce{Ca^2+} oscillations in subepicardial cardiomyocytes }
 \runningtitle{Calcium waves wavelet analysis} %% For page header
@@ -30,13 +31,13 @@
 \begin{frontmatter}
 \begin{abstract}
 
-Calcium ions play a key role in the formation of the electrical and mechanical responses of the heart.
-Sporadic calcium waves was observed using confocal laser microscopy in the subepicardial layers of the myocardium of an isolated rat heart under hypoxic conditions.
+\ce{Ca^2+} ions play a key role in the formation of the electrical and mechanical responses of the heart.
+Sporadic \ce{Ca^2+} waves was observed using confocal laser microscopy in the subepicardial layers of the myocardium of an isolated rat heart under hypoxic conditions.
 Such waves propagate a short distance around their source and interfere with sinus rhythm.
-The source of these waves are local high-frequency oscillations calcium release (LHFOR) regions, associated with hypercontraction-related damage sites.
+The source of these waves are local high-frequency oscillations \ce{Ca^2+} release (LHFOR) regions, associated with hypercontraction-related damage sites.
 Analysis of the frequency and amplitude characteristics of calcium waves in LHFOR made it possible to characterize them as non stationarity damped oscillations with maximum frequency of about 3 Hz with damping rate of about 0.27 Hz/min.
 LHFOR can interfere with the third and second harmonics of sinus rhythm, leading to the emergence of time intervals with increased coherence between the aberrant and normal rhythm.
-The findings suggest possible involvement of abnormal calcium release from the sarcoplasmic reticulum in the process of arrhythmogenic activity of the heart in hypoxic condition.
+The findings suggest possible involvement of abnormal \ce{Ca^2+} release from the sarcoplasmic reticulum in the process of arrhythmogenic activity of the heart in hypoxic condition.
 
 
 \textit{Key words:} calcium waves, cardiomyocytes, myocardium, ischemia, arrhytmia, wavelet coherence
@@ -45,6 +46,9 @@ The findings suggest possible involvement of abnormal calcium release from the s
 \end{frontmatter}
 
 \section*{Introduction}
+
+Integral \ce{Ca^2+} release from the sarcoplasmic reticulum following action potentials propagating along the excitable membrane of cardiomyocytes is the main factor initiating a contractile response.
+Under a number of adverse conditions and/or according to individual heart diseases, abnormal forms of \ce{Ca^2+} release from the sarcoplasmic reticulum are observed, which may cause arrhythmogenesis.
 
 An intracellular accumulation of \ce{Ca^2+} caused by a failure of the ATP-dependent mechanisms known to be the key events in myocardial damage during ischemia \cite{shen1972myocardial,shen1972kinetics,nayler1981role}.
 
@@ -254,6 +258,8 @@ Solitons
     \caption{clustering and kinesiogramms, Normalized against F0 (left) and not normalized (right) frames with ROI selection and heat maps of Flou-4 fluorescence intensity signals }
     \label{fig:fig2}
 \end{figure}
+
+Plus video in good resolution in supplement. In futhure research we used 512 resolution for the sake of time resolutuon
 
 
 \begin{figure}
@@ -598,13 +604,71 @@ We thank Dr. Polyanski , B. Harper, and J. Doe for their help.
 % \printbibliography
 
 \section*{Supplementary Material}
-
 An online supplement to this article can be found by visiting BJ Online at \url{http://www.biophysj.org}.
 
-% SUPPLEMENTARY MATERIAL
-% 1) scv tables
-% 2) R scripts
-% 3) videos
+\subsection*{R code}
+
+\begin{lstlisting}[language=R]
+# Analisys of calcium oscillations by Dan Bobkov, 2018
+
+library(WaveletComp)
+library(pdc)
+library(tseriesEntropy)
+
+# load data obtained from ImageJ
+
+calcium <- read.csv2('20x20.csv')
+
+# choose variable
+
+xcal <- calcium$ROI16
+
+# time series analysis
+
+calcium_ts <- ts(xcal, start = calcium$time[1])
+
+del <- 0.1
+x.spec <- spectrum(calcium_ts, log = "no", span = 10, plot = FALSE)
+spx <- x.spec$freq/del
+spy <- 2*x.spec$spec
+
+# plot results
+
+par(mfrow=c(2,3))
+
+plot(xcal ~ calcium$time,
+     xlab = "time (s)", ylab = "fluorescence intensity (a.u.)", t="l",
+     xlim = c(0, 110), ylim = c(0, 150), main = "Total signal")
+
+plot(xcal ~ calcium$time,
+     xlab = "time (s)", ylab = "fluorescence intensity (a.u.)", t="l",
+     xlim = c(0, 20), ylim = c(-1, 1), main = "Signal segment")
+
+boxplot(xcal, ylab = "fluorescence intensity (a.u.)",
+        main = "Mean intensity", ylim = c(-1, 1))
+
+plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
+     type="l", lwd = 2)
+
+acf(xcal, lag.max = 100, main = "Autocorrelation")
+
+# Entropy measure
+
+w <- as.integer(xcal)
+
+Srho(w, lag.max = 10, stationary = TRUE, plot = TRUE,
+     version = "FORTRAN")
+
+\end{lstlisting}
+
+\subsection*{Video files}
+
+170517Series144.wmv
+094Roi.avi
+
+\subsection*{Tables in csv format}
+
+094px.csv
 
 \iffalse
 А не посчитать ли дифференциальное уравнение, декремент затухания?..
