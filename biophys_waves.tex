@@ -10,7 +10,7 @@
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
 
 \title{ Wavelet analysis reveals coherence dynamics between trigerred and spontaneous \ce{Ca^2+} oscillations in subepicardial cardiomyocytes }
-\runningtitle{runningtitle} %% For page header
+\runningtitle{Calcium waves wavelet analysis} %% For page header
 \author[1,*]{Danila Bobkov}
 \author[7]{Galina Sakuta}
 \author[3]{Ekaterina Baidyuk}
@@ -23,14 +23,22 @@
 \affil[4,5,6]{Sechenov Institute of Evolutionary Physiology and Biochemistry of the Russian Academy of Science, 194223 Russia Saint-Petersburg pr.Torez 44}
 % \affil[6]{Department of Anesthesiology, University of Arkansas for Medical Sciences, Little Rock, AR, United States}
 \affil[7]{Dorothy M. Davis Heart and Lung Research Institute, College of Medicine, Ohio State University, Columbus, OH, United States}
-\corrauthor[*]{bobkov@incras.ru}
+\corrauthor[*]{dan.bobkov@gmail.com}
 \papertype{Article}
 
 \begin{document}
 \begin{frontmatter}
 \begin{abstract}
 
-Non stationarity of calcium oscillations.
+Calcium ions play a key role in the formation of the electrical and mechanical responses of the heart.
+Sporadic calcium waves was observed using confocal laser microscopy in the subepicardial layers of the myocardium of an isolated rat heart under hypoxic conditions.
+Such waves propagate a short distance around their source and interfere with sinus rhythm.
+The source of these waves are local high-frequency oscillations calcium release (LHFOR) regions, associated with hypercontraction-related damage sites.
+Analysis of the frequency and amplitude characteristics of calcium waves made it possible to characterize them as non stationarity damped oscillations with a damping rate of about 0.27 Hz / min.
+
+
+
+
 
 \textit{Key words:} calcium waves, cardiomyocytes, myocardium, ischemia, arrhytmia, wavelet coherence
 
@@ -116,7 +124,7 @@ The membrane structure of epicardial myocytes was analyzed in situ by confocal m
 \label{tab:widgets}
 \centering
 \begin{threeparttable}
-\begin{tabular}{c l r w}
+\begin{tabular}{c l r f}
 \hline
 Code & Item & Quantity & MaxFrequency  \\\hline
 40 ROI & Cells\tnote{a} & 40 & 1  \\
@@ -197,7 +205,7 @@ Information about the two series’ synchronization in terms of the instantaneou
 \text{Angle.xy}(\tau, s)=\text{Arg}(\text{Wave.xy}(\tau, s))
 \end{equation}
 
-This equals the difference of individual phases, Phase.x − Phase.y, when converted to an angle in the
+This equals the difference of individual phases, Phase.x --- Phase.y, when converted to an angle in the
 interval $[-\pi,\pi]$.
 Phase differences are displayed as arrows in the image plot of cross-wavelet power.
 
