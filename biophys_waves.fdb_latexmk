@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex biophys_waves"] 1564065751 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1564070264
+["bibtex biophys_waves"] 1564071060 "biophys_waves.aux" "biophys_waves.bbl" "biophys_waves" 1564071085
   "./biophysj.bst" 1550848129 34286 722d689a6da86bdb747990ba23e79977 ""
-  "biophys_waves.aux" 1564070261 9184 4a8860bf8314f94c94c5ca41bbebc259 "pdflatex"
+  "biophys_waves.aux" 1564071082 9184 3e5aa61f7ec098b3e47c5bf94048764b "pdflatex"
   "mybib.bib" 1563896687 65607 68332735f8d110543ff798d095ecbcf3 ""
   (generated)
-  "biophys_waves.blg"
   "biophys_waves.bbl"
-["pdflatex"] 1564070250 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1564070264
+  "biophys_waves.blg"
+["pdflatex"] 1564071062 "biophys_waves.tex" "biophys_waves.pdf" "biophys_waves" 1564071085
   "C:/Users/1/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1563387866 4243260 8ba7bbd6ac9c1f5428bf60f6a0e9c595 ""
   "C:/Users/1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1563811185 150920 4400a851ca8a7a6829c2678c27726155 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -192,10 +192,10 @@
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xkeyval/xkeyval.sty" 1419270738 5114 9c1069474ff71dbc47d5006555e352d3 ""
   "C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/tex/latex/xpatch/xpatch.sty" 1349388584 8322 5f9c642edadff4ce819c39eb7dccea61 ""
   "biophys-new.cls" 1550848067 4310 d188048c9408d6a770a5e13a77ba754b ""
-  "biophys_waves.aux" 1564070261 9184 4a8860bf8314f94c94c5ca41bbebc259 "pdflatex"
-  "biophys_waves.bbl" 1564065751 8687 4066d5424cd3ed85eed992ff98c08b79 "bibtex biophys_waves"
-  "biophys_waves.out" 1564070255 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "biophys_waves.tex" 1564070247 47654 03fd37ad558d94be126c681cdf296efe ""
+  "biophys_waves.aux" 1564071082 9184 3e5aa61f7ec098b3e47c5bf94048764b "pdflatex"
+  "biophys_waves.bbl" 1564071061 8687 4066d5424cd3ed85eed992ff98c08b79 "bibtex biophys_waves"
+  "biophys_waves.out" 1564071071 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "biophys_waves.tex" 1564071038 48053 55dbeac41a53b0c36f10f568d5326d6f ""
   "fig1.png" 1563823487 1229857 a53712976b5087cde451a4e0ad87bb5e ""
   "fig2.jpg" 1508866486 4332128 863f8cd42b1775d3435023a660aaf5b9 ""
   "fig3.png" 1563979277 886583 45a9aec406f69cf9acb6ea8ab16f5e39 ""
@@ -206,6 +206,6 @@
   "fig8.png" 1563897635 988559 43d634779735761bd7d266217fdc3d64 ""
   (generated)
   "biophys_waves.aux"
-  "biophys_waves.log"
-  "biophys_waves.out"
   "biophys_waves.pdf"
+  "biophys_waves.out"
+  "biophys_waves.log"
