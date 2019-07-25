@@ -7,6 +7,7 @@
 \usepackage{xcolor}
 \usepackage[version=3]{mhchem}
 \usepackage{gensymb}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
 
 \title{ Wavelet analysis reveals coherence dynamics between trigerred and spontaneous \ce{Ca^2+} oscillations in subepicardial cardiomyocytes }
 \runningtitle{runningtitle} %% For page header
@@ -83,7 +84,7 @@ To investigate spontaneous \ce{Ca^2+} waves in myocardium, we positioned isolate
 This combination provide sufficient depth discrimination to focus directly onto the epicardial layers and individual cells within the intact functioning organ.
 
 To the simultaneous detection of fluorescence of Fluo-4 and TMRM we used an argon laser with a wavelength 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\%. The fluorescence detection was carried out in the spectral range 493 nm -- 540 nm for Fluo-4 and 552 nm -- 792 nm for TMRM. Since the specific values of the background fluorescence depended on the density of the capillary network, the amount of connective tissue in the field of view, and other factors, the sensitivity of the PMT detector (gain) was selected individually each time, depending on the conditions of the survey, and was usually 600 to 800 units.
-changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, a resonant scanner (8000 Hz) was used, and the diameter of the confocal pinhole was set to 100\ mu m.
+changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, a resonant scanner (8000 Hz) was used, and the diameter of the confocal pinhole was set to 100 $\mu$m.
 A fluorescent signal was registered in the first layer of cardiomyocytes adjacent to the epicardial surface of an isolated heart (Fig. 1). The fluorescent signal was measured in a whole frame or in certain regions of interest (regions of interest, ROI).
 Spectral analysis of calcium oscillations was carried out using a fast Fourier transform.
 Studies were carried out on the model of an isolated working rat heart perfused by the method of Langendorff.
@@ -96,7 +97,7 @@ Fluorescence detection was carried out using two photomultiplier tubes (PMT), 49
 With the simultaneous detection of fluorescence Fluo-4 and TMRM, an argon laser with a wavelength of 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\% were used to excite the fluorescence.
 The fluorescence detection was carried out in the spectral range 493 nm-540 nm for Fluo-4 and 552 nm --- 792 nm for TMRM.
 Since the specific values of the background fluorescence depended on the density of the capillary network, the amount of connective tissue in the field of view, and other factors, the sensitivity of the PMT detector (gain) was selected individually each time, depending on the conditions of the survey, and was usually 600 to 800 units.
-For optical registration of calcium waves, changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, a resonant scanner (8000 Hz) was used, and the diameter of the confocal pinhole was set to 100 $\mu$ m.
+For optical registration of calcium waves, changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, a resonant scanner (8000 Hz) was used, and the diameter of the confocal pinhole was set to 100 $\mu$m.
 A fluorescent signal was registered in the first layer of cardiomyocytes adjacent to the epicardial surface of an isolated heart (Fig. 1). The fluorescent signal was measured in a whole frame or in certain regions of interest (regions of interest, ROI).
 Spectral analysis of calcium oscillations was carried out using a fast Fourier transform.
 Calcium imaging with Fluo-4/AM was performed using a confocal laser scanning microscope Leica SP5 with a 40x (NA = 1.3) oil immersion objective. Fluorescence images (excited at 488 nm).
@@ -106,18 +107,22 @@ The membrane structure of epicardial myocytes was analyzed in situ by confocal m
 \subsection*{Data analysis}
 Recorded time-series image stack were analyzed in ImageJ v.1.52p software\cite{rueden2017imagej2}.
 measurement duration= 109.6 s sampling frequency 14.29745 Hz
-Time series analysis in BAR plugin:
+Time series analysis in BAR plugin: raw signal and
 normalization against F0, multi ROI profiler
 16 ROI 10 x 20 $\mu$m were manually selected
 Wavelet analysis
 Formula from \cite{grinsted2004application} and from \cite{kahraman2016multiple} ...
 To cite R in publications use:  \cite{team2014r}
+
 To cite package WaveletComp in publications use: \cite{rosch2016waveletcomp}
 Wavelet methodology is a reasonable choice to study periodic phenomena in time series, particularly in
 the presence of potential frequency changes across time.
 packages for wavelet analysis in R
 number of simulations = 100
-WaveletComp (version 1.1) analyzes the frequency structure of uni- and bivariate time series using the Morlet wavelet. 2
+WaveletComp (version 1.1) analyzes the frequency structure of uni- and bivariate time series using the Morlet wavelet.
+This wavelet leads to a continuous, complex-valued wavelet transform of the time series withy careful selection of time and frequency resolution parameters. The transform provides information on both local amplitude and instantaneous phase of any periodic process across time with subsequent investigation of coherency between two time series.
+The “mother” Morlet wavelet is: \(\psi(t)=\pi^{-frac{1}{4}}e^{\textit{i\omega t}}e^(-frac{\textit{t}^2}{2})\). The Morlet wavelet transform of a time series ($ \textit{x}_t $) is defined as the convolution of the series with a set of “wavelet daughters” generated by the mother wavelet by translation in time by $\tau$ and scaling by \textit{s}: $$Wave(\tau, \textit{s})=\sum_{textit{t}}\textit{x}_{\textit{t}}\frac{1}{\sqrt{s}\psi^{\ast}\left(frac{textit{t}-\tau}{textit{s}}\right)}$$
+
 Contour lines added to the wavelet power spectrum delineate areas of high significance.
 Wavelet power spectrum of the series with variable period
 Horizontal arrows pointing to the right indicate that the two series x and y are in phase at the respective period with vanishing phase differences.
