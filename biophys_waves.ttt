@@ -1,0 +1,18 @@
+\begin{table}[hbt!]
+\caption{An example table}
+\label{tab:widgets}
+\centering
+\begin{threeparttable}
+\begin{tabular}{c l r}
+\hline
+Code & Item & Quantity \\\hline
+40 ROI & Cells\tnote{a} & 40 \\
+24x24 grid & ROIs & 13\tnote{b} 576 \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\item[a] This is a table note.
+\item[b] This is another table note.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

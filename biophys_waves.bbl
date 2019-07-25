@@ -1,0 +1,198 @@
+\begin{thebibliography}{30}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{ }
+
+\bibitem[Xiao(2011)]{xiao2011cardiac}
+Xiao, Y.-F., 2011.
+\newblock Cardiac arrhythmia and heart failure: From bench to bedside.
+\newblock \emph{Journal of geriatric cardiology: JGC} 8:131.
+
+\bibitem[Shen and Jennings(1972{\natexlab{a}})]{shen1972myocardial}
+Shen, A.~C., and R.~B. Jennings, 1972.
+\newblock Myocardial calcium and magnesium in acute ischemic injury.
+\newblock \emph{The American journal of pathology} 67:417.
+
+\bibitem[Shen and Jennings(1972{\natexlab{b}})]{shen1972kinetics}
+Shen, A.~C., and R.~B. Jennings, 1972.
+\newblock Kinetics of calcium accumulation in acute myocardial ischemic injury.
+\newblock \emph{The American journal of pathology} 67:441.
+
+\bibitem[Nayler(1981)]{nayler1981role}
+Nayler, W.~G., 1981.
+\newblock The role of calcium in the ischemic myocardium.
+\newblock \emph{The American journal of pathology} 102:262.
+
+\bibitem[Minamikawa et~al.(1997)Minamikawa, Cody, and
+  Williams]{minamikawa1997situ}
+Minamikawa, T., S.~H. Cody, and D.~A. Williams, 1997.
+\newblock In situ visualization of spontaneous calcium waves within perfused
+  whole rat heart by confocal imaging.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology} 272:H236--H243.
+
+\bibitem[Hama et~al.(1998)Hama, Takahashi, Ichihara, and
+  Takamatsu]{hama1998real}
+Hama, T., A.~Takahashi, A.~Ichihara, and T.~Takamatsu, 1998.
+\newblock Real time in situ confocal imaging of calcium wave in the perfused
+  whole heart of the rat.
+\newblock \emph{Cellular signalling} 10:331--337.
+
+\bibitem[Ishide et~al.(1990)Ishide, Urayama, Inoue, Komaru, and
+  Takishima]{ishide1990propagation}
+Ishide, N., T.~Urayama, K.~Inoue, T.~Komaru, and T.~Takishima, 1990.
+\newblock Propagation and collision characteristics of calcium waves in rat
+  myocytes.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology} 259:H940--H950.
+
+\bibitem[Takamatsu(2008)]{takamatsu2008arrhythmogenic}
+Takamatsu, T., 2008.
+\newblock Arrhythmogenic substrates in myocardial infarct.
+\newblock \emph{Pathology international} 58:533--543.
+
+\bibitem[Matsuura et~al.(2018)Matsuura, Miyagawa, Fukushima, Goto, Harada,
+  Shimozaki, Yamaki, Sanami, Kikuta, Ishii, et~al.]{matsuura2018intravital}
+Matsuura, R., S.~Miyagawa, S.~Fukushima, T.~Goto, A.~Harada, Y.~Shimozaki,
+  K.~Yamaki, S.~Sanami, J.~Kikuta, M.~Ishii, et~al., 2018.
+\newblock Intravital imaging with two-photon microscopy reveals cellular
+  dynamics in the ischeamia-reperfused rat heart.
+\newblock \emph{Scientific reports} 8:15991.
+
+\bibitem[Kong and Fast(2014)]{kong2014role}
+Kong, W., and V.~G. Fast, 2014.
+\newblock The role of dye affinity in optical measurements of Cai2+ transients
+  in cardiac muscle.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology} .
+
+\bibitem[Rueden et~al.(2017)Rueden, Schindelin, Hiner, DeZonia, Walter, Arena,
+  and Eliceiri]{rueden2017imagej2}
+Rueden, C.~T., J.~Schindelin, M.~C. Hiner, B.~E. DeZonia, A.~E. Walter, E.~T.
+  Arena, and K.~W. Eliceiri, 2017.
+\newblock ImageJ2: ImageJ for the next generation of scientific image data.
+\newblock \emph{BMC bioinformatics} 18:529.
+
+\bibitem[Grinsted et~al.(2004)Grinsted, Moore, and
+  Jevrejeva]{grinsted2004application}
+Grinsted, A., J.~C. Moore, and S.~Jevrejeva, 2004.
+\newblock Application of the cross wavelet transform and wavelet coherence to
+  geophysical time series.
+\newblock \emph{Nonlinear processes in geophysics} 11:561--566.
+
+\bibitem[Kahraman and {\"U}nal(2016)]{kahraman2016multiple}
+Kahraman, E., and G.~{\"U}nal, 2016.
+\newblock Multiple wavelet coherency analysis and forecasting of metal prices.
+\newblock \emph{arXiv preprint arXiv:1602.01960} .
+
+\bibitem[Team et~al.(2014)]{team2014r}
+Team, R.~C., et~al., 2014.
+\newblock R: A language and environment for statistical computing.
+\newblock \emph{R} .
+
+\bibitem[R{\"o}sch and Schmidbauer(2016)]{rosch2016waveletcomp}
+R{\"o}sch, A., and H.~Schmidbauer, 2016.
+\newblock WaveletComp 1.1: A guided tour through the R package.
+\newblock \emph{URL: http://www. hsstat.
+  com/projects/WaveletComp/WaveletComp\_guided\_tour. pdf} .
+
+\bibitem[Addison(2018)]{addison2018introduction}
+Addison, P.~S., 2018.
+\newblock Introduction to redundancy rules: the continuous wavelet transform
+  comes of age.
+
+\bibitem[Kocksk{\"a}mper and Blatter(2002)]{kockskamper2002subcellular}
+Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.
+\newblock Subcellular Ca2+ alternans represents a novel mechanism for the
+  generation of arrhythmogenic Ca2+ waves in cat atrial myocytes.
+\newblock \emph{The Journal of physiology} 545:65--79.
+
+\bibitem[Bonilla et~al.(2019)Bonilla, Belevych, Baine, Stepanov, Mezache,
+  Bodnar, Liu, Volpe, Priori, Weisleder, et~al.]{bonilla2019enhancement}
+Bonilla, I.~M., A.~E. Belevych, S.~Baine, A.~Stepanov, L.~Mezache, T.~Bodnar,
+  B.~Liu, P.~Volpe, S.~Priori, N.~Weisleder, et~al., 2019.
+\newblock Enhancement of Cardiac Store Operated Calcium Entry (SOCE) within
+  Novel Intercalated Disk Microdomains in Arrhythmic Disease.
+\newblock \emph{Scientific Reports} 9:10179.
+
+\bibitem[Williams et~al.(2017)Williams, Wescott, Lehnart, and
+  Lederer]{williams2017does}
+Williams, G.~S., A.~P. Wescott, S.~E. Lehnart, and W.~Lederer, 2017.
+\newblock How Does Calcium Overload Generate Calcium Waves in Heart?
+\newblock \emph{Biophysical Journal} 112:541a.
+
+\bibitem[D{\'\i}az et~al.(2004)D{\'\i}az, O’neill, and
+  Eisner]{diaz2004sarcoplasmic}
+D{\'\i}az, M.~E., S.~C. O’neill, and D.~A. Eisner, 2004.
+\newblock Sarcoplasmic reticulum calcium content fluctuation is the key to
+  cardiac alternans.
+\newblock \emph{Circulation research} 94:650--656.
+
+\bibitem[Ishida et~al.(1999)Ishida, Genka, Hirota, Nakazawa, and
+  Barry]{ishida1999formation}
+Ishida, H., C.~Genka, Y.~Hirota, H.~Nakazawa, and W.~H. Barry, 1999.
+\newblock Formation of planar and spiral Ca2+ waves in isolated cardiac
+  myocytes.
+\newblock \emph{Biophysical journal} 77:2114--2122.
+
+\bibitem[Izu et~al.(2001)Izu, Wier, and Balke]{izu2001evolution}
+Izu, L.~T., W.~G. Wier, and C.~W. Balke, 2001.
+\newblock Evolution of cardiac calcium waves from stochastic calcium sparks.
+\newblock \emph{Biophysical journal} 80:103--120.
+
+\bibitem[Chen et~al.(2014)Chen, Wang, Chen, Zhong, Kong, Bai, Zhou, Xie, Zhang,
+  Guo, et~al.]{chen2014ryanodine}
+Chen, W., R.~Wang, B.~Chen, X.~Zhong, H.~Kong, Y.~Bai, Q.~Zhou, C.~Xie,
+  J.~Zhang, A.~Guo, et~al., 2014.
+\newblock The ryanodine receptor store-sensing gate controls Ca 2+ waves and Ca
+  2+-triggered arrhythmias.
+\newblock \emph{Nature medicine} 20:184.
+
+\bibitem[Tracqui and Ohayon(2009)]{tracqui2009integrated}
+Tracqui, P., and J.~Ohayon, 2009.
+\newblock An integrated formulation of anisotropic force--calcium relations
+  driving spatio-temporal contractions of cardiac myocytes.
+\newblock \emph{Philosophical Transactions of the Royal Society of London A:
+  Mathematical, Physical and Engineering Sciences} 367:4887--4905.
+
+\bibitem[Chang and Glover(2010)]{chang2010time}
+Chang, C., and G.~H. Glover, 2010.
+\newblock Time--frequency dynamics of resting-state brain connectivity measured
+  with fMRI.
+\newblock \emph{Neuroimage} 50:81--98.
+
+\bibitem[Walker et~al.(2017)Walker, Gurev, Rice, Greenstein, and
+  Winslow]{walker2017estimating}
+Walker, M.~A., V.~Gurev, J.~J. Rice, J.~L. Greenstein, and R.~L. Winslow, 2017.
+\newblock Estimating the probabilities of rare arrhythmic events in multiscale
+  computational models of cardiac cells and tissue.
+\newblock \emph{PLoS computational biology} 13:e1005783.
+
+\bibitem[Jiang et~al.(2014)Jiang, Tanaka, Matsuyama, Yamaoka, and
+  Takamatsu]{jiang2014pacing}
+Jiang, Y., H.~Tanaka, T.-a. Matsuyama, Y.~Yamaoka, and T.~Takamatsu, 2014.
+\newblock Pacing-induced non-uniform Ca2+ dynamics in rat atria revealed by
+  rapid-scanning confocal microscopy.
+\newblock \emph{Acta histochemica et cytochemica} 47:59--65.
+
+\bibitem[Aguirre et~al.(2014)Aguirre, Vinegoni, Sebas, and
+  Weissleder]{aguirre2014intravital}
+Aguirre, A.~D., C.~Vinegoni, M.~Sebas, and R.~Weissleder, 2014.
+\newblock Intravital imaging of cardiac function at the single-cell level.
+\newblock \emph{Proceedings of the National Academy of Sciences}
+  111:11257--11262.
+
+\bibitem[Macquaide et~al.(2007)Macquaide, Dempster, and
+  Smith]{macquaide2007measurement}
+Macquaide, N., J.~Dempster, and G.~Smith, 2007.
+\newblock Measurement and modeling of Ca2+ waves in isolated rabbit ventricular
+  cardiomyocytes.
+\newblock \emph{Biophysical journal} 93:2581--2595.
+
+\bibitem[Sato et~al.(2014)Sato, Bartos, Ginsburg, and
+  Bers]{sato2014depolarization}
+Sato, D., D.~C. Bartos, K.~S. Ginsburg, and D.~M. Bers, 2014.
+\newblock Depolarization of cardiac membrane potential synchronizes calcium
+  sparks and waves in tissue.
+\newblock \emph{Biophysical journal} 107:1313--1317.
+
+\end{thebibliography}
