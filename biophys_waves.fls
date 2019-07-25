@@ -214,10 +214,10 @@ INPUT biophys_waves.out
 INPUT biophys_waves.out
 INPUT biophys_waves.out
 INPUT biophys_waves.out
-OUTPUT biophys_waves.pdf
 INPUT .\biophys_waves.out
 INPUT .\biophys_waves.out
 OUTPUT biophys_waves.out
+OUTPUT biophys_waves.pdf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tex-gyre\t1qhv.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tex-gyre\t1qhv.fd
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\tex-gyre\ec-qhvr.tfm
@@ -328,6 +328,9 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\ntx-Re
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\tex-gyre\ec-qhvr.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\tex-gyre\ec-qhvb.tfm
 INPUT C:\Users\1\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\newtx\t1ntxtt.fd
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\newtx\t1ntxtt.fd
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\t1xtt.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxmi.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\txmi.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rntxmi.tfm
@@ -357,14 +360,8 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txex-b
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxmi7.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rtxmi7.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rntxmi7.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxmi5.vf
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rtxmi5.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rntxmi5.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxexx.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txexs.tfm
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\newtx\t1ntxtt.fd
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\newtx\t1ntxtt.fd
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\txfonts\t1xtt.tfm
 INPUT fig1.png
 INPUT .\fig1.png
 INPUT .\fig1.png
@@ -427,8 +424,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\q
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\qtmr.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\qtmri.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\qtmri.pfb
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\newtx\rntxmi5.pfb
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\newtx\rntxmi5.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\newtx\rntxmi7.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\newtx\rntxmi7.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\txfonts\rtxmi.pfb
