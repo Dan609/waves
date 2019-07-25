@@ -1,6 +1,11 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
+
+\bibitem[Xiao(2011)]{xiao2011cardiac}
+Xiao, Y.-F., 2011.
+\newblock Cardiac arrhythmia and heart failure: From bench to bedside.
+\newblock \emph{Journal of geriatric cardiology: JGC} 8:131.
 
 \bibitem[Shen and Jennings(1972{\natexlab{a}})]{shen1972myocardial}
 Shen, A.~C., and R.~B. Jennings, 1972.
@@ -17,11 +22,6 @@ Nayler, W.~G., 1981.
 \newblock The role of calcium in the ischemic myocardium.
 \newblock \emph{The American journal of pathology} 102:262.
 
-\bibitem[Xiao(2011)]{xiao2011cardiac}
-Xiao, Y.-F., 2011.
-\newblock Cardiac arrhythmia and heart failure: From bench to bedside.
-\newblock \emph{Journal of geriatric cardiology: JGC} 8:131.
-
 \bibitem[Minamikawa et~al.(1997)Minamikawa, Cody, and
   Williams]{minamikawa1997situ}
 Minamikawa, T., S.~H. Cody, and D.~A. Williams, 1997.
@@ -36,6 +36,14 @@ Hama, T., A.~Takahashi, A.~Ichihara, and T.~Takamatsu, 1998.
 \newblock Real time in situ confocal imaging of calcium wave in the perfused
   whole heart of the rat.
 \newblock \emph{Cellular signalling} 10:331--337.
+
+\bibitem[Ishide et~al.(1990)Ishide, Urayama, Inoue, Komaru, and
+  Takishima]{ishide1990propagation}
+Ishide, N., T.~Urayama, K.~Inoue, T.~Komaru, and T.~Takishima, 1990.
+\newblock Propagation and collision characteristics of calcium waves in rat
+  myocytes.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology} 259:H940--H950.
 
 \bibitem[Takamatsu(2008)]{takamatsu2008arrhythmogenic}
 Takamatsu, T., 2008.
