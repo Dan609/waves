@@ -265,7 +265,7 @@ Plus video in good resolution in supplement. In futhure research we used 512 res
 
 
 \begin{figure}
-    \includegraphics[width=0.8\linewidth]{fig3.png}
+    \includegraphics[width=0.9\linewidth]{fig3.png}
     \caption{clustering and kinesiogramms, Normalized against F0 (left) and not normalized (right) frames with ROI selection and heat maps of Flou-4 fluorescence intensity signals }
     \label{fig:fig3}
 \end{figure}
@@ -278,14 +278,14 @@ The effect of hypoxia on calcium oscillations in the epicardial layer of cardiom
 In the course of myocardial observations after simultaneous staining of Di-8-ANEPPS and Fluo-4 under conditions where cardiac contractions were inhibited by blebbistatin, normal myocardial regions characterized by passage of a global calcium-ejection wave corresponding to sinus rhythm and small contractions were revealed. Tissue abbreviations were determined by averaging the Di-8-ANEPPS fluorescent signal from ten arbitrarily selected ROIs of 20 $\mu$ m x 20 $\mu$ m size (Figure 5). Also, the areas of the myocardium, located in different stages of ischemic damage, were identified. For the initial stage of damage, groups of cardiomyocytes with an increased value of \ce{Ca^2+}, in which high-frequency calcium waves were observed (Fig. 6), are characteristic. Nascent on the edge of the cell or in its middle, these waves can spread to neighboring cells (Figure 7). With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in \ce{Ca^2+} in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D). The cardiomyocytes adjacent to the necrosis zone were characterized mainly by slow, damped calcium waves with a large amplitude (Fig. 8).
 
 \begin{figure}
-    \includegraphics[width=0.8\linewidth]{fig4.png}
+    \includegraphics[width=0.9\linewidth]{fig4.png}
     \caption{Time series analysis and wavelet coherence}
     \label{fig:fig4}
 \end{figure}
 
 
 \begin{figure}
-    \includegraphics[width=0.8\linewidth]{fig5.png}
+    \includegraphics[width=0.9\linewidth]{fig5.png}
     \caption{Nested ROI with the appropriate pixel dimensions: 512x512 - whole frame, 180x40 - one cell, 40x40,10x10, 2x2 - cell areas containing HFOLS.}
     \label{fig:fig5}
 \end{figure}
@@ -628,69 +628,44 @@ library(WaveletComp)
 library(tidyverse)
 library(phonTools)
 
-# ROI01 save to z0 for coherence calibration
-
+# Load data from ImageJ
+# calcium <- read.csv2('094px10.csv', sep=',')
 calcium <- read.csv2('094.csv', sep=',')
+
+# Rename columns
 colnames(calcium) <- c("frame",
                        'ROI01', 'ROI02', 'ROI03', 'ROI04', 'ROI05',
                        'ROI06', 'ROI07', 'ROI08', 'ROI09', 'ROI10',
                        'ROI11', 'ROI12', 'ROI13', 'ROI14', 'ROI15', 'ROI16')
-calcium$time <- calcium$frame * 110.803 / 1567
+
+# ROI01 save to z0 for coherence calibration
 z0 <- ts(calcium$ROI01, start = calcium$time[1])
-tail(calcium)
 
-# choose variable
-# 'ROI_512x512', 'ROI_180x40', 'ROI_40x40', 'ROI_10x10', 'ROI_2x2'
-# Rename columns
-calcium <- read.csv2('094px10.csv', sep=',')
+# colnames(calcium) <- c("frame",'ROI_512x512', 'ROI_180x40', 'ROI_40x40', 'ROI_10x10')
 
-colnames(calcium) <- c("frame",
-                       'ROI_512x512', 'ROI_180x40', 'ROI_40x40', 'ROI_10x10')
-
-
-head(calcium)
-
-# Rename columns
-# calcium <- read.csv2('094px.csv', sep=',')
-# colnames(calcium) <- c("frame",
-#                       'ROI_512x512', 'ROI_180x40', 'ROI_40x40', 'ROI_2x2', 'ROI_10x10', 'ROI_2x2_2')
-#------------------------------------------
 # Calibrate time: 110.803 sec / 1567 frames
-
 calcium$time <- calcium$frame * 110.803 / 1567
-
 tail(calcium)
 
-#------------------
-# sinus calibration
-
+# sinus wave calibration
 calcium$sin <- c(rep(NA, 1567))
-
 fs <- 14.142211 # samples per second
-
 df <- 1/fs # seconds per second
-
 stoptime <-  110.803 # seconds
-
 t <- seq(0, stoptime, by = df)
-
 fsin <- 1 # Hz sin wave frequency
-
 sinwave <- sin(2*pi*fsin*t)
 
 plot(t, sinwave, type = 'l',
      main = "sinus wave",
      xlab = 'Time, sec', ylab = 'value',
-     xlim = c(0, 10), ylim = c(-1, 1)
-)
+     xlim = c(0, 10), ylim = c(-1, 1))
 
 calcium$sin <- sinwave
-
 tail(calcium)
-
 write.csv(calcium, file = 'calcium.csv')
 
-
+# Choose ROI for analysis
 
 xcal <- calcium$ROI16
 
@@ -707,8 +682,6 @@ spy <- 1*x.spec$spec
 plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
      type="l", lwd = 2)
 
-
-
 # Frequency
 
 z <- ts(xcal, start = calcium$time[1])
@@ -724,9 +697,7 @@ spectrogram(z, 14.29745, windowlength = 95000, 0.01,
 # period
 
 xcal <- z
-
 x <- ts(xcal, start = calcium$time[1])
-
 my.data <- data.frame(x = x)
 
 my.w <- analyze.wavelet(my.data, "x",
@@ -739,12 +710,10 @@ my.w <- analyze.wavelet(my.data, "x",
 
 wt.image(my.w, n.levels = 250)
 
-
 # wavelet coherency
 
 x <- z
 y <- z0
-
 # y <- z
 
 my.data <- data.frame(x = x, y = y, date = calcium$time)
@@ -763,10 +732,6 @@ wc.image(my.wc, n.levels = 250, color.key = "interval",
          timelab = "Time",
          label.time.axis = TRUE,
          main = "")
-
-
-
-
 
 # peaks detection
 ## Peaks detection, lenght = 109.6 s
@@ -796,14 +761,7 @@ spec(z, f=s.rate, wl = 512, wn = "hanning", fftw = FALSE, norm = TRUE,
 localpeaks(spec(z), f=s.rate, bands = 10, mel = FALSE, plot = TRUE,
            xlab = NULL, ylab = "Amplitude", labels = TRUE)
 
-
-
-
-
-
-
-
-
+# Autocorrelation
 acf(xcal, lag.max = 100, main = "Autocorrelation")
 
 # plot results
@@ -824,45 +782,6 @@ plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
      type="l", lwd = 2)
 
 acf(xcal, lag.max = 500, main = "Autocorrelation")
-
-
-
-# calibration
-
-z <- ts(calcium$ROI_512x512, start = calcium$time[1])
-
-z <- ts(calcium$ROI_180x40, start = calcium$time[1])
-
-z <- ts(calcium$ROI_40x40, start = calcium$time[1])
-
-z <- ts(calcium$ROI_10x10, start = calcium$time[1])
-
-
-fs <- 14.142211 # samples per second
-
-df <- 1/fs # seconds per second
-
-stoptime <-  110.803 # seconds
-
-t <- seq(0, stoptime, by = df)
-
-plot(z ~ t, type = 'l', main = "calcium$ROI",
-     xlab = 'Time, sec', ylab = 'Ca',
-     xlim = c(0, 110), ylim = c(0, 2000)
-     )
-
-fsin <- 1
-
-sinwave <- sin(2*pi*fsin*t)
-
-plot(t, sinwave, type = 'l',
-     main = "sinus wave",
-     xlab = 'Time, sec', ylab = 'value',
-     xlim = c(0, 10), ylim = c(-1, 1)
-)
-
-
-
 
 \end{lstlisting}
 
