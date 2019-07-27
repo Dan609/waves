@@ -180,7 +180,7 @@ In formula~\ref{eq:wave} $\tau$ is the localizing time parameter defines positio
 WaveletComp uses Fast Fourier Transform algorithms to evaluate formula~\ref{eq:wave} efficiently.
 The evolving in time local amplitude of any periodic component of the time series can then be retrieved from the modulus of its wavelet transform with rectification:
 \begin{equation}\label{eq:amplitude}
-\text{Ampl}(\tau, s)=\frac{|\text{Wave}(\tau, s)|}{s^{1/2}}.
+\text{Ampl}(\tau, s)=\frac{|\text{Wave}(\tau, s)|}{\sqrt{s}}.
 \end{equation}
 
 The wavelet power spectrum is the square of the amplitude, understand as time-frequency (or time-period) wavelet energy density:
@@ -250,7 +250,7 @@ Solitons
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.8\linewidth]{fig1.png}
-\caption{Confocal view and 3D models of epecardial cardiomyocytes, connective tissue and cappillaries}
+\caption{Confocal view in 10x objective of mitochondrial potential (red) and calcium (green) staining of epecardial cardiomyocytes in normal (A) and hypoxic (B) conditions. (C) Pseudocolor intensity imaging of Ca-overloaded cells and connective tissue in  tangential section of live hear wall. (D) 3D models of  cappillaries and characteristic section depth for calcium waves registration.}
 \label{fig:fig1}
 \end{figure}
 
@@ -266,7 +266,7 @@ Plus video in good resolution in supplement. In futhure research we used 512 res
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig3.png}
-    \caption{clustering and kinesiogramms, Normalized against F0 (left) and not normalized (right) frames with ROI selection and heat maps of Flou-4 fluorescence intensity signals }
+    \caption{clustering and kinesiogramms, Normalized against F0 (left) and not normalized (right) frames with ROI selection and heat maps of Flou-4 fluorescence intensity signals Nested ROI with the appropriate pixel dimensions: 512x512 - whole frame, 180x40 - one cell, 40x40,10x10, 2x2 - cell areas containing HFOLS. }
     \label{fig:fig3}
 \end{figure}
 
@@ -284,11 +284,11 @@ In the course of myocardial observations after simultaneous staining of Di-8-ANE
 \end{figure}
 
 
-\begin{figure}
-    \includegraphics[width=0.9\linewidth]{fig5.png}
-    \caption{Nested ROI with the appropriate pixel dimensions: 512x512 - whole frame, 180x40 - one cell, 40x40,10x10, 2x2 - cell areas containing HFOLS.}
-    \label{fig:fig5}
-\end{figure}
+%\begin{figure}
+%    \includegraphics[width=0.9\linewidth]{fig5.png}
+%    \caption{Nested ROI with the appropriate pixel dimensions: 512x512 - whole %frame, 180x40 - one cell, 40x40,10x10, 2x2 - cell areas containing HFOLS.}
+%    \label{fig:fig5}
+%\end{figure}
 
 Calcium waves in the subepicardial myocardium in Langendorff-perfused rat heart.
 We found that cardiomyocytes located in the border zone adjacent to the necrosis zone are characterized by an increased content of \ce{Ca^2+} ions, a reduced mitochondrial potential and contractile activity.
