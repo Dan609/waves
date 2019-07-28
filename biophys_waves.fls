@@ -369,6 +369,11 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rtxmi7
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rntxmi7.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxexx.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txexs.tfm
+INPUT fig0.png
+INPUT .\fig0.png
+INPUT .\fig0.png
+INPUT .\fig0.png
+INPUT .\fig0.png
 INPUT fig1.png
 INPUT .\fig1.png
 INPUT .\fig1.png
