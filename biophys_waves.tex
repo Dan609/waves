@@ -105,7 +105,7 @@ changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, 
 A fluorescent signal was registered in the first layer of cardiomyocytes adjacent to the epicardial surface of an isolated heart (Fig. 1). The fluorescent signal was measured in a whole frame or in certain regions of interest (regions of interest, ROI).
 Spectral analysis of calcium oscillations was carried out using a fast Fourier transform.
 Studies were carried out on the model of an isolated working rat heart perfused by the method of Langendorff.
-The subepicardial layers of the myocardium were examined using an inverted Leica TCS SP5 laser scanning confocal microscope equipped with a resonance scanner and x20, x63 lenses with oil immersion.
+The subepicardial layers of the myocardium were examined using an inverted Leica TCS SP5 laser scanning confocal microscope equipped with a resonance scanner and x10, x20, x63 lenses with oil immersion.
 For visualization of cardiomyocytes, vascular network and connective tissue, perfusion of the hearts was performed with a solution with the addition of the fluorescent dye Di-8-ANEPPS.
 To visualize free \ce{Ca^2+} ions, the Fluo-4 dye was used.
 For dyeing mitochondria, the TMRM dye was used, the fluorescence intensity of which is proportional to the value of the mitochondrial membrane potential ( $\Delta\psi$).
@@ -150,7 +150,11 @@ Recorded time-series image stack were analyzed in ImageJ v.1.52p software\cite{r
 measurement duration= 109.6 s sampling frequency 14.29745 Hz
 Time series analysis in BAR plugin: raw signal and
 normalization against F0, multi ROI profiler
-16 ROI 10 x 20 $\mu$m were manually selected
+
+
+Frequency estimation usig Fast Fourier Transform with Hamming window --- available as spectrogram function in phonTools package.
+
+576 ROI 17.84 x 17.84 $\mu$m were selected using ImageJ macros (see Supplementary\ref{macros})
 Wavelet analysis
 Formula from \cite{grinsted2004application} and from \cite{kahraman2016multiple} ...
 To cite R in publications use:  \cite{team2014r}
@@ -229,21 +233,25 @@ Wavelet power spectrum of the series with variable period
 Horizontal arrows pointing to the right indicate that the two series x and y are in phase at the respective period with vanishing phase differences.
 Likewise, horizontal arrows pointing to the left indicate that the two series are in anti-phase;
 The arrows are plotted only within white contour lines indicating significance (with respect to the null hypothesis of white noise processes) at the 10\% level.
-Cross-Wavelet power spectrum of the series with interval color key and restricted arrow area
+
+10 simulations using analyze.wavelet function from WaveletComp package was run do plot Cross-Wavelet power spectrum of the series with interval color key and restricted arrow area.
 Limit the area where arrows are drawn to the region where both individual wavelet transforms of x and y show significance (set which.arrow.sig = "wt"), and avoid the artifacts of the
 The significance level of contour lines defined to . The plot of the ridge can be restricted to a high-level region ("high" according to a given level of plotted values). In particular, the area to be filled with arrows can be determined in several ways: to reflect significance (at a given level) with respect to cross-wavelet power, wavelet coherence, or individual wavelet power, and/or to flag a high-value region. Furthermore, there is an option to clear out the area where the p-values of cross-wavelet power (coherence, respectively) exceed a given level.
 
+30 simulations was run to compute wavelet coherency.
+
 Calibration with a sine wave signal
+1 Hz and 5 Hz waves are represented in the picture \ref{waves are represented in the picture}
 
 \begin{figure}[hbt!]
 \centering
-\includegraphics[width=0.6\linewidth]{fig0.png}
+\includegraphics[width=0.9\linewidth]{fig0.png}
 \caption{Calibration with 1 Hz sin wave}
 \label{fig:fig0}
 \end{figure}
 
 for 094--: 455.9 mkm / 512px = 0,8904296875
-Area = 318,363, x = 17.8427296118, $\approx$ 17.8 $\mu$ m
+Area = 318,363, x = 17.8427296118, $\approx$ 17.84 $\mu$ m
 analyze - tools - scale bar
 
 
@@ -253,6 +261,7 @@ Calcium waves
 How calcium waves are formed and what the consequences may be.
 Solitons
 
+coherence with its own main harmonic can be considered as an indicator of normality
 
 \begin{figure}[hbt!]
 \centering
@@ -654,7 +663,7 @@ We thank Dr. Polyanski , B. Harper, and J. Doe for their help.
 \section*{Supplementary Material}
 An online supplement to this article can be found by visiting BJ Online at \url{http://www.biophysj.org}.
 
-\subsection*{ImageJ macros}
+\subsection*{ImageJ macros}\label{macros}
 \begin{lstlisting}
 x = 1;
 y = 1;
@@ -687,108 +696,41 @@ for(i = 0; i < numRow; i++)
 
 \begin{lstlisting}[language=R]
 # Calcium oscillations analysis, 2019
-
+options('stringsAsFactors'=FALSE)
 library(WaveletComp)
 library(phonTools)
-
-calcium <- read.csv2('40cells_Fluo-4.csv')
-boxplot(raw, main = 'calcium')
-head(calcium)
-
-anepps <- read.csv2('40cells_di-8-anepps.csv')
-boxplot(raw, main = 'anepps')
-head(anepps)
-
-norm <- read.csv2('094_F0-normalized.csv', sep = ',')
-boxplot(raw, main = 'Raw')
-
-raw <- read.csv2('094_raw.csv', sep = ',')
-boxplot(norm, main = 'Normalized')
-
-
-# Remove Time column before reordering
-anepps_roi <- anepps[, -1]
-boxplot(anepps_roi, main = 'Di-8-ANEPPS')
-anepps_roi <- anepps_roi[,order(mean)]
-
-
-# Remove Time column before reordering
-calcium_roi <- calcium[, -1]
-head(calcium_roi)
-boxplot(calcium_roi, main = 'Fluo-4')
-
-# Reorder a data frame's columns according to arithmetic mean of each column.
-df <- calcium_roi
-mean <- colMeans(df, na.rm=TRUE)
-df <- df[,order(mean)]
-boxplot(df, main = 'Fluo-4')
-
-calcium <- read.csv2('40cells.csv')
-# raw signal
-calcium <- read.csv2('094raw.csv', sep=',')
-
-# F0 normalizes signal
-calcium <- read.csv2('094.csv', sep=',')
-colnames(calcium) <- c("frame",
-                       'ROI01', 'ROI02', 'ROI03', 'ROI04', 'ROI05',
-                       'ROI06', 'ROI07', 'ROI08', 'ROI09', 'ROI10',
-                       'ROI11', 'ROI12', 'ROI13', 'ROI14', 'ROI15', 'ROI16')
-
+library(seewave)
+# Load data from ImageJ BAR Time series analisys
+# Select signal from 20x20 ROI grid
+# fluo.csv - Fluo-4 raw
+# fluoF0.csv - Fluo-4 F0 normalazed signal
+# anepps.csv - Di-8-ANEPPS raw
+# aneppsF0.csv - Di-8-ANEPPS F0 normalazed signal
+#------------------------------------------
+calcium <- read.csv2('fluo.csv', sep = ',')
+colnames(calcium)[1] <- "frame" # rename first column
 #------------------------------------------
 # Calibrate time: 110.803 sec / 1567 frames
 calcium$time <- calcium$frame * 110.803 / 1567
-# ROI01 save to z0 for coherence calibration
-z0 <- ts(calcium$ROI01, start = calcium$time[1])
-
-tail(calcium)
-
-boxplot(calcium)
-
-# choose variable
-# 'ROI_512x512', 'ROI_180x40', 'ROI_40x40', 'ROI_10x10', 'ROI_2x2'
-calcium <- read.csv2('094px10.csv', sep=',')
-# Rename columns
-colnames(calcium) <- c("frame",
-                       'ROI_512x512', 'ROI_180x40',
-                       'ROI_40x40', 'ROI_10x10')
-
-
-head(calcium)
-
-# Rename columns
-# calcium <- read.csv2('094px.csv', sep=',')
-# colnames(calcium) <- c("frame",
-#                       'ROI_512x512', 'ROI_180x40', 'ROI_40x40',
-#                        'ROI_2x2', 'ROI_10x10', 'ROI_2x2_2')
-
-
-calcium$time <- calcium$frame * 110.803 / 1567
-
-tail(calcium)
-
-#------------------
-# sinus calibration
-
+# Add sinus wave
+# fsin <- 1 # Hz sin wave frequency
+fsin <- 0.9025023
 calcium$sin <- c(rep(NA, 1567))
 fs <- 14.142211 # samples per second
 df <- 1/fs # seconds per second
 stoptime <-  110.803 # seconds
 t <- seq(0, stoptime, by = df)
-fsin <- 1 # Hz sin wave frequency
 sinwave <- sin(2*pi*fsin*t)
 plot(t, sinwave, type = 'l',
      main = "sinus wave",
      xlab = 'Time, sec', ylab = 'value',
-     xlim = c(0, 10), ylim = c(-1, 1)
-)
-
+     xlim = c(0, 10), ylim = c(-1, 1))
 calcium$sin <- sinwave
 tail(calcium)
-
-write.csv(calcium, file = 'calcium.csv')
-
-xcal <- calcium$ROI03
-
+#--------------------------
+xcal <- calcium$Y312
+# Select ROI from Y0 - Y575
+#--------------------------
 # time series analysis
 calcium_ts <- ts(xcal, start = calcium$time[1])
 
@@ -798,11 +740,30 @@ spx <- x.spec$freq/del
 spy <- 1*x.spec$spec
 
 plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
-     type="l", lwd = 2)
+     type="l", lwd = 2, main = 'ROI312')
+
+
+# Peaks detection, lenght = 109.6 s
+s.rate <- 14.142211
+
+fpeaks(spec(calcium_ts, f=s.rate), nmax = 10,
+       threshold = 0.5,
+       plot = T,
+       title = TRUE,
+       xlab = "Frequency (Hz)", ylab = "Amplitude",
+       labels = TRUE, legend = TRUE, digits = 2)*1000
+
+peaks <- fpeaks(spec(calcium_ts, f=s.rate), nmax = 5,
+                threshold = 0.5,
+                plot = T,
+                title = TRUE,
+                xlab = "Frequency (Hz)", ylab = "Amplitude",
+                labels = TRUE, legend = TRUE, digits = 2)*1000
+
+write.csv2(peaks, file = 'norm_ROI1_Fluo4_peaks.csv')
 
 # Frequency
-z <- ts(xcal, start = calcium$time[1])
-spectrogram(z, 14.29745, windowlength = 95000, 0.01,
+spectrogram(calcium_ts, 14.29745, windowlength = 95000, 0.01,
             timestep = 1000,
             maxfreq = 0.5,
             colors = TRUE,
@@ -810,10 +771,8 @@ spectrogram(z, 14.29745, windowlength = 95000, 0.01,
             show = TRUE, window = 'hamming',
             quality = TRUE)
 
-# period
-xcal <- z
-x <- ts(xcal, start = calcium$time[1])
-my.data <- data.frame(x = x)
+# Period
+my.data <- data.frame(x = calcium_ts)
 my.w <- analyze.wavelet(my.data, "x",
                         loess.span = 0,
                         dt = 1,
@@ -824,15 +783,10 @@ my.w <- analyze.wavelet(my.data, "x",
 
 wt.image(my.w, n.levels = 250)
 
-# wavelet coherency
-
-x <- z
-y <- z0
-
-# y <- z
-
+# Wavelet coherency
+x <- sinwave
+y <- calcium_ts
 my.data <- data.frame(x = x, y = y, date = calcium$time)
-
 my.wc <- analyze.coherency(my.data, my.pair = c("x", "y"),
                            loess.span = 0,
                            dt = 1,
@@ -840,79 +794,12 @@ my.wc <- analyze.coherency(my.data, my.pair = c("x", "y"),
                            lowerPeriod = 4, upperPeriod = 32,
                            make.pval = TRUE, n.sim = 30)
 
-
 wc.image(my.wc, n.levels = 250, color.key = "interval",
          siglvl.contour = 0.1, siglvl.arrow = 0.05, which.arrow.sig = "wt",
          legend.params = list(lab = "cross-wavelet power levels"),
          timelab = "Time",
          label.time.axis = TRUE,
          main = "")
-
-# peaks detection
-## Peaks detection, lenght = 109.6 s
-
-s.rate <- 14.142211
-
-z <- ts(calcium$ROI01, start = calcium$time[1])
-
-fpeaks(spec(z, f=s.rate), nmax = 5,
-       threshold = 0.05,
-       plot = T,
-       title = TRUE,
-       xlab = "Frequency (Hz)", ylab = "Amplitude",
-       labels = TRUE, legend = TRUE, digits = 2)*1000
-
-z <- ts(calcium$sin, start = calcium$time[1])
-
-spec(z, f=s.rate, wl = 512, wn = "hanning", fftw = FALSE, norm = TRUE,
-     scaled = FALSE, PSD = FALSE, PMF = FALSE,
-     correction="none", dB = NULL, dBref = NULL,
-     at = NULL, from = NULL, to = NULL,
-     identify = FALSE, col = "black", cex = 1,
-     plot = 1, flab = "Frequency (kHz)",
-     alab = "Amplitude", flim = NULL,
-     alim = NULL, type="l")
-
-
-localpeaks(spec(z), f=s.rate, bands = 10, mel = FALSE, plot = TRUE,
-           xlab = NULL, ylab = "Amplitude", labels = TRUE)
-
-# autocorrelation
-acf(xcal, lag.max = 100, main = "Autocorrelation")
-
-# plot results
-# par(mfrow=c(2,3))
-
-plot(xcal ~ calcium$time,
-     xlab = "time (s)", ylab = "fluorescence intensity (a.u.)", t="l",
-     xlim = c(0, 1), ylim = c(0, 1), main = "Total signal")
-
-plot(xcal ~ calcium$time,
-     xlab = "time (s)", ylab = "fluorescence intensity (a.u.)", t="l",
-     xlim = c(0, 20), ylim = c(0, 1), main = "Signal segment")
-
-boxplot(xcal, ylab = "fluorescence intensity (a.u.)",
-        main = "Mean intensity", ylim = c(0, 150))
-
-plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
-     type="l", lwd = 2)
-
-# calibration
-fs <- 14.142211 # samples per second
-df <- 1/fs # seconds per second
-stoptime <-  110.803 # seconds
-t <- seq(0, stoptime, by = df)
-
-plot(z ~ t, type = 'l', main = "calcium$ROI",
-     xlab = 'Time, sec', ylab = 'Ca',
-     xlim = c(0, 110), ylim = c(0, 2000))
-
-fsin <- 1
-sinwave <- sin(2*pi*fsin*t)
-plot(t, sinwave, type = 'l',
-     main = "sinus wave",
-     xlab = 'Time, sec', ylab = 'value',
-     xlim = c(0, 10), ylim = c(-1, 1))
 
 \end{lstlisting}
 
