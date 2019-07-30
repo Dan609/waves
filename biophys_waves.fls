@@ -369,11 +369,6 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rtxmi7
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rntxmi7.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxexx.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txexs.tfm
-INPUT fig0.png
-INPUT .\fig0.png
-INPUT .\fig0.png
-INPUT .\fig0.png
-INPUT .\fig0.png
 INPUT fig1.png
 INPUT .\fig1.png
 INPUT .\fig1.png
@@ -389,11 +384,6 @@ INPUT .\fig3.png
 INPUT .\fig3.png
 INPUT .\fig3.png
 INPUT .\fig3.png
-INPUT fig.png
-INPUT .\fig.png
-INPUT .\fig.png
-INPUT .\fig.png
-INPUT .\fig.png
 INPUT fig4.png
 INPUT .\fig4.png
 INPUT .\fig4.png
@@ -409,21 +399,6 @@ INPUT .\fig6.png
 INPUT .\fig6.png
 INPUT .\fig6.png
 INPUT .\fig6.png
-INPUT fig7.png
-INPUT .\fig7.png
-INPUT .\fig7.png
-INPUT .\fig7.png
-INPUT .\fig7.png
-INPUT fig8.png
-INPUT .\fig8.png
-INPUT .\fig8.png
-INPUT .\fig8.png
-INPUT .\fig8.png
-INPUT fig9.png
-INPUT .\fig9.png
-INPUT .\fig9.png
-INPUT .\fig9.png
-INPUT .\fig9.png
 INPUT biophys_waves.bbl
 INPUT biophys_waves.bbl
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty

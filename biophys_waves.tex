@@ -242,13 +242,8 @@ The significance level of contour lines defined to . The plot of the ridge can b
 
 Calibration with a sine wave signal
 1 Hz and 5 Hz waves are represented in the picture \ref{waves are represented in the picture}
+A Test Signal Containing Four Sequential Sinusoids
 
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.9\linewidth]{fig0.png}
-\caption{Calibration with 1 Hz sin wave}
-\label{fig:fig0}
-\end{figure}
 
 for 094--: 455.9 mkm / 512px = 0,8904296875
 Area = 318,363, x = 17.8427296118, $\approx$ 17.84 $\mu$ m
@@ -308,16 +303,8 @@ Code & Frequency & Amplitude  \\\hline
 \end{threeparttable}
 \end{table}
 
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.9\linewidth]{fig.png}
-\caption{Coherence of ANEPPS with 0.9 Hz sin wave }
-\label{fig:fig}
-\end{figure}
-
 
 The effect of hypoxia on calcium oscillations in the epicardial layer of cardiomyocytes.
-
 
 
 \begin{figure}
@@ -329,9 +316,10 @@ The effect of hypoxia on calcium oscillations in the epicardial layer of cardiom
 
 In the course of myocardial observations after simultaneous staining of Di-8-ANEPPS and Fluo-4 under conditions where cardiac contractions were inhibited by blebbistatin, normal myocardial regions characterized by passage of a global calcium-ejection wave corresponding to sinus rhythm and small contractions were revealed. Tissue abbreviations were determined by averaging the Di-8-ANEPPS fluorescent signal from ten arbitrarily selected ROIs of 20 $\mu$ m x 20 $\mu$ m size (Figure 5). Also, the areas of the myocardium, located in different stages of ischemic damage, were identified. For the initial stage of damage, groups of cardiomyocytes with an increased value of \ce{Ca^2+}, in which high-frequency calcium waves were observed (Fig. 6), are characteristic. Nascent on the edge of the cell or in its middle, these waves can spread to neighboring cells (Figure 7). With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in \ce{Ca^2+} in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D). The cardiomyocytes adjacent to the necrosis zone were characterized mainly by slow, damped calcium waves with a large amplitude (Fig. 8).
 
+
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig5.png}
-    \caption{Time series analysis and wavelet coherence}
+    \caption{Calibration with 1 Hz sin wave, Time series analysis and wavelet coherence , We used a non-stationary artificial signal with three data regions each containing a sinusoid of different frequency.}
     \label{fig:fig5}
 \end{figure}
 
@@ -339,9 +327,10 @@ In the course of myocardial observations after simultaneous staining of Di-8-ANE
 Calcium waves in the subepicardial myocardium in Langendorff-perfused rat heart.
 We found that cardiomyocytes located in the border zone adjacent to the necrosis zone are characterized by an increased content of \ce{Ca^2+} ions, a reduced mitochondrial potential and contractile activity.
 
+
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig6.png}
-    \caption{Heat maps of 30x10 px ROI manually selected for ...}
+    \caption{Coherence of ANEPPS with 0.9 Hz sin wave }
     \label{fig:fig6}
 \end{figure}
 
@@ -696,55 +685,65 @@ for(i = 0; i < numRow; i++)
 
 \begin{lstlisting}[language=R]
 # Calcium oscillations analysis, 2019
-options('stringsAsFactors'=FALSE)
+
+options('stringsAsFactors' = FALSE)
 library(WaveletComp)
 library(phonTools)
 library(seewave)
+
+#-----import constats-----
+s.rate <- 14.142211 #
+del <- 0.0707103 # frame duration in seconds
+fsin <- 0.9025023 # Hz, sinus rythm main frequency
+# fsin <- 1 # 1 Hz sin wave frequency
+fs <- 14.142211 # samples per second
+df <- 1/fs # seconds per second
+stoptime <-  110.803 # signal length in seconds
+# Insert your specification of the time axis:
+index.ticks  <- seq(0, 1567, by = 1) # 1567 is signal frame count
+index.labels <- seq(0, 1567, by = 1)*103.803/1567
+index.labels.rounded <- round(index.labels, 0)
+
+t <- seq(0, stoptime, by = df)
+sinwave <- sin(2*pi*fsin*t)
+
+plot(t, sinwave, type = 'l',
+     main = "Sinus wave",
+     xlab = 'Time, sec', ylab = 'value',
+     xlim = c(20, 80), ylim = c(-1, 1))
+# A Test Signal Containing Three Sequential Sinusoids
+sinwave_complex <- c(sin(2*pi*1*t)[1:500],
+                     sin(2*pi*2*t)[501:1000],
+                     sin(2*pi*3*t)[1001:1567])
+
 # Load data from ImageJ BAR Time series analisys
-# Select signal from 20x20 ROI grid
-# fluo.csv - Fluo-4 raw
-# fluoF0.csv - Fluo-4 F0 normalazed signal
-# anepps.csv - Di-8-ANEPPS raw
-# aneppsF0.csv - Di-8-ANEPPS F0 normalazed signal
-#------------------------------------------
-calcium <- read.csv2('fluo.csv', sep = ',')
+calcium <- read.csv('fluo.csv', sep = ',') # Fluo-4 raw
+calcium <- read.csv('fluoF0.csv', sep = ',') # Fluo-4 F0 normalazed signal
+calcium <- read.csv('anepps.csv', sep = ',') # Di-8-ANEPPS raw
+calcium <- read.csv('aneppsF0.csv', sep = ',') # Di-8-ANEPPS F0 normalazed signal
+
 colnames(calcium)[1] <- "frame" # rename first column
 #------------------------------------------
 # Calibrate time: 110.803 sec / 1567 frames
 calcium$time <- calcium$frame * 110.803 / 1567
-# Add sinus wave
-# fsin <- 1 # Hz sin wave frequency
-fsin <- 0.9025023
-calcium$sin <- c(rep(NA, 1567))
-fs <- 14.142211 # samples per second
-df <- 1/fs # seconds per second
-stoptime <-  110.803 # seconds
-t <- seq(0, stoptime, by = df)
-sinwave <- sin(2*pi*fsin*t)
-plot(t, sinwave, type = 'l',
-     main = "sinus wave",
-     xlab = 'Time, sec', ylab = 'value',
-     xlim = c(0, 10), ylim = c(-1, 1))
+# Add sin waves
 calcium$sin <- sinwave
-tail(calcium)
+calcium$sincomp <- sinwave_complex
 #--------------------------
-xcal <- calcium$Y312
-# Select ROI from Y0 - Y575
+# Select ROI from 20x20 ROI grid
+xcal <- calcium$Y437 # from Y0 to Y575 = ROI1 to ROI576
 #--------------------------
 # time series analysis
 calcium_ts <- ts(xcal, start = calcium$time[1])
 
-del <- 0.0707103
 x.spec <- spectrum(calcium_ts, log = "no", span = 10, plot = FALSE)
 spx <- x.spec$freq/del
 spy <- 1*x.spec$spec
 
 plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
-     type="l", lwd = 2, main = 'ROI312')
-
-
-# Peaks detection, lenght = 109.6 s
-s.rate <- 14.142211
+     type="l", lwd = 2, main = 'ROI 438 ANEPPS', xlim=c(0,5))
+#_______________________________Fluo-4____D-8-ANEPPS
+# Peaks detection
 
 fpeaks(spec(calcium_ts, f=s.rate), nmax = 10,
        threshold = 0.5,
@@ -753,24 +752,25 @@ fpeaks(spec(calcium_ts, f=s.rate), nmax = 10,
        xlab = "Frequency (Hz)", ylab = "Amplitude",
        labels = TRUE, legend = TRUE, digits = 2)*1000
 
-peaks <- fpeaks(spec(calcium_ts, f=s.rate), nmax = 5,
+peaks <- fpeaks(spec(calcium_ts, f=s.rate), nmax = 10,
                 threshold = 0.5,
                 plot = T,
                 title = TRUE,
                 xlab = "Frequency (Hz)", ylab = "Amplitude",
                 labels = TRUE, legend = TRUE, digits = 2)*1000
 
-write.csv2(peaks, file = 'norm_ROI1_Fluo4_peaks.csv')
-
+write.csv2(peaks, file = 'peaks555.csv')
+# write.csv2(peaks, file = 'norm_ROI1_Fluo4_peaks.csv')
+#>>>>>>>>>>>>>>>>>>>>>>>>>>
 # Frequency
 spectrogram(calcium_ts, 14.29745, windowlength = 95000, 0.01,
             timestep = 1000,
-            maxfreq = 0.5,
+            maxfreq = 0.4,
             colors = TRUE,
             dynamicrange = 40, nlevels = dynamicrange, maintitle = "",
             show = TRUE, window = 'hamming',
             quality = TRUE)
-
+#>>>>>>>>>>>>>>>>>>>>>>>>>>
 # Period
 my.data <- data.frame(x = calcium_ts)
 my.w <- analyze.wavelet(my.data, "x",
@@ -778,28 +778,37 @@ my.w <- analyze.wavelet(my.data, "x",
                         dt = 1,
                         dj = 1/500,
                         lowerPeriod = 2,
-                        upperPeriod = 64,
+                        upperPeriod = 32,
                         make.pval = TRUE, n.sim = 10)
-
-wt.image(my.w, n.levels = 250)
-
+## Insert your specification of the time axis
+# "interval" or "i": equidistant breakpoints
+# (from 0 through maximum value)
+wt.image(my.w, color.key = "i", # or use 'quantile' key
+         n.levels = 250, max.contour.segments = 10000,
+         useRaster = TRUE, plot.contour = FALSE,
+         legend.params = list(lab = "wavelet power levels"),
+         periodlab = "Period", timelab = "Time (seconds)",
+         spec.time.axis = list(at = index.ticks, labels = index.labels.rounded))
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^
 # Wavelet coherency
 x <- sinwave
 y <- calcium_ts
+# y <- ts(calcium$sin, start = calcium$time[1])
+# x <- ts(calcium$Y554, start = calcium$time[1])
 my.data <- data.frame(x = x, y = y, date = calcium$time)
 my.wc <- analyze.coherency(my.data, my.pair = c("x", "y"),
                            loess.span = 0,
                            dt = 1,
                            dj = 1/100,
                            lowerPeriod = 4, upperPeriod = 32,
-                           make.pval = TRUE, n.sim = 30)
-
+                           make.pval = TRUE, n.sim = 10)
 wc.image(my.wc, n.levels = 250, color.key = "interval",
          siglvl.contour = 0.1, siglvl.arrow = 0.05, which.arrow.sig = "wt",
          legend.params = list(lab = "cross-wavelet power levels"),
-         timelab = "Time",
          label.time.axis = TRUE,
-         main = "")
+         main = "ROI438 and ROI555",
+         periodlab = "Period", timelab = "Time (seconds)",
+         spec.time.axis = list(at = index.ticks, labels = index.labels.rounded))
 
 \end{lstlisting}
 
