@@ -709,15 +709,16 @@ plot(t, sinwave, type = 'l',
      main = "Sinus wave",
      xlab = 'Time, sec', ylab = 'value',
      xlim = c(20, 80), ylim = c(-1, 1))
-# A Test Signal Containing Three Sequential Sinusoids
+
+
 sinwave_complex <- c(sin(2*pi*1*t)[1:500],
                      sin(2*pi*2*t)[501:1000],
                      sin(2*pi*3*t)[1001:1567])
 
 # Load data from ImageJ BAR Time series analisys
-calcium <- read.csv('fluo.csv', sep = ',') # Fluo-4 raw
+# calcium <- read.csv('fluo.csv', sep = ',') # Fluo-4 raw
 calcium <- read.csv('fluoF0.csv', sep = ',') # Fluo-4 F0 normalazed signal
-calcium <- read.csv('anepps.csv', sep = ',') # Di-8-ANEPPS raw
+# calcium <- read.csv('anepps.csv', sep = ',') # Di-8-ANEPPS raw
 calcium <- read.csv('aneppsF0.csv', sep = ',') # Di-8-ANEPPS F0 normalazed signal
 
 colnames(calcium)[1] <- "frame" # rename first column
@@ -730,6 +731,7 @@ calcium$sincomp <- sinwave_complex
 #--------------------------
 # Select ROI from 20x20 ROI grid
 xcal <- calcium$Y437 # from Y0 to Y575 = ROI1 to ROI576
+
 #--------------------------
 # time series analysis
 calcium_ts <- ts(xcal, start = calcium$time[1])
@@ -739,8 +741,10 @@ spx <- x.spec$freq/del
 spy <- 1*x.spec$spec
 
 plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
-     type="l", lwd = 2, main = 'ROI 438 ANEPPS', xlim=c(0,5))
+     type="l", lwd = 2, main = 'ROI 335 Fluo-4', xlim=c(0,5))
 #_______________________________Fluo-4____D-8-ANEPPS
+# A Test Signal Containing Four Sequential Sinusoids
+
 # Peaks detection
 
 fpeaks(spec(calcium_ts, f=s.rate), nmax = 10,
@@ -756,18 +760,18 @@ peaks <- fpeaks(spec(calcium_ts, f=s.rate), nmax = 10,
                 title = TRUE,
                 xlab = "Frequency (Hz)", ylab = "Amplitude",
                 labels = TRUE, legend = TRUE, digits = 2)*1000
-
-write.csv2(peaks, file = 'peaks555.csv')
 # write.csv2(peaks, file = 'norm_ROI1_Fluo4_peaks.csv')
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>
 # Frequency
 spectrogram(calcium_ts, 14.29745, windowlength = 95000, 0.01,
             timestep = 1000,
             maxfreq = 0.4,
             colors = TRUE,
-            dynamicrange = 40, nlevels = dynamicrange, maintitle = "",
+            dynamicrange = 55, nlevels = dynamicrange, maintitle = "",
             show = TRUE, window = 'hamming',
             quality = TRUE)
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>
 # Period
 my.data <- data.frame(x = calcium_ts)
@@ -787,12 +791,16 @@ wt.image(my.w, color.key = "i", # or use 'quantile' key
          legend.params = list(lab = "wavelet power levels"),
          periodlab = "Period", timelab = "Time (seconds)",
          spec.time.axis = list(at = index.ticks, labels = index.labels.rounded))
+
+
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^
 # Wavelet coherency
+
+
 x <- sinwave
 y <- calcium_ts
 # y <- ts(calcium$sin, start = calcium$time[1])
-# x <- ts(calcium$Y554, start = calcium$time[1])
+x <- ts(calcium$Y554, start = calcium$time[1])
 my.data <- data.frame(x = x, y = y, date = calcium$time)
 my.wc <- analyze.coherency(my.data, my.pair = c("x", "y"),
                            loess.span = 0,
@@ -800,13 +808,17 @@ my.wc <- analyze.coherency(my.data, my.pair = c("x", "y"),
                            dj = 1/100,
                            lowerPeriod = 4, upperPeriod = 32,
                            make.pval = TRUE, n.sim = 10)
+
 wc.image(my.wc, n.levels = 250, color.key = "interval",
          siglvl.contour = 0.1, siglvl.arrow = 0.05, which.arrow.sig = "wt",
          legend.params = list(lab = "cross-wavelet power levels"),
          label.time.axis = TRUE,
-         main = "ROI438 and ROI555",
+         main = "ROI224 and ROI555 sinus wave",
          periodlab = "Period", timelab = "Time (seconds)",
          spec.time.axis = list(at = index.ticks, labels = index.labels.rounded))
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^
+?analyze.coherency
+write.csv(calcium, file = 'calcium.csv')
 
 \end{lstlisting}
 
