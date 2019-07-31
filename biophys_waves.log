@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  30 JUL 2019 22:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  31 JUL 2019 20:20
 entering extended mode
 **./biophys_waves.tex
 (biophys_waves.tex
@@ -1648,50 +1648,69 @@ l.302 \end{tablenotes}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<fig4.png, id=73, 1399.2275pt x 1083.04625pt>
-File: fig4.png Graphic file (type png)
-<use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 311.
-(pdftex.def)             Requested size: 449.27701pt x 347.75522pt.
+
+LaTeX Warning: File `fig4.png' not found on input line 311.
+
+
+biophys_waves.tex:311: Package pdftex.def Error: File `fig4.png' not found: usi
+ng draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.311 ...degraphics[width=0.9\linewidth]{fig4.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 [4] [5 <./fig1.png (PNG copy)>] [6 <./fig2.jpg>] [7 <./fig3.png (PNG copy)>]
-[8 <./fig4.png (PNG copy)>]
-<fig5.png, id=106, 1463.4675pt x 1083.04625pt>
+[8]
+<fig5.png, id=105, 1463.4675pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
 Package pdftex.def Info: fig5.png  used on input line 321.
 (pdftex.def)             Requested size: 449.27701pt x 332.48526pt.
-<fig6.png, id=107, 1329.96875pt x 1083.04625pt>
-File: fig6.png Graphic file (type png)
-<use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 332.
-(pdftex.def)             Requested size: 449.27701pt x 365.86765pt.
-<fig7.png, id=108, 1926.19624pt x 1083.04625pt>
+
+
+LaTeX Warning: File `fig6.png' not found on input line 332.
+
+
+biophys_waves.tex:332: Package pdftex.def Error: File `fig6.png' not found: usi
+ng draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.332 ...degraphics[width=0.9\linewidth]{fig6.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<fig7.png, id=106, 1926.19624pt x 1083.04625pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
 Package pdftex.def Info: fig7.png  used on input line 341.
 (pdftex.def)             Requested size: 449.27701pt x 252.61542pt.
-<fig8.png, id=109, 1467.4825pt x 1083.04625pt>
+<fig8.png, id=107, 1467.4825pt x 1083.04625pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
 Package pdftex.def Info: fig8.png  used on input line 351.
 (pdftex.def)             Requested size: 449.27701pt x 331.57632pt.
-<fig9.png, id=111, 1403.2425pt x 1083.04625pt>
+<fig9.png, id=109, 1368.11125pt x 1076.02pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
 Package pdftex.def Info: fig9.png  used on input line 365.
-(pdftex.def)             Requested size: 399.36157pt x 308.22519pt.
-<fig10.png, id=113, 1465.475pt x 1083.04625pt>
+(pdftex.def)             Requested size: 399.36157pt x 314.09015pt.
+<fig10.png, id=111, 1465.475pt x 1083.04625pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
 Package pdftex.def Info: fig10.png  used on input line 379.
 (pdftex.def)             Requested size: 399.36157pt x 295.13664pt.
- [9 <./fig5.png (PNG copy)>] [10 <./fig6.png (PNG copy)>] [11 <./fig7.png (PNG 
-copy)>] [12 <./fig8.png (PNG copy)>]
-Underfull \vbox (badness 3668) has occurred while \output is active []
-
- [13 <./fig9.png (PNG copy)>] [14 <./fig10.png (PNG copy)>] [15] (biophys_waves
-.bbl
-[16] [17]) [18]
+[9 <./fig5.png (PNG copy)>] [10] [11 <./fig7.png (PNG copy)>] [12 <./fig8.png (
+PNG copy)>] [13 <./fig9.png (PNG copy)>] [14 <./fig10.png (PNG copy)>] [15]
+[16] (biophys_waves.bbl [17]) [18]
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 ) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang2.st
@@ -1702,23 +1721,44 @@ File: lstlang2.sty 2019/02/27 1.8b listings language file
 File: lstlang3.sty 2019/02/27 1.8b listings language file
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `TS1/ntxtlf/b/n' tried instead on input line 702
+(Font)              Font shape `TS1/ntxtlf/b/n' tried instead on input line 715
 .
 LaTeX Font Info:    Font shape `TS1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 702.
+(Font)              scaled to size 10.0pt on input line 715.
  [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Overfull \hbox (82.80585pt too wide) in paragraph at lines 878--879
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (70.80573pt too wide) in paragraph at lines 884--885
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (136.8064pt too wide) in paragraph at lines 895--896
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 842.
-[21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 842.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 924.
+[23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 924.
  (biophys_waves.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 842.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 842.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 924.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 924.
 Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1731,10 +1771,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27895 strings out of 492895
- 476124 string characters out of 3125603
- 879177 words of memory out of 3000000
- 31077 multiletter control sequences out of 15000+200000
+ 27984 strings out of 492895
+ 477431 string characters out of 3125603
+ 883249 words of memory out of 3000000
+ 31090 multiletter control sequences out of 15000+200000
  632281 words of font info for 202 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,94p,1428b,2592s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1759,9 +1799,9 @@ Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/1/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (21 pages, 13999200 bytes).
+Output written on biophys_waves.pdf (23 pages, 12553182 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
- 239 named destinations out of 1000 (max. 500000)
- 27699 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 574 PDF objects out of 1000 (max. 8388607)
+ 315 named destinations out of 1000 (max. 500000)
+ 27689 words of extra memory for PDF output out of 29859 (max. 10000000)
 
