@@ -629,6 +629,14 @@ are the source of oscillations
 \cite{sato2014depolarization}
 citation \cite{sato2014depolarization}.
 
+Short Time Fourier Transform (STFT) analysis provides information about the number of oscillators, but its time resolution is limited.
+Wavelet tranform allows analysis of non-stationary signals.
+
+The presented results of wavelet tranform of obtained oscillation time dependencies confirmed the presence of two? harmonic components in each...
+and allowed more accurate visualization of the frequency changes in time.
+
+Thus, for the ...
+
 \section*{Conclusion}
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
@@ -659,7 +667,7 @@ height = 20;
 spacing = 1;
 numRow = 24;
 numCol = 24;
-
+u
 for(i = 0; i < numRow; i++)
 {
 	for(j = 0; j < numCol; j++)
@@ -817,8 +825,31 @@ wc.image(my.wc, n.levels = 250, color.key = "interval",
          periodlab = "Period", timelab = "Time (seconds)",
          spec.time.axis = list(at = index.ticks, labels = index.labels.rounded))
 #^^^^^^^^^^^^^^^^^^^^^^^^^^^
-?analyze.coherency
-write.csv(calcium, file = 'calcium.csv')
+# This function extracts frequencies from time-series data
+myfreq <- function(x) {
+        s.rate <- 14.142211 # samples per second
+        df <- 1/s.rate # seconds per second
+        mypeaks <- data.frame()
+        calcium <- read.csv(x, sep = ',')
+        colnames(calcium)[1] <- "frame" # rename first column
+        calcium$time <- calcium$frame * 110.803 / 1567
+        l <- length(colnames(calcium))-2
+        mydata <- data.frame(matrix(ncol = 2, nrow = 0))
+        colnames(mydata) <- c("ROI", "freq")
+        for (i in 1:l){
+                roi <- paste('Y', as.character(i-1), sep="")
+                calcium_ts <- ts(calcium[,roi], start = calcium$time[1])
+                peaks <- fpeaks(spec(calcium_ts, f=s.rate),
+                                nmax = 20, threshold = 0.5, # set nmax for peaks quantity
+                                plot = F, title = F)*1000
+                df <- data.frame('ROI' = roi,
+                                 'freq' = matrix(unlist(peaks[,"freq"]),
+                                            nrow=length(peaks[,"freq"]), byrow=T))
+                mydata <- rbind(mydata, df)
+        }
+    frequencies <<- mydata
+}
+#--------------------------
 
 \end{lstlisting}
 
