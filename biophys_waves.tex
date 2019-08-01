@@ -672,7 +672,6 @@ height = 20;
 spacing = 1;
 numRow = 24;
 numCol = 24;
-u
 for(i = 0; i < numRow; i++)
 {
 	for(j = 0; j < numCol; j++)
@@ -780,27 +779,43 @@ myfreq('fluoF0.csv')
 mydata <- frequencies.rm
 
 # mydata <- newdata
+# mydata <- newdata
 df.summary.freq <- group_by(mydata, ROI) %>%
-                summarise(
+        summarise(
                 sd = sd(freq, na.rm = TRUE),
                 freq = mean(freq))
-# df.summary.freq
+df.summary.freq
+
 freqdata <- df.summary.freq
 df.freq <- freqdata
 ggplot(df.freq, aes(reorder(ROI, freq), freq)) +
-       geom_bar(stat = "identity", data = freqdata, width = 1,
-          fill = 'black', color = "black") +
-          theme_bw(base_size = 14) +
-          theme(axis.line = element_line(color = "darkblue",
+        geom_bar(stat = "identity", data = freqdata,
+                 width = 1,
+                 fill = "gray20", color = "gray20")+
+        theme_bw(base_size = 14) +
+        theme( plot.title = element_text(hjust = 0.5),
+               axis.line = element_line(color = "darkblue",
                                         size = 1, linetype = "solid"),
+               #  axis.title.x=element_blank(),
+               axis.text.y=element_text(size=16),
+               axis.text.x=element_blank(),
+               axis.ticks.x=element_blank(),
                #axis.line = element_line(arrow = arrow()),
-                plot.margin = margin(1, 1, 1, 1, "cm"),
-                plot.background = element_rect(
-                fill = "grey90", colour = "black", size = 1),
-                panel.background = element_blank(),
-                axis.text = element_text()) +
-          scale_y_continuous(name="Mean frequency, Hz", limits=c(0, 5)) +
-          scale_x_discrete(name='ROI', labels=FALSE)
+               plot.margin = margin(1, 1, 1, 1, "cm"),
+               plot.background = element_rect(
+                       fill = "white",
+                       colour = "white",
+                       size = 1),
+               panel.background = element_blank(),
+               axis.text = element_text(),
+             ) +
+        scale_y_continuous(name="Mean Frequency, Hz", limits=c(0, 5)) +
+        scale_x_discrete(name='576 ROIs' ,
+                         labels=FALSE
+    ) + geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
+        geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
+        geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
+        ggtitle('Fluo-4')
 #--------------------------
 #-----import constats-----
 s.rate <- 14.142211 #
