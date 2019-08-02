@@ -259,11 +259,9 @@ analyze - tools - scale bar
 
 \section*{Results and Discussion}
 
-Calcium waves
-How calcium waves are formed and what the consequences may be.
-Solitons
 
-coherence with its own main harmonic can be considered as an indicator of normality
+
+
 
 \begin{figure}[hbt!]
 \centering
@@ -533,6 +531,11 @@ Analysis of oscillation periodicity reveal
 Wavel coherence analysis of calcium oscillation reveal...
 Wavelet transform coherence (WTC) is a method for analyzing the coherence and phase lag between two time series as a function of both time and frequency (\cite{chang2010time}).
 
+Calcium waves
+How calcium waves are formed and what the consequences may be.
+Solitons
+
+coherence with its own main harmonic can be considered as an indicator of normality
 
 Wavelet toolbox is a useful tool to study hyperscanning data. Many recent publications on NIRS hyperscanning use wavelet coherence to quantify the relationship between two interacting brains (e.g. Baker et al 2016, Nozawa et al 2016). You can see more information about wavelet coherence at \href{http://www.alivelearn.net/?p=1169}{site}.
 
@@ -819,7 +822,7 @@ ggplot(df.freq, aes(reorder(ROI, freq), freq)) +
         geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
         ggtitle('Fluo-4')
 #--------------------------
-#-----import constats-----
+#-----import constants-----
 s.rate <- 14.142211 #
 del <- 0.0707103 # frame duration in seconds
 fsin <- 0.9025023 # Hz, sinus rythm main frequency
