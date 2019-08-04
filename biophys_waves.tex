@@ -282,7 +282,7 @@ Plus video in good resolution in supplement. In futhure research we used 512 res
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig3.png}
-    \caption{(A) Fluo-4 raw image with 40 cells manually selected and  boxplots of collected signals ordered in according with ariphmetic mean; (B) 8-Di-ANEPPS signal image and boxplots of correspondent cells. (C) 24 x 24 ROI grid, dotted red line is region for kinesiogramm (D) and correspondent region from clustered heat map of signal from 24 x 24 ROI grid (F).}
+    \caption{(A) Fluo-4 raw image with 40 cells manually selected and  boxplots of collected signals ordered in according with ariphmetic mean; (B) 8-Di-ANEPPS signal image and boxplots of correspondent cells. }
     \label{fig:fig3}
 \end{figure}
 
@@ -314,7 +314,7 @@ The effect of hypoxia on calcium oscillations in the epicardial layer of cardiom
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig4.png}
-    \caption{(G) Normalized against F0 (left) and not normalized (right) frames with ROI selection and heat maps of manully selected ROI for wavelet analysis}
+    \caption{(G) Normalized against F0 (left) and not normalized (right) frames with ROI selection and heat maps of manully selected ROI for wavelet analysis. (C) 24 x 24 ROI grid, dotted red line is region for kinesiogramm (D) and correspondent region from clustered heat map of signal from 24 x 24 ROI grid (F).}
     \label{fig:fig4}
 \end{figure}
 
@@ -324,12 +324,12 @@ In the course of myocardial observations after simultaneous staining of Di-8-ANE
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig5.png}
-    \caption{(A) Heat maps fragments for clusterized signals, obrained from F0-nomalized series (B) Roi grid with 576 ROI selected 318.363 $\mu m^2$ each (C) Histograms of FFT-derived frequencies from 576 ROIs. Data was sorted in increasing order. Mean values was calculated for 3 (nmax = 3), or 5 frequencies with max amplitude. (D) Linear regression for frequency --- signal intensiy correlations}
+    \caption{(A) Heat maps fragments for clusterized signals, obrained from F0-nomalized series (B) Roi grid with 576 ROI selected 318.363 $\mu m^2$ each (C) Histograms of FFT-derived frequencies from 576 ROIs. Data was sorted in increasing order. Mean values was calculated for 3 (nmax = 3), or 5 frequencies with max amplitude. (D) Intensities correlation}
     \label{fig:fig5}
 \end{figure}
 
 
-A test signal containing 3 sequential sinusoids.
+Pearson, Kendall and Spearman correlation coefficients show significant negative correlation between \ce{Ca^2+} concentration and \ce{Ca^2+} oscillations frequency
 
 
 \begin{figure}
@@ -338,6 +338,8 @@ A test signal containing 3 sequential sinusoids.
     \label{fig:fig6}
 \end{figure}
 
+
+A test signal containing 3 sequential sinusoids.
 
 
 \begin{figure}[hbt!]
@@ -378,15 +380,6 @@ We performed a calculation of the \ref{fig:fig8} coherence between the sinus rhy
 The role of calcium in regulation of conraction.
 in the occurrence of arrhythmias.
 
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.8\linewidth]{fig10.png}
-\caption{Wavelet coherence images of two time series provided by correspondent ROI fluorescent imaging within subepicardial layer.
-The vertical axis shows the Fourier periods. The horizontal axis shows time step counts.
-Further plot design options concern: plot of the cone of influence, plot of contour lines to border areas of significance, plot of the ridge, and plot of arrows to reflect phase differences.}
-\label{fig:fig10}
-\end{figure}
-
 
 Fig. 1. Cardiomyocytes adjacent to the epicardial surface of the heart.
 Based on a series of optical sections, a three-dimensional image of a portion of the myocardium of an isolated rat heart stained with a potential dependent Di-8-ANEPPS dye.
@@ -394,11 +387,6 @@ The epicardial surface of the heart is located on top.
 Different types of myocardial damage.
 Different parts of the myocardium of the rat, colored for active mitochondria (red) and free calcium ions (green). a is a normal tissue; b - groups of cells with reduced mitochondrial potential and elevated calcium content; c, d - groups of cells with necrotic striation. Optical sections of subepicardial ventricular layers.
 
-\begin{figure}
-    \includegraphics[width=0.9\linewidth]{fig11.png}
-    \caption{(A) Fluo-4 raw image with 40 cells manually selected and  boxplots of collected signals ordered in according with ariphmetic mean; (B) 8-Di-ANEPPS signal image and boxplots of correspondent cells. (C) 24 x 24 ROI grid, dotted red line is region for kinesiogramm (D) and correspondent region from clustered heat map of signal from 24 x 24 ROI grid (F).}
-    \label{fig:fig11}
-\end{figure}
 
 The scale segments are 100 $\mu$m.
 Measurement of fluorescence intensity in the area of the myocardium stained for active mitochondria (red) and free calcium ions (green).
@@ -705,123 +693,21 @@ for(i = 0; i < numRow; i++)
 # Set parameter
 options('stringsAsFactors' = FALSE)
 # Import libraries
+library(PerformanceAnalytics)
+library(spectral.methods)
+library(tseriesEntropy)
 library(WaveletComp)
 library(phonTools)
 library(seewave)
 library(ggplot2)
+library(freqdom)
 library(ggpubr)
+library(psych)
 library(dplyr)
 library(xlsx)
+library(psd)
 
-# Import functions
-# Remove outliers function
-#_________________________
-outliers.rm <- function(x)
-{
-        q <- quantile(x, probs = c(0.25, 0.75))
-        q <- unname(q)
-        for (i in x)
-        {
-                if ( i < q[1] - 1.5*IQR(x) ||
-                     i > q[2] + 1.5*IQR(x)) {
-                        x <- x[x != i]
-                        return(x)
-                }
-                else {
-                        return(x)
-                }
-        }
-}
 
-# This function extracts frequencies from time-series data
-# and remove outliers (save to frequencies.rm)
-#______________________
-myfreq <- function(x) {
-        s.rate <- 14.142211 # samples per second
-        df <- 1/s.rate # seconds per second
-        mypeaks <- data.frame()
-        calcium <- read.csv(x, sep = ',')
-        colnames(calcium)[1] <- "frame" # rename first column
-        calcium$time <- calcium$frame * 110.803 / 1567
-        l <- length(colnames(calcium))-2
-        mydata <- data.frame(matrix(ncol = 2, nrow = 0))
-        colnames(mydata) <- c("ROI", "freq")
-        for (i in 1:l){
-                tryCatch({
-                        roi <- paste('Y', as.character(i-1), sep="")
-                        calcium_ts <- ts(calcium[,roi], start = calcium$time[1])
-                        peaks <- fpeaks(spec(calcium_ts, f=s.rate),
-                              nmax = 10, threshold = 0.5, # set nmax for peaks
-                              plot = FALSE, title = FALSE,
-                              mel = FALSE, legend = FALSE,
-                              labels = FALSE)*1000
-                        df <- data.frame('ROI' = roi,
-                                 'freq' = matrix(unlist(peaks[,"freq"]),
-                                         nrow=length(peaks[,"freq"]), byrow=T))
-                        mydata <- rbind(mydata, df)
-                }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
-        }
-        frequencies <<- mydata
-        mydata.rm <- data.frame(matrix(ncol = 2, nrow = 0))
-        colnames(mydata.rm) <- c("ROI", "freq")
-        for (i in 1:l){
-          tryCatch({
-                roi <- paste('Y', as.character(i-1), sep="")
-                df.rm <- data.frame('ROI' = roi,
-                'freq' = outliers.rm(frequencies[frequencies$ROI==roi,]$freq))
-                mydata.rm <- rbind(mydata.rm, df.rm)
-          }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
-        }
-        frequencies.rm <<- mydata.rm
-}
-#--------------------------
-# myfreq('fluoF0-roi123.csv')
-# myfreq('aneppsF0.csv')
-myfreq('fluoF0.csv')
-#-------------------------
-# (1) Compute summary statistics for the variable ROI
-# (2) Bar plots of sorted freq means
-mydata <- frequencies.rm
-
-# mydata <- newdata
-# mydata <- newdata
-df.summary.freq <- group_by(mydata, ROI) %>%
-        summarise(
-                sd = sd(freq, na.rm = TRUE),
-                freq = mean(freq))
-df.summary.freq
-
-freqdata <- df.summary.freq
-df.freq <- freqdata
-ggplot(df.freq, aes(reorder(ROI, freq), freq)) +
-        geom_bar(stat = "identity", data = freqdata,
-                 width = 1,
-                 fill = "gray20", color = "gray20")+
-        theme_bw(base_size = 14) +
-        theme( plot.title = element_text(hjust = 0.5),
-               axis.line = element_line(color = "darkblue",
-                                        size = 1, linetype = "solid"),
-               #  axis.title.x=element_blank(),
-               axis.text.y=element_text(size=16),
-               axis.text.x=element_blank(),
-               axis.ticks.x=element_blank(),
-               #axis.line = element_line(arrow = arrow()),
-               plot.margin = margin(1, 1, 1, 1, "cm"),
-               plot.background = element_rect(
-                       fill = "white",
-                       colour = "white",
-                       size = 1),
-               panel.background = element_blank(),
-               axis.text = element_text(),
-             ) +
-        scale_y_continuous(name="Mean Frequency, Hz", limits=c(0, 5)) +
-        scale_x_discrete(name='576 ROIs' ,
-                         labels=FALSE
-    ) + geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
-        ggtitle('Fluo-4')
-#--------------------------
 #-----import constants-----
 s.rate <- 14.142211 #
 del <- 0.0707103 # frame duration in seconds
@@ -845,18 +731,337 @@ plot(t, sinwave_complex, type = 'l',
      main = "Sinus wave",
      xlab = 'Time, sec', ylab = 'value',
      xlim = c(0, 100), ylim = c(-1, 1))
+# Import functions
+# Remove outliers function
+#_________________________
+outliers.rm <- function(x)
+{
+        q <- quantile(x, probs = c(0.25, 0.75))
+        q <- unname(q)
+        for (i in x)
+        {
+                if ( i < q[1] - 1.5*IQR(x) ||
+                     i > q[2] + 1.5*IQR(x)) {
+                        x <- x[x != i]
+                        return(x)
+                }
+                else {
+                        return(x)
+                }
+        }
+}
 
+# This function extracts frequencies from csv files with time-series data
+#______________________
+myfreq <- function(x) {
+        s.rate <- 14.142211 # samples per second
+        df <- 1/s.rate # seconds per second
+        mypeaks <- data.frame()
+        calcium <- read.csv(x, sep = ',')
+        colnames(calcium)[1] <- "frame" # rename first column
+        calcium$time <- calcium$frame * 110.803 / 1567
+        l <- length(colnames(calcium))-2
+        mydata <- data.frame(matrix(ncol = 2, nrow = 0))
+        colnames(mydata) <- c("ROI", "freq")
+        for (i in 1:l){
+                tryCatch({
+                        roi <- paste('Y', as.character(i-1), sep="")
+                        calcium_ts <- ts(calcium[,roi], start = calcium$time[1])
+                        peaks <- fpeaks(spec(calcium_ts, f=s.rate),
+                                        nmax = 5, threshold = 0.1, # set nmax for peaks quantity
+                                        plot = FALSE, title = FALSE,
+                                        mel = FALSE, legend = FALSE,
+                                        labels = FALSE)*1000
+                        df <- data.frame('ROI' = roi,
+                                         'freq' = matrix(unlist(peaks[,"freq"]),
+                                                         nrow=length(peaks[,"freq"]), byrow=T))
+                        mydata <- rbind(mydata, df)
+                }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+        }
+        frequencies <<- mydata
+        mydata.rm <- data.frame(matrix(ncol = 2, nrow = 0))
+        colnames(mydata.rm) <- c("ROI", "freq")
+        for (i in 1:l){
+                tryCatch({
+                        roi <- paste('Y', as.character(i-1), sep="")
+                        df.rm <- data.frame('ROI' = roi,
+                                            'freq' = outliers.rm(frequencies[frequencies$ROI==roi,]$freq))
+                        mydata.rm <- rbind(mydata.rm, df.rm)
+                }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+        }
+        frequencies.rm <<- mydata.rm
+}
+#--------------------------
+# myfreq('fluoF0-roi123.csv')
+
+myfreq('fluoF0.csv')
+myfreq('aneppsF0.csv')
+
+myfreq('fluo40cellsF0.csv')
+
+myfreq('anepps40cellsF0.csv')
+
+#-------------------------
+# Compute summary statistics for the variable ROI
+# Bar plots of sorted freq means
+mydata <- frequencies.rm
+mydata <- frequencies
+# (1) freq-----------------------------------
+df.summary.freq <- group_by(mydata, ROI) %>%
+                   summarise(sd = sd(freq, na.rm = TRUE),
+                           freq = max(freq))
+# or use median
+df.summary.freq <- group_by(mydata, ROI) %>%
+        summarise(sd = sd(freq, na.rm = TRUE),
+                  freq = median(freq))
+
+#
+df.summary.freq
+
+#select
+freqdata <- df.summary.freq
+
+df.freq <- freqdata
+#^^^^^JUMP DOWN if it is '40cells'
+#-------------------------------
+# Reorder and plot the data
+ggplot(df.freq, aes(reorder(ROI, freq), freq)) +
+        geom_bar(stat = "identity", data = freqdata,
+                 width = 1,
+                 fill = "gray20", color = "gray20")+
+        theme_bw(base_size = 14) +
+        theme( plot.title = element_text(hjust = 0.5),
+               axis.line = element_line(color = "darkblue",
+                                        size = 1, linetype = "solid"),
+               #  axis.title.x=element_blank(),
+               axis.text.y = element_text(size=16),
+               axis.text.x=element_blank(),
+               axis.ticks.x=element_blank(),
+               #axis.line = element_line(arrow = arrow()),
+               plot.margin = margin(1, 1, 1, 1, "cm"),
+               plot.background = element_rect(
+                       fill = "white",
+                       colour = "white",
+                       size = 1),
+               panel.background = element_blank(),
+               axis.text = element_text(),
+             ) +
+        scale_y_continuous(name="Min frequency, Hz", limits=c(0, 3)) +
+        scale_x_discrete(name='576 ROIs', labels=FALSE) +
+        geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
+        geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
+        geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
+        ggtitle('Fluo-4 F0-norm, nmax=3') # change nmax in myfreq function!
+#---------------------------------------------------------------------------
+#----------- Specify order for 40 cells plot -----
+df.freq
+df.freq$ROI <- factor(df.freq$ROI, levels = c("Y0", "Y1", "Y2", "Y3", "Y4",
+                                              "Y5", "Y6", "Y7", "Y8", "Y9", "Y10",
+                                              "Y11", "Y12", "Y13", "Y14", "Y15", "Y16",
+                                              "Y17", "Y18", "Y19",  "Y20", "Y21", "Y22",
+                                              "Y23", "Y24", "Y25", "Y26", "Y27", "Y28", "Y29",
+                                              "Y30", "Y31", "Y32", "Y33", "Y34", "Y35", "Y36",
+                                              "Y37", "Y38", "Y39"))
+#---------------------------------
+
+ggplot(df.freq, aes(reorder(ROI, freq), freq)) +
+        geom_bar(stat = "identity", data = df.freq,
+                 width = 1, fill = 'gray20', color = "gray20")+
+        theme( # Change axis lines
+                axis.line = element_line(size = 1),
+                # Change axis ticks text labels: font color, size and face
+                axis.text.x = element_text(face = "bold",
+                                           size = 12, angle = 90),     # Change x axis tick labels only
+                axis.text.y = element_text(face = "bold",
+                                           size = 12, angle = 0),     # Change y axis tick labels only
+                # Change axis ticks line: font color, size, linetype and length
+                axis.ticks = element_line(),      # Change ticks line fo all axes
+                axis.ticks.x = element_line(),    # Change x axis ticks only
+                axis.ticks.y = element_line(),    # Change y axis ticks only
+              axis.ticks.length = unit(3, "pt") # Change the length of tick
+        ) + geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
+        geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
+        geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
+        ggtitle('Fluo-4 minimum freqency ') +
+        scale_y_continuous(name="Frequency, Hz", limits=c(0, 1)) +
+        scale_x_discrete(name='40 cells ROIs' #, labels=c(paste(1:40))
+        )
+#-------------------------------
 #-----------------------------------------------
 # Load data from ImageJ BAR Time series analisys
-# calcium <- read.csv('fluoPxF0.csv', sep = ',')
-# calcium <- read.csv('fluoF0-roi123.csv', sep = ',')
-# colnames(calcium) <- c('frame','ROI20x20','cell', 'ROI512x512')
 # calcium <- read.csv('fluo.csv', sep = ',') # Fluo-4 raw
-calcium <- read.csv('fluoPxF0.csv', sep = ',') # Fluo-4 F0 normalazed signal
+calcium <- read.csv('fluoFO.csv', sep = ',') # Fluo-4 F0  >>>>JUMP TO total
+calcium <- read.csv('aneppsRaw.csv', sep = ',')
+#-----------------------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<TOTAL HERE
+# Correlation analysis
+# Aggregate mean frequencies from F0-normalized signals
+
+head(df.freq)
+
+df1 <- df.freq
+df1 %>%
+        rename(
+                ROI = ROI,
+                sdu = sd,  # A for Di-8-Anepps
+                A.freq = freq # F for Fluo-4
+        )
+df
+total <- merge(df[,c(1,3)],df1[,c(1,3)],by="ROI") #===========================
+head(total)
+colnames(total) <- c('ROI', 'F.freq', 'A.freq')
+
+total <- merge(total, means, by="ROI")
+
+# Call mean intensity from raw signal
+int <- calcium[,-1]
+means <- data.frame(x = 'ROI', y = rep(NA, 576))
+colnames(means) <- c('ROI', 'A.int')
+for (i in seq(0,575)) {means[i+1,1] <- paste('Y', as.character(i), sep="")}
+for (i in means$ROI){means[means$ROI==i, 2] <- mean(calcium[,i])}
+
+head(means)
+tail(means)
+
+total <- merge(total, means, by="ROI")
+
+tail(total)
+write.csv(total, file = 'total.csv')
+
+#
+
+ggplot(total,
+       aes(x = F.int,
+           y = A.int)) +
+        geom_point() +
+        geom_smooth(method  = "lm",
+                    formula = y ~ poly(x, 1, raw=TRUE), # polynomial of order 1
+
+                    se      = TRUE) + scale_x_continuous(trans='sqrt') +
+        theme( axis.line = element_line(color = "darkblue",
+                                        size = 1, linetype = "solid"),
+               #  axis.title.x=element_blank(),
+               axis.text.y = element_text(size=14),
+               axis.title = element_text(size=14),
+               #axis.line = element_line(arrow = arrow()),
+               plot.margin = margin(1, 1, 1, 1, "cm"),
+               plot.background = element_rect(
+                       fill = "white",
+                       colour = "white",
+                       size = 1),
+               panel.background = element_blank(),
+               axis.text.x = element_text(size = 14),
+               plot.title = element_text(size = 20, face = "bold")
+        ) +
+        scale_y_continuous(name="Anepps intensity, a.u.", limits=c(0, 50)) +
+        scale_x_continuous(name='Fluo intensity, a.u.') +
+        ggtitle("Correlation")
+
+# Calculate correlations
+
+corr.calc <- function(x){
+        x <- cor.test(~ x[,4] + x[,5], x)
+        return(x$estimate)}
+tail(total)
+
+corr.calc(total)
+
+Data.num <- total[,c(4,5)]
+
+corr.test(Data.num,
+          use    = "pairwise",
+          method = "pearson",
+          adjust = "none")
+
+
+chart.Correlation(Data.num,
+                  method="pearson",
+                  histogram=TRUE,
+                  pch=16)
+
+
+plot(F.int ~ A.int,
+     data=total,
+     pch=16,
+     xlab = "Anepps intensity",
+     ylab = "Fluo intensity")
+
+plot(A.freq ~ A.int,
+     data=total,
+     pch=16,
+     xlab = "MP",
+     ylab = "Frequency")
+
+
+
+cor.test( ~ F.freq + F.int,
+          data=total,
+          method = "kendall")
+
+cor.test( ~ F.freq + F.int,
+          data=total,
+          method = "pearson")
+
+cor.test( ~ F.freq + F.int,
+          data=total,
+          method = "spearman")
+
+#---------------------------
+
+cor.test( ~ A.freq + A.int,
+          data=total,
+          method = "kendall")
+
+cor.test( ~ A.freq + A.int,
+          data=total,
+          method = "pearson")
+
+cor.test( ~ A.freq + A.int,
+          data=total,
+          method = "spearman")
+
+# plot residuals
+
+model = lm(F.freq ~ F.int,
+           data = total)
+
+x = residuals(model)
+
+plot(x)
+
+summary(model)
+
+plot(F.freq ~ F.int,
+     data=total,
+     pch=16,
+     xlab = "Calcium conc",
+     ylab = "Frequncy")
+
+abline(model,
+       col = "blue",
+       lwd = 2)
+
+plot(fitted(model),
+     residuals(model))
+
+ggplot(total,
+       aes(x = F.int,
+           y = F.freq)) +
+        geom_point() +
+        geom_smooth(method  = "lm",
+                    formula = y ~ poly(x, 1, raw=TRUE), # polynomial of order 1
+                    se      = TRUE)
+
+#---------------------------------------------------------------------------
+#
+#
+# END
+#
+calcium <- read.csv('fluoF0.csv')
 colnames(calcium)[1] <- "frame" # rename first column
-# calcium <- read.csv('anepps.csv', sep = ',') # Di-8-ANEPPS raw
-calcium <- read.csv('aneppsPxF0.csv', sep = ',') # F0 normalazed signal
+# calcium <- read.csv('anepps.csv', sep = ',') # Di-8-ANEPPS raw signal
+calcium <- read.csv('aneppsRaw.csv', sep = ',') #Di-8-ANEPPS F0 normalazed
 colnames(calcium)[1] <- "frame" # rename first column
+boxplot(calcium[,-1])
 #------------------------------------------
 # Calibrate time: 110.803 sec / 1567 frames
 calcium$time <- calcium$frame * 110.803 / 1567
@@ -865,7 +1070,7 @@ calcium$sin <- sinwave
 calcium$sincomp <- sinwave_complex
 #--------------------------
 # Select ROI from 20x20 ROI grid
-xcal <- calcium$Y0 # from Y0 to Y575 = ROI1 to ROI576 #<<CHANGE VAR
+xcal <- calcium$Y555# Enter Y(ROI - 1) num #<<<<<<<<<<<<<<<<<<<CHANGE VAR
 
 #--------------------------
 # time series analysis
@@ -875,7 +1080,7 @@ spx <- x.spec$freq/del
 spy <- 1*x.spec$spec
 
 plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
-     type="l", lwd = 2, main = 'Fluo-4', xlim=c(0,5))
+     type="l", lwd = 2, main = 'Fluo-4 ROI556', xlim=c(0,7), ylim = c(0, 1))
 #_______________________________Fluo-4____D-8-ANEPPS
 
 # Peaks detection
@@ -901,24 +1106,24 @@ spectrogram(calcium_ts, 14.29745, windowlength = 95000, 0.01,
             timestep = -1000,
             maxfreq = 0.4,
             colors = TRUE,
-            dynamicrange = 50, nlevels = dynamicrange, maintitle = "",
+            dynamicrange = 65, nlevels = dynamicrange, maintitle = "",
             show = TRUE, window = 'kaiser', # 'kaiser', 'hamming'
             quality = TRUE)
 
 #>>>>>>>>>>>>>>>>>>>>>>>>>>
-# Period
+# Period # The wavelet transform of x is computed as follows:
 my.data <- data.frame(x = calcium_ts)
 my.w <- analyze.wavelet(my.data, "x",
                         loess.span = 0,
                         dt = 1,
                         dj = 1/500,
                         lowerPeriod = 2,
-                        upperPeriod = 32,
+                        upperPeriod = 64,
                         make.pval = TRUE, n.sim = 10)
 ## Insert your specification of the time axis
 # "interval" or "i": equidistant breakpoints
 # (from 0 through maximum value)
-wt.image(my.w, color.key = "quantile", # 'i' or use 'quantile' key
+wt.image(my.w, color.key = "i", # 'i' or use 'quantile' key
          n.levels = 250, max.contour.segments = 10000,
          useRaster = TRUE, plot.contour = FALSE,
          legend.params = list(lab = "wavelet power levels"),
@@ -944,9 +1149,57 @@ wc.image(my.wc, n.levels = 250, color.key = "interval", # quantile or interval
          siglvl.contour = 0.1, siglvl.arrow = 0.05, which.arrow.sig = "wt",
          legend.params = list(lab = "cross-wavelet power levels"),
          label.time.axis = TRUE,
-         main = "ROI10px and 0.9Hz sinus wave",
+         main = "ROI272",
          periodlab = "Period", timelab = "Time (seconds)",
          spec.time.axis = list(at = index.ticks, labels = index.labels.rounded))
+
+
+# Entropy measure
+
+w <- as.integer(xcal)
+Srho(w, lag.max = 10, stationary = TRUE, plot = TRUE,
+     version = "FORTRAN")
+
+## time series signal
+
+plot(xcal ~ calcium$Time,
+     xlab = "time (s)", ylab = "fluorescence intensity (a.u.)", t="l",
+     xlim = c(0, 20), ylim = c(0, 100), main = "Time-series")
+
+
+### Remove unnecessary objects
+# rm(Input)
+library(psych)
+pairs(data=total, ~ freq.y + F.amp)
+########
+# x$name <- factor(x$name, levels = x$name[order(x$val)])
+#---------------------------------------------------------------------------
+#^^^^^ 40 cells from here ^^^^^^
+
+
+# Plot 40 cells with labels and without reordering
+ggplot(df.freq, aes(ROI, freq)) +
+        geom_bar(stat = "identity", data = df.freq,
+                 width = 1, fill = 'gray20', color = "gray20")+
+        theme( # Change axis lines
+                axis.line = element_line(size = 1),
+                # Change axis ticks text labels: font color, size and face
+                axis.text.x = element_text(face = "bold",
+                                           size = 12, angle = 90)
+                axis.text.y = element_text(face = "bold",
+                                           size = 12, angle = 0)
+                # Change axis ticks line: font color, size, linetype and length
+                axis.ticks = element_line(),      # Change ticks line fo all
+                axis.ticks.x = element_line(),    # Change x axis ticks only
+                axis.ticks.y = element_line(),    # Change y axis ticks only
+                axis.ticks.length = unit(3, "pt") # Change the length of tick
+    ) + geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
+        geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
+        geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
+        ggtitle('Fluo-4 F0-normalized') +
+        scale_y_continuous(name="Mean Frequency, Hz", limits=c(0, 3)) +
+        scale_x_discrete(name='40 cells ROIs' #, labels=c(paste(1:40))
+        )
 
 \end{lstlisting}
 
