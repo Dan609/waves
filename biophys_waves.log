@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  5 AUG 2019 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  5 AUG 2019 12:43
 entering extended mode
 **./biophys_waves.tex
 (biophys_waves.tex
@@ -1624,87 +1624,86 @@ File: fig1.png Graphic file (type png)
 <use fig1.png>
 Package pdftex.def Info: fig1.png  used on input line 266.
 (pdftex.def)             Requested size: 399.36157pt x 447.34103pt.
-[4]
-<fig2.jpg, id=80, 602.25pt x 720.7728pt>
+[4] [5 <./fig1.png (PNG copy)>]
+<fig2.jpg, id=85, 602.25pt x 720.7728pt>
 File: fig2.jpg Graphic file (type jpg)
 <use fig2.jpg>
-Package pdftex.def Info: fig2.jpg  used on input line 279.
+Package pdftex.def Info: fig2.jpg  used on input line 281.
 (pdftex.def)             Requested size: 399.36157pt x 477.97711pt.
-<fig3.png, id=81, 1578.89874pt x 849.1725pt>
+<fig3.png, id=86, 1578.89874pt x 849.1725pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 288.
+Package pdftex.def Info: fig3.png  used on input line 297.
 (pdftex.def)             Requested size: 449.27701pt x 241.62796pt.
 
 
-biophys_waves.tex:311: LaTeX Error: Something's wrong--perhaps a missing \item.
+biophys_waves.tex:320: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.311 \end{tablenotes}
+l.320 \end{tablenotes}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[5 <./fig1.png (PNG copy)>] [6 <./fig2.jpg>]
-<fig4.png, id=92, 1926.19624pt x 1083.04625pt>
+<fig4.png, id=87, 1926.19624pt x 1083.04625pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 318.
+Package pdftex.def Info: fig4.png  used on input line 327.
 (pdftex.def)             Requested size: 449.27701pt x 252.61542pt.
-<fig5.png, id=93, 1494.58376pt x 1083.04625pt>
+<fig5.png, id=88, 1494.58376pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 327.
+Package pdftex.def Info: fig5.png  used on input line 339.
 (pdftex.def)             Requested size: 449.27701pt x 325.5609pt.
-<fig6.png, id=94, 1375.1375pt x 1083.04625pt>
+<fig6.png, id=89, 1375.1375pt x 1083.04625pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 338.
+Package pdftex.def Info: fig6.png  used on input line 350.
 (pdftex.def)             Requested size: 449.27701pt x 353.83676pt.
-<fig7.png, id=95, 1463.4675pt x 1083.04625pt>
+[6] [7 <./fig2.jpg>] [8 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>]
+[9 <./fig5.png (PNG copy)>] [10 <./fig6.png (PNG copy)>]
+<fig7.png, id=118, 1463.4675pt x 1083.04625pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 348.
+Package pdftex.def Info: fig7.png  used on input line 366.
 (pdftex.def)             Requested size: 449.27701pt x 332.48526pt.
- [7 <./fig3.png (PNG copy)>]
-[8 <./fig4.png (PNG copy)> <./fig5.png (PNG copy)>] [9 <./fig6.png (PNG copy)>]
-[10 <./fig7.png (PNG copy)>]
-<fig8.png, id=120, 1926.19624pt x 1083.04625pt>
+
+Underfull \vbox (badness 1430) has occurred while \output is active []
+
+ [11 <./fig7.png (PNG copy)>]
+<fig8.png, id=124, 1926.19624pt x 1083.04625pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 368.
+Package pdftex.def Info: fig8.png  used on input line 386.
 (pdftex.def)             Requested size: 449.27701pt x 252.61542pt.
-<fig9.png, id=121, 1467.4825pt x 1083.04625pt>
+<fig9.png, id=125, 1467.4825pt x 1083.04625pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
-Package pdftex.def Info: fig9.png  used on input line 383.
+Package pdftex.def Info: fig9.png  used on input line 401.
 (pdftex.def)             Requested size: 449.27701pt x 331.57632pt.
- [11 <./fig8.png (PNG copy)>]
-<fig10.png, id=127, 1450.41875pt x 1083.04625pt>
+<fig10.png, id=126, 1450.41875pt x 1083.04625pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
-Package pdftex.def Info: fig10.png  used on input line 396.
+Package pdftex.def Info: fig10.png  used on input line 414.
 (pdftex.def)             Requested size: 449.27701pt x 335.47646pt.
-<fig11.png, id=129, 1589.94pt x 1083.04625pt>
+ [12 <./fig8.png (PNG copy)>]
+<fig11.png, id=134, 1589.94pt x 1083.04625pt>
 File: fig11.png Graphic file (type png)
 <use fig11.png>
-Package pdftex.def Info: fig11.png  used on input line 410.
+Package pdftex.def Info: fig11.png  used on input line 428.
 (pdftex.def)             Requested size: 449.27701pt x 306.04376pt.
-<fig12.png, id=131, 1882.03125pt x 1083.04625pt>
+<fig12.png, id=136, 1882.03125pt x 1083.04625pt>
 File: fig12.png Graphic file (type png)
 <use fig12.png>
-Package pdftex.def Info: fig12.png  used on input line 427.
+Package pdftex.def Info: fig12.png  used on input line 445.
 (pdftex.def)             Requested size: 449.27701pt x 258.53171pt.
- [12 <./fig9.png (PNG copy)>]
-Underfull \vbox (badness 1122) has occurred while \output is active []
-
- [13 <./fig10.png (PNG copy)>] [14 <./fig11.png (PNG copy)>] [15 <./fig12.png (
-PNG copy)>]
-[16]
+ [13 <./fig9.png (PNG copy)>]
+[14 <./fig10.png (PNG copy)>] [15 <./fig11.png (PNG copy)>] [16 <./fig12.png (P
+NG copy)>]
 
 biophys_waves.tex:661: Package inputenc Error: Unicode character А (U+0410)
 (inputenc)                not set up for use with LaTeX.
@@ -1776,6 +1775,9 @@ Overfull \hbox (28.8053pt too wide) in paragraph at lines 871--872
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
 Overfull \hbox (64.80566pt too wide) in paragraph at lines 872--873
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1786,9 +1788,6 @@ Overfull \hbox (64.80566pt too wide) in paragraph at lines 873--874
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22]
 Overfull \hbox (118.80621pt too wide) in paragraph at lines 884--885
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1855,11 +1854,11 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  28276 strings out of 492895
  481669 string characters out of 3125603
- 894264 words of memory out of 3000000
+ 896948 words of memory out of 3000000
  31166 multiletter control sequences out of 15000+200000
  632381 words of font info for 203 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,94p,998b,2592s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,15n,94p,999b,2592s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ts1.
 enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}{
 C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ot1-tlf.
@@ -1881,7 +1880,7 @@ Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/1/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (27 pages, 15999757 bytes).
+Output written on biophys_waves.pdf (27 pages, 15999823 bytes).
 PDF statistics:
  845 PDF objects out of 1000 (max. 8388607)
  527 named destinations out of 1000 (max. 500000)
