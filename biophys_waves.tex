@@ -780,13 +780,13 @@ myfreq <- function(x) {
                         roi <- paste('Y', as.character(i-1), sep="")
                         calcium_ts <- ts(calcium[,roi], start = calcium$time[1])
                         peaks <- fpeaks(spec(calcium_ts, f=s.rate),
-                                        nmax = 10, threshold = 0.1, # set nmax for peaks quantity
+                                        nmax = 10, threshold = 0.1,
                                         plot = FALSE, title = FALSE,
                                         mel = FALSE, legend = FALSE,
                                         labels = FALSE)*1000
                         df <- data.frame('ROI' = roi,
                                          'freq' = matrix(unlist(peaks[,"freq"]),
-                                                         nrow=length(peaks[,"freq"]), byrow=T))
+                                         nrow=length(peaks[,"freq"]), byrow=T))
                         mydata <- rbind(mydata, df)
                 }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
         }
@@ -795,11 +795,11 @@ myfreq <- function(x) {
         colnames(mydata.rm) <- c("ROI", "freq")
         for (i in 1:l){
                 tryCatch({
-                        roi <- paste('Y', as.character(i-1), sep="")
-                        df.rm <- data.frame('ROI' = roi,
-                                            'freq' = outliers.rm(frequencies[frequencies$ROI==roi,]$freq))
-                        mydata.rm <- rbind(mydata.rm, df.rm)
-                }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+                  roi <- paste('Y', as.character(i-1), sep="")
+                  df.rm <- data.frame('ROI' = roi,
+                 'freq' = outliers.rm(frequencies[frequencies$ROI==roi,]$freq))
+                  mydata.rm <- rbind(mydata.rm, df.rm)
+               }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
         }
         frequencies.rm <<- mydata.rm
 } # nmax = 10 now
@@ -855,23 +855,25 @@ ggplot(df.freq, aes(reorder(ROI, freq), freq)) +
                panel.background = element_blank(),
                axis.text = element_text(),
              ) +
-        scale_y_continuous(name="Median frequency, Hz", limits=c(0, 7.5)) +
-        scale_x_discrete(name='576 ROIs', labels=FALSE) +
-        geom_hline(yintercept=0.9025, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=1.7960, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=2.6984, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=7.071105, linetype="dashed", color = "black", size = 1, show.legend = TRUE) +
-        ggtitle('Di-8-ANEPPS') # change nmax in myfreq function!
-#--------------------------------------------------------------------------- Di-8-ANEPPS Fluo-4
+    scale_y_continuous(name="Median frequency, Hz", limits=c(0, 7.5)) +
+    scale_x_discrete(name='576 ROIs', labels=FALSE) +
+    geom_hline(yintercept=0.9025, linetype="dashed", color = "red", size = 1) +
+    geom_hline(yintercept=1.7960, linetype="dashed", color = "red", size = 1) +
+    geom_hline(yintercept=2.6984, linetype="dashed", color = "red", size = 1) +
+    geom_hline(yintercept=7.071105, linetype="dashed",
+    color = "black", size = 1, show.legend = TRUE) +
+    ggtitle('Di-8-ANEPPS') # change nmax in myfreq function!
+#-------------------------------------------- Di-8-ANEPPS Fluo-4
 #----------- Specify order for 40 cells plot -----
 df.freq
-df.freq$ROI <- factor(df.freq$ROI, levels = c("Y0", "Y1", "Y2", "Y3", "Y4",
-                                              "Y5", "Y6", "Y7", "Y8", "Y9", "Y10",
-                                              "Y11", "Y12", "Y13", "Y14", "Y15", "Y16",
-                                              "Y17", "Y18", "Y19",  "Y20", "Y21", "Y22",
-                                              "Y23", "Y24", "Y25", "Y26", "Y27", "Y28", "Y29",
-                                              "Y30", "Y31", "Y32", "Y33", "Y34", "Y35", "Y36",
-                                              "Y37", "Y38", "Y39"))
+df.freq$ROI <- factor(df.freq$ROI,
+  levels = c("Y0", "Y1", "Y2", "Y3", "Y4",
+            "Y5", "Y6", "Y7", "Y8", "Y9", "Y10",
+            "Y11", "Y12", "Y13", "Y14", "Y15", "Y16",
+            "Y17", "Y18", "Y19",  "Y20", "Y21", "Y22",
+            "Y23", "Y24", "Y25", "Y26", "Y27", "Y28", "Y29",
+            "Y30", "Y31", "Y32", "Y33", "Y34", "Y35", "Y36",
+            "Y37", "Y38", "Y39"))
 #---------------------------------
 
 ggplot(df.freq, aes(reorder(ROI, freq), freq)) +
@@ -881,26 +883,26 @@ ggplot(df.freq, aes(reorder(ROI, freq), freq)) +
                 axis.line = element_line(size = 1),
                 # Change axis ticks text labels: font color, size and face
                 axis.text.x = element_text(face = "bold",
-                                           size = 12, angle = 90),     # Change x axis tick labels only
+                                           size = 12, angle = 90),
                 axis.text.y = element_text(face = "bold",
-                                           size = 12, angle = 0),     # Change y axis tick labels only
+                                           size = 12, angle = 0),
                 # Change axis ticks line: font color, size, linetype and length
-                axis.ticks = element_line(),      # Change ticks line fo all axes
-                axis.ticks.x = element_line(),    # Change x axis ticks only
-                axis.ticks.y = element_line(),    # Change y axis ticks only
-                axis.ticks.length = unit(3, "pt") # Change the length of tick marks
-        ) + geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
-        ggtitle('Fluo-4 minimum freqency ') +
-        scale_y_continuous(name="Frequency, Hz", limits=c(0, 1)) +
-        scale_x_discrete(name='40 cells ROIs' #, labels=c(paste(1:40))
-        )
+                axis.ticks = element_line(),
+                axis.ticks.x = element_line(),
+                axis.ticks.y = element_line(),
+                axis.ticks.length = unit(3, "pt")
+      ) + geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
+      geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
+      geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
+      ggtitle('Fluo-4 minimum freqency ') +
+      scale_y_continuous(name="Frequency, Hz", limits=c(0, 1)) +
+      scale_x_discrete(name='40 cells ROIs' #, labels=c(paste(1:40))
+      )
 #-------------------------------
 #-----------------------------------------------
 # Load data from ImageJ BAR Time series analisys
 # calcium <- read.csv('fluo.csv', sep = ',') # Fluo-4 raw
-calcium <- read.csv('fluoPxF0.csv', sep = ',') # Fluo-4 F0 normalazed signal >>>>JUMP TO total
+calcium <- read.csv('fluoPxF0.csv', sep = ',') # Fluo-4 F0  >>>>JUMP TO total
 calcium <- read.csv('aneppsRaw.csv', sep = ',')
 #-----------------------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<TOTAL HERE
 # Correlation analysis
@@ -917,7 +919,7 @@ df %>%
         )
 df
 total <- df
-total <- merge(df[,c(1,3)],df1[,c(1,3)],by="ROI") #==================================
+total <- merge(df[,c(1,3)],df1[,c(1,3)],by="ROI") #====================
 head(total)
 colnames(total) <- c('ROI', 'F.freq', 'A.freq')
 
@@ -947,7 +949,7 @@ ggplot(total,
            x = A.int)) +
         geom_point() +
         geom_smooth(method  = "lm",
-                    formula = y ~ poly(x, 1, raw=TRUE), ### polynomial of order 1
+                    formula = y ~ poly(x, 1, raw=TRUE), # polynomial of order 1
 
                     se      = TRUE) + scale_x_continuous(trans='sqrt') +
         theme( axis.line = element_line(color = "darkblue",
@@ -966,7 +968,7 @@ ggplot(total,
                plot.title = element_text(size = 20, face = "bold")
         ) +
         scale_y_continuous(name="Anepps intensity, a.u.", limits=c(0, 3)) +
-        scale_x_continuous(name='Fluo intensity, a.u.') + #, labels=c(paste(1:40))
+        scale_x_continuous(name='Fluo intensity, a.u.') +
         ggtitle("Correlation")
 
 
@@ -975,7 +977,7 @@ ggplot(total,
            y = F.freq)) +
         geom_point() +
         geom_smooth(method  = "lm",
-                    formula = y ~ poly(x, 1, raw=TRUE), ### polynomial of order 1
+                    formula = y ~ poly(x, 1, raw=TRUE), # polynomial of order 1
 
                     se      = TRUE)
 
@@ -983,7 +985,7 @@ ggplot(total,
 calcium <- read.csv('FluoRaw.csv')
 colnames(calcium)[1] <- "frame" # rename first column
 # calcium <- read.csv('anepps.csv', sep = ',') # Di-8-ANEPPS raw
-calcium <- read.csv('aneppsPxF0.csv', sep = ',') # Di-8-ANEPPS F0 normalazed signal
+calcium <- read.csv('aneppsPxF0.csv', sep = ',') # Di-8-ANEPPS F0
 colnames(calcium)[1] <- "frame" # rename first column
 boxplot(calcium[,-1])
 #------------------------------------------
@@ -994,7 +996,7 @@ calcium$sin <- sinwave
 calcium$sincomp <- sinwave_complex
 #--------------------------
 # Select ROI from 20x20 ROI grid
-xcal <- calcium$Y3# Enter Y(ROI - 1) num #<<<<<<<<<<<<<<<<<<<CHANGE VAR
+xcal <- calcium$Y3 #<<<<<<<<<<<<<<<<<<<CHANGE VAR
 
 #--------------------------
 # time series analysis
@@ -1004,7 +1006,8 @@ spx <- x.spec$freq/del
 spy <- 1*x.spec$spec
 
 plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
-     type="l", lwd = 2, main = 'Fluo-4 512x512 px', xlim=c(0,7), ylim = c(0, 10))
+     type="l", lwd = 2, main = 'Fluo-4 512x512 px',
+     xlim=c(0,7), ylim = c(0, 10))
 #_______________________________Fluo-4____D-8-ANEPPS
 
 # Peaks detection
@@ -1097,27 +1100,27 @@ plot(xcal ~ calcium$Time,
 
 # Plot 40 cells with labels and without reordering
 ggplot(df.freq, aes(ROI, freq)) +
-        geom_bar(stat = "identity", data = df.freq,
+      geom_bar(stat = "identity", data = df.freq,
                  width = 1, fill = 'gray20', color = "gray20")+
-        theme( # Change axis lines
+      theme( # Change axis lines
                 axis.line = element_line(size = 1),
                 # Change axis ticks text labels: font color, size and face
                 axis.text.x = element_text(face = "bold",
-                                           size = 12, angle = 90),     # Change x axis tick labels only
+                                           size = 12, angle = 90),
                 axis.text.y = element_text(face = "bold",
-                                           size = 12, angle = 0),     # Change y axis tick labels only
+                                           size = 12, angle = 0),
                 # Change axis ticks line: font color, size, linetype and length
-                axis.ticks = element_line(),      # Change ticks line fo all axes
-                axis.ticks.x = element_line(),    # Change x axis ticks only
-                axis.ticks.y = element_line(),    # Change y axis ticks only
-                axis.ticks.length = unit(3, "pt") # Change the length of tick marks
-        ) + geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
-        geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
-        ggtitle('Fluo-4 F0-normalized') +
-        scale_y_continuous(name="Mean Frequency, Hz", limits=c(0, 3)) +
-        scale_x_discrete(name='40 cells ROIs' #, labels=c(paste(1:40))
-        )
+                axis.ticks = element_line(),
+                axis.ticks.x = element_line(),
+                axis.ticks.y = element_line(),
+                axis.ticks.length = unit(3, "pt")
+      ) + geom_hline(yintercept=1, linetype="dashed", color = "red", size = 1) +
+      geom_hline(yintercept=2, linetype="dashed", color = "red", size = 1) +
+      geom_hline(yintercept=3, linetype="dashed", color = "red", size = 1) +
+      ggtitle('Fluo-4 F0-normalized') +
+      scale_y_continuous(name="Mean Frequency, Hz", limits=c(0, 3)) +
+      scale_x_discrete(name='40 cells ROIs' #, labels=c(paste(1:40))
+      )
 #
 # END
 #
