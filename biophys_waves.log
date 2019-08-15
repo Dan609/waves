@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  13 AUG 2019 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  15 AUG 2019 13:20
 entering extended mode
 **./biophys_waves.tex
 (biophys_waves.tex
@@ -1770,10 +1770,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 28276 strings out of 492895
- 481655 string characters out of 3125603
- 899062 words of memory out of 3000000
- 31163 multiletter control sequences out of 15000+200000
+ 28275 strings out of 492895
+ 481650 string characters out of 3125603
+ 898929 words of memory out of 3000000
+ 31162 multiletter control sequences out of 15000+200000
  632481 words of font info for 204 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,94p,999b,2592s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1798,7 +1798,7 @@ Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/1/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (27 pages, 16174677 bytes).
+Output written on biophys_waves.pdf (27 pages, 16174601 bytes).
 PDF statistics:
  847 PDF objects out of 1000 (max. 8388607)
  529 named destinations out of 1000 (max. 500000)
