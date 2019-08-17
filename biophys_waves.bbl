@@ -167,6 +167,13 @@ Walker, M.~A., V.~Gurev, J.~J. Rice, J.~L. Greenstein, and R.~L. Winslow, 2017.
   computational models of cardiac cells and tissue.
 \newblock \emph{PLoS computational biology} 13:e1005783.
 
+\bibitem[Macquaide et~al.(2007)Macquaide, Dempster, and
+  Smith]{macquaide2007measurement}
+Macquaide, N., J.~Dempster, and G.~Smith, 2007.
+\newblock Measurement and modeling of Ca2+ waves in isolated rabbit ventricular
+  cardiomyocytes.
+\newblock \emph{Biophysical journal} 93:2581--2595.
+
 \bibitem[Jiang et~al.(2014)Jiang, Tanaka, Matsuyama, Yamaoka, and
   Takamatsu]{jiang2014pacing}
 Jiang, Y., H.~Tanaka, T.-a. Matsuyama, Y.~Yamaoka, and T.~Takamatsu, 2014.
@@ -180,13 +187,6 @@ Aguirre, A.~D., C.~Vinegoni, M.~Sebas, and R.~Weissleder, 2014.
 \newblock Intravital imaging of cardiac function at the single-cell level.
 \newblock \emph{Proceedings of the National Academy of Sciences}
   111:11257--11262.
-
-\bibitem[Macquaide et~al.(2007)Macquaide, Dempster, and
-  Smith]{macquaide2007measurement}
-Macquaide, N., J.~Dempster, and G.~Smith, 2007.
-\newblock Measurement and modeling of Ca2+ waves in isolated rabbit ventricular
-  cardiomyocytes.
-\newblock \emph{Biophysical journal} 93:2581--2595.
 
 \bibitem[Sato et~al.(2014)Sato, Bartos, Ginsburg, and
   Bers]{sato2014depolarization}
