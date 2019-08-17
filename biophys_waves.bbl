@@ -65,6 +65,11 @@ Kong, W., and V.~G. Fast, 2014.
 \newblock \emph{American Journal of Physiology-Heart and Circulatory
   Physiology} .
 
+\bibitem[Team et~al.(2014)]{team2014r}
+Team, R.~C., et~al., 2014.
+\newblock R: A language and environment for statistical computing.
+\newblock \emph{R} .
+
 \bibitem[Rueden et~al.(2017)Rueden, Schindelin, Hiner, DeZonia, Walter, Arena,
   and Eliceiri]{rueden2017imagej2}
 Rueden, C.~T., J.~Schindelin, M.~C. Hiner, B.~E. DeZonia, A.~E. Walter, E.~T.
@@ -83,11 +88,6 @@ Grinsted, A., J.~C. Moore, and S.~Jevrejeva, 2004.
 Kahraman, E., and G.~{\"U}nal, 2016.
 \newblock Multiple wavelet coherency analysis and forecasting of metal prices.
 \newblock \emph{arXiv preprint arXiv:1602.01960} .
-
-\bibitem[Team et~al.(2014)]{team2014r}
-Team, R.~C., et~al., 2014.
-\newblock R: A language and environment for statistical computing.
-\newblock \emph{R} .
 
 \bibitem[R{\"o}sch and Schmidbauer(2016)]{rosch2016waveletcomp}
 R{\"o}sch, A., and H.~Schmidbauer, 2016.

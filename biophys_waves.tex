@@ -10,7 +10,7 @@
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
 \usepackage{listings}
 
-\title{ Wavelet analysis reveals coherence dynamics between trigerred and spontaneous \ce{Ca^2+} oscillations in subepicardial cardiomyocytes }
+\title{ Wavelet analysis reveals dynamic coherence between trigerred and spontaneous \ce{Ca^2+} oscillations in subepicardial cardiomyocytes }
 \runningtitle{Calcium waves wavelet analysis} %% For page header
 \author[1,*]{Danila Bobkov}
 \author[8]{Galina Sakuta}
@@ -21,7 +21,7 @@
 \author[6]{Maxim Dobretsov}
 \author[7]{Vladimir Polyanskiy}
 \author[8]{Sandor Gyorke}
-\runningauthor{Bobkov et al.} %% For page headeri
+\runningauthor{Bobkov et al.} %% For page header
 \affil[1,2,3]{Institute of Cytology of the Russian Academy of Science, 194064 Tikhoretsky ave. 4, St-Petersburg, Russia}
 \affil[4,5,6]{Sechenov Institute of Evolutionary Physiology and Biochemistry of the Russian Academy of Science, 194223 Russia Saint-Petersburg pr.Torez 44}
 % \affil[6]{Department of Anesthesiology, University of Arkansas for Medical Sciences, Little Rock, AR, United States}
@@ -120,50 +120,30 @@ For visualization of cardiomyocytes, vascular network and connective tissue, per
 To visualize free \ce{Ca^2+} ions, the Fluo-4 dye was used.
 For dyeing mitochondria, the TMRM dye was used, the fluorescence intensity of which is proportional to the value of the mitochondrial membrane potential ( $\Delta\psi$).
 With the simultaneous detection of fluorescence Fluo-4 and Di-8-ANEPPS, an argon laser with a wavelength of 488 nm and a power of 80\% was used to excite the fluorescence.
-Fluorescence detection was carried out using two photomultiplier tubes (PMT), 491nm - 581nm for Fluo-4 and 611nm - 792nm for Di-8-ANEPPS.
+
 With the simultaneous detection of fluorescence Fluo-4 and TMRM, an argon laser with a wavelength of 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\% were used to excite the fluorescence.
 The fluorescence detection was carried out in the spectral range 493 nm-540 nm for Fluo-4 and 552 nm --- 792 nm for TMRM.
+Calcium imaging with Fluo-4/AM was performed using a confocal laser scanning microscope Leica SP5 with a 40x (NA = 1.3) oil immersion objective. Fluorescence images (excited at 488 nm).
+The pinhole was set to 200 mm, resulting in , 2.5-mm optical slices. Amplifier gain and detector offset were adjusted such that neither saturation nor threshold cutoff occurred.
+Fluorescence detection was carried out using two photomultiplier tubes (PMT), 491nm - 581nm for Fluo-4 and 611nm - 792nm for Di-8-ANEPPS.
 Since the specific values of the background fluorescence depended on the density of the capillary network, the amount of connective tissue in the field of view, and other factors, the sensitivity of the PMT detector (gain) was selected individually each time, depending on the conditions of the survey, and was usually 600 to 800 units.
 For optical registration of calcium waves, changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, a resonant scanner (8000 Hz) was used, and the diameter of the confocal pinhole was set to 100 $\mu$m.
 A fluorescent signal was registered in the first layer of cardiomyocytes adjacent to the epicardial surface of an isolated heart (Fig. 1). The fluorescent signal was measured in a whole frame or in certain regions of interest (regions of interest, ROI).
-Spectral analysis of calcium oscillations was carried out using a fast Fourier transform.
-Calcium imaging with Fluo-4/AM was performed using a confocal laser scanning microscope Leica SP5 with a 40x (NA = 1.3) oil immersion objective. Fluorescence images (excited at 488 nm).
-The pinhole was set to 200 mm, resulting in , 2.5-mm optical slices. Amplifier gain and detector offset were adjusted such that neither saturation nor threshold cutoff occurred.
-The membrane structure of epicardial myocytes was analyzed in situ by confocal microscopy Leica SP5 equipped with x63 (NA = 1.4) oil-immersion lens]. The epicardial images were used to define the
+
 
 \subsection*{Data collection and analysis}
 
-\textcolor{red}{In addition, you can use }
-\verb|\ref{...}| and \verb|\label{...}| commands for cross-references.
-
-\begin{table}[hbt!]
-\caption{An example table}
-\label{tab:widgets}
-\centering
-\begin{threeparttable}
-\begin{tabular}{c l r f}
-\hline
-Code & Item & Quantity & Square, $\mu m^2$  \\\hline
-40 cells\tnote{b} & Cells & 40 & 1\tnote{a}  \\
-24x24 grid & ROIs & 576 & 318.2656   \\
-\hline
-\end{tabular}
-\begin{tablenotes}
-\item[a] Mean ROI square.
-\item[b] Manully selected.
-\end{tablenotes}
-\end{threeparttable}
-\end{table}
+The accumulation, correction, systematization of the initial information and visualization of the obtained results were carried out in Microsoft Office Excel 2016 spreadsheets.
+Time series analysis was done using the free software computing environment R v. 3.5.3 (\cite{team2014r}).
 
 
 Recorded time-series image stack were analyzed in ImageJ v.1.52p software\cite{rueden2017imagej2}.
-measurement duration= 109.6 s sampling frequency 14.29745 Hz
-Time series analysis in BAR plugin: raw signal and
-normalization against F0, multi ROI profiler
+Measurement duration = 109.6 s,  sampling frequency = 14.29745 Hz.
+Time series were obtained in BAR plugin using multi ROI profiler from image stack with as raw signals and after normalization against F0 and saved as csv files.
 
+Frequency estimation using Fast Fourier Transform with Kaiser or Hamming window with dynamic range adjucting 40 to 65 in depend on signal amplitude --- available as spectrogram function in phonTools package.
 
-Frequency estimation usig Fast Fourier Transform with Kaiser or Hamming window --- available as spectrogram function in phonTools package.
-with dynamic range adjucting 40 to 65 in depend on signal amplitude
+Spectral analysis of calcium oscillations was carried out using a fast Fourier transform.
 
 576 ROI 17.84 x 17.84 $\mu$m were selected using ImageJ macros (see Supplementary\ref{macros})
 Wavelet analysis
@@ -238,6 +218,9 @@ Wavelet coherency  measures the cross-correlation between two time series as a f
 \end{equation}
 The need for smoothing is indicated by the prefix s.
 
+Wavelet coherence images of two time series provided by correspondent ROI fluorescent imaging within subepicardial layer.
+The vertical axis shows the Fourier periods. The horizontal axis shows time step counts.
+Further plot design options concern: plot of the cone of influence, plot of contour lines to border areas of significance, plot of the ridge, and plot of arrows to reflect phase differences.
 
 Contour lines added to the wavelet power spectrum delineate areas of high significance.
 Wavelet power spectrum of the series with variable period
@@ -261,7 +244,7 @@ Area = 318,363, x = 17.8427296118, $\approx$ 17.84 $\mu$ m
 analyze - tools - scale bar
 
 
-\section*{Results and Discussion}
+\section*{Results}
 
 
 
@@ -283,7 +266,7 @@ For the initial stage of the lesion, groups of cardiomyocytes with a reduced and
 
 \begin{figure}
     \includegraphics[width=0.8\linewidth]{fig2.jpg}
-    \caption{Ischeamia induced LHFOCR}
+    \caption{Frame-by-frame scanning of optical images of the epicardial layer from right ventricular myocardium of an isolated working rat heart 20 min after the onset of hypoxia.}
     \label{fig:fig2}
 \end{figure}
 
@@ -299,22 +282,21 @@ Plus video in good resolution in supplement. In futhure research we used 512 res
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig3.png}
-    \caption{Comparison between signals from different size ROIs }
+    \caption{Comparison between signals from different size ROIs. (A) One frame from F0-normalized Fluo-4 signal, red rectangles are  ROIs including damaged cell (180x40 px) and hypercontracted region of that cell (10x10 px). (B) Mean intensiy of raw Fluo-4 signal from different size ROIs: Y0 ---512x512 px, Y1 --- 180x40, Y2 --- 10x10, Y3 --- 2x2 px. (C) FFT-derived frequency spectrograms of F0-normalized Fluo-4 signals from ROIs varying in area. (D) Spectral density of F0-normalized Fluo-4 signals from ROIs varying in area. The red circle indicates peak detected as main sinus frequency }
     \label{fig:fig3}
 \end{figure}
 
 Calcium waves in the subepicardial myocardium in Langendorff-perfused rat heart.
 We found that cardiomyocytes located in the border zone adjacent to the necrosis zone are characterized by an increased content of \ce{Ca^2+} ions, a reduced mitochondrial potential and contractile activity.
 
-
-\begin{table}[hbt!]
-\caption{Frequency table}
+\begin{table}[hb!]
+\caption{Main peaks frequencies from 512x512 ROI}
 \label{tab:freq}
 \centering
 \begin{threeparttable}
 \begin{tabular}{c l r}
 \hline
-Code & Frequency & Amplitude  \\\hline
+ & Frequency & Amplitude  \\\hline
 1st harmonic & 0.9025 & 3.2154 \\
 2nd harmonic & 1.7960 & 1.4527  \\
 3d harminic & 2.6984 & 0.5887    \\
@@ -327,40 +309,76 @@ Code & Frequency & Amplitude  \\\hline
 
 
 The effect of hypoxia on calcium oscillations in the epicardial layer of cardiomyocytes.
+
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig4.png}
-    \caption{(A) Fluo-4 raw image with 40 cells manually selected and  boxplots of collected signals ordered in according with ariphmetic mean; (B) 8-Di-ANEPPS signal image and boxplots of correspondent cells.}
+    \caption{(A) Fluo-4 raw signal image in spectral view.  (B) 8-Di-ANEPPS raw signal image in spectral view. (C) Fluo-4 raw signal image in normal view with manually selected cardiomyocytes. (D) Fluo-4 raw signal image in normal view with 576 ROI grid. (E) Boxplots of Fluo-4 and 8-Di-ANEPPS raw signal intensities in 40 manually selected cells. (F) Fluo-4 and 8-Di-ANEPPS raw signals intensities plotted against each other.}
     \label{fig:fig4}
 \end{figure}
 
 Calcium waves in rat myocardium against a background of global calcium release. A - Optical sections of the epicardial region of the ventricular myocardium of the isolated working heart of the rat, painted with Di-8-ANEPPS (red) and Fluo-4 (green). B - Plots of fluorescence intensity of Fluo-4 versus time. Presented frames are indicated by black arrows. The scale segment is 100 $\mu$m.
 
-The effect of hypoxia on calcium oscillations in the epicardial layer of cardiomyocytes.
+\begin{table}[hbt!]
+\caption{An example table}
+\label{tab:widgets}
+\centering
+\begin{threeparttable}
+\begin{tabular}{c l r f}
+\hline
+Code & Item & Quantity & Square, $\mu m^2$  \\\hline
+40 cells\tnote{b} & Cells & 40 & 1\tnote{a}  \\
+24x24 grid & ROIs & 576 & 318.2656   \\
+\hline
+\end{tabular}
+\begin{tablenotes}
+\item[a] Mean ROI square.
+\item[b] Manully selected.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
 
 Studies were made of the frequency characteristics of calcium waves arising in cardiomyocytes of the border zone. For comparison, 12 cells were selected located next to the necrosis zone (Fig. 9). In each cell, an ROI was determined in which fluorescence fluctuation values of Fluo-4 were measured. The obtained values were processed by the FFT method in the Origin program, some of the frequency characteristics of the calcium waves are shown in Fig. 10 (the data table is presented in the file Fluo-4.
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig5.png}
-    \caption{Comparison of signals from different cell ROIs}
+    \caption{Comparison of signals from different cell ROIs: 1st column --- Optical images of Fluo-4 raw signals from the epicardial layer of right ventricular myocardium of an isolated working rat heart 20 min after the onset of hypoxia. Selected ROIs are white regions. 2nd column --- Total 110 sec signals in time-intensiy domain. 3d column --- FFT-derived spectral density. 4th column --- Autocorrelation lag plots. 5th column --- Signal segments of correspondent ROIs (red) in comparison with "normal" ROI (blue line). }
     \label{fig:fig5}
 \end{figure}
 
 
-Comparison of calcium waves of cardiomyocytes located in the perinekrozic zone of the ventricular myocardial epicardial region of an isolated working rat heart. Plots of fluorescence intensity of Fluo-4 versus time are shown, which are typical for cells located at different stages of damage. The green line is a cell with a normal rhythm; blue line - a cell with a high content of Ca2 + and sinus rhythm disturbances; red line - high-frequency spindle-shaped oscillations; turquoise line - damped oscillations, cell in terminal stage; the black line is a cell in the stage of hypercontraction
-Calcium waves in cardiomyocytes lying near the necrosis zone. Optical section of the myocardium stained with Fluo-4 (green) and Di-8-ANEPPS (red). On the combined image, the dotted rectangles indicate the selected ROI. The scale segment is 100 $\mu$m. On the fluorescence intensity curves of Fluo-4 in the selected ROI, damped oscillations are seen. Total observation time is 90 sec.
-Optical recording of sinus rhythm in the myocardium. A - Optical sections of the epicardial region of the ventricular myocardium of the isolated working heart of the rat, painted with Di-8-ANEPPS (red) and Fluo-4 (green). B - Fluorescence intensity curves Fluo-4 (black line) and myocardial contractions (red line) versus time. Presented frames are indicated by black arrows. The scale segment is 100 $\mu$m.
+
+Comparison of calcium waves of cardiomyocytes located in the perinekrozic zone of the ventricular myocardial epicardial region of an isolated working rat heart.
+Plots of fluorescence intensity of Fluo-4 versus time are shown, which are typical for cells located at different stages of damage.
+The green line is a cell with a normal rhythm; blue line - a cell with a high content of Ca2 + and sinus rhythm disturbances; red line - high-frequency spindle-shaped oscillations; turquoise line - damped oscillations, cell in terminal stage; the black line is a cell in the stage of hypercontraction.
+Calcium waves in cardiomyocytes lying near the necrosis zone.
+Optical section of the myocardium stained with Fluo-4 (green) and Di-8-ANEPPS (red).
+On the combined image, the dotted rectangles indicate the selected ROI.
+The scale segment is 100 $\mu$m.
+On the fluorescence intensity curves of Fluo-4 in the selected ROI, damped oscillations are seen.
+Total observation time is 110 sec.
+Optical recording of sinus rhythm in the myocardium.
+A - Optical sections of the epicardial region of the ventricular myocardium of the isolated working heart of the rat, painted with Di-8-ANEPPS (red) and Fluo-4 (green). B - Fluorescence intensity curves Fluo-4 (black line) and myocardial contractions (red line) versus time. Presented frames are indicated by black arrows.
+The scale segment is 100 $\mu$m.
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig6.png}
-    \caption{(G) Normalized against F0 (left) and not normalized (right) frames with ROI selection and heat maps of manully selected ROI for wavelet analysis. (C) 24 x 24 ROI grid, dotted red line is region for kinesiogramm (D) and correspondent region from clustered heat map of signal from 24 x 24 ROI grid (F).}
+    \caption{(A) Heat maps fragments for clusterized signals, obrained from  F0-nomalized Fluo-4 and 8-Di-ANEPPS signals. Red arrow indicates 'normal' ROI555. (B) Spectral density with detected peaks of F0-normalized and signal segmants of raw signals.}
     \label{fig:fig6}
 \end{figure}
 
 
- With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in \ce{Ca^2+} in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D). The cardiomyocytes adjacent to the necrosis zone were characterized mainly by slow, damped calcium waves with a large amplitude (Fig. 8).
+ With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in \ce{Ca^2+} in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D).
+ The cardiomyocytes adjacent to the necrosis zone were characterized mainly by slow, damped calcium waves with a large amplitude (Fig. 8).
 
- For the initial stage of damage, groups of cardiomyocytes with an elevated value of \ce{Ca^2+}, in which high-frequency calcium waves were observed (Fig. 6), are characteristic. Nascent on the edge of the cell or in its middle, these waves can spread to neighboring cells (Figure 7). With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in \ce{Ca^2+} in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D). Undoubtedly, the prognostic significance can be the detection of the switching point from the state of the cell, in which global waves can crush pathological, contributing to the restoration of a normal rhythm, to a transition through the "point of no return" when recovery is no longer possible.
- We found that cardiomyocytes located in the border zone adjacent to the necrosis zone are characterized by an increased content of Ca2 + ions, a reduced mitochondrial potential and contractile activity. Studies were made of the frequency characteristics of calcium waves arising in cardiomyocytes of the border zone. For comparison, 12 cells were selected located next to the necrosis zone (Fig. 9). In each cell, an ROI was determined in which fluorescence fluctuation values of Fluo-4 were measured. The obtained values were processed by the FFT method in the Origin program, some frequency characteristics of the calcium waves are shown in Fig. 10 (the data table is presented in the file Fluo-4 ROI 01-12.xlsx
+ For the initial stage of damage, groups of cardiomyocytes with an elevated value of \ce{Ca^2+}, in which high-frequency calcium waves were observed (Fig. 6), are characteristic.
+ Nascent on the edge of the cell or in its middle, these waves can spread to neighboring cells (Figure 7).
+ With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in \ce{Ca^2+} in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D).
+ Undoubtedly, the prognostic significance can be the detection of the switching point from the state of the cell, in which global waves can crush pathological, contributing to the restoration of a normal rhythm, to a transition through the "point of no return" when recovery is no longer possible.
+ We found that cardiomyocytes located in the border zone adjacent to the necrosis zone are characterized by an increased content of Ca2 + ions, a reduced mitochondrial potential and contractile activity. Studies were made of the frequency characteristics of calcium waves arising in cardiomyocytes of the border zone.
+ For comparison, 12 cells were selected located next to the necrosis zone (Fig. 9).
+ In each cell, an ROI was determined in which fluorescence fluctuation values of Fluo-4 were measured.
+ The obtained values were processed by the FFT method in the Origin program, some frequency characteristics of the calcium waves are shown in Fig. 10 (the data table is presented in the file Fluo-4 ROI 01-12.xlsx
  The FFT analysis of calcium oscillations showed that in the cardiomyocytes of the perineecrosis boundary zone, as the concentration of Ca2 + increases, the amplitude of normal fluctuations in the concentration of ionized Ca2 + first increases (Figure 11, A), then single calcium waves break the sinus rhythm (Figure 11, B) ,
  then autonomous high-frequency calcium oscillations arise which, attaining a certain threshold, decay (Figure 11 B, D, Figure 12, Figure 13), after which the cardiomyocytes begin to hyper-shrink. Such calcium waves can be a source of arrhythmias and contribute to the development of contractile dysfunction in heart diseases.
  The cardiomyocytes adjacent to the necrosis zone were characterized mainly by slow, damped calcium waves with a large amplitude (Fig. 8).
@@ -368,12 +386,9 @@ Optical recording of sinus rhythm in the myocardium. A - Optical sections of the
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig7.png}
-    \caption{(A) Heat maps fragments for clusterized signals, obrained from F0-nomalized series (B) Roi grid with 576 ROI selected 318.363 $\mu m^2$ each (C) Histograms of FFT-derived frequencies from 576 ROIs. Data was sorted in increasing order. Mean values was calculated for 3 (nmax = 3), or 5 frequencies with max amplitude. (D) Intensities correlation}
+    \caption{Comparative time series analisys of generated 1, 3 and 3 Hz sin waves with ROI555 F-0 normalized Fluo-4 signal. 1st row --- Spectral density; 2nd row --- FFT-derived spectrograms. 3d row --- Wavelet power spectrum plots. 4th row --- Cross-wavelet coherence with 0.9 Hz sin wave power spectrum plots. }
     \label{fig:fig7}
 \end{figure}
-
-
-Pearson, Kendall and Spearman correlation coefficients show significant negative correlation between \ce{Ca^2+} concentration and \ce{Ca^2+} oscillations frequency
 
 
 Fig. 2.  Calcium waves in rat myocardium against a background of global calcium release.
@@ -388,7 +403,7 @@ A plot of the fluorescence intensity measured in the frame is plotted against ti
 
 \begin{figure}
     \includegraphics[width=0.9\linewidth]{fig8.png}
-    \caption{Calibration with 1 Hz sin wave, Time series analysis and wavelet coherence , We used a non-stationary artificial signal with three data regions each containing a sinusoid of different frequency. Coherence of Fluo-4 with 0.9 Hz sin wave }
+    \caption{(A) Image (B) Kymogram (C) Analysis of selected ROIs}
     \label{fig:fig8}
 \end{figure}
 
@@ -403,7 +418,7 @@ The FFT analysis of calcium oscillations showed that in the cardiomyocytes of th
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{fig9.png}
-\caption{Flou-4 fluorescence intensity signals Nested ROI with the appropriate pixel dimensions: 512x512 - whole frame, 180x40 - one cell, 40x40,10x10, 2x2 - cell areas containing HFOLS. }
+\caption{ Analysis of selected ROIs }
 \label{fig:fig9}
 \end{figure}
 
@@ -416,7 +431,7 @@ Simultaneous recordings of AP-induced and spontaneous calcium transients
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{fig10.png}
-\caption{Simultaneous recordings of [Ca2+]i during spontaneous firing in neighboring epicardial cardiomyocytes. [Ca2+]i was monitored with the fluorescent probe Fluo-4 (see Experimental Procedures). [Ca2+]i measurement covers the 10x20 mkm ROI. AP occurred spontaneously without any stimulation}
+\caption{ (A) Image (B) Kymogram (C) Kymogram (D) Analysis of selected ROIs }
 \label{fig:fig10}
 \end{figure}
 
@@ -430,9 +445,7 @@ cell 10 is shrinking, it can be seen on non-normalized video (see appendix)
 \begin{figure}[hbt!]
 \centering
 \includegraphics[width=0.9\linewidth]{fig11.png}
-\caption{Wavelet coherence images of two time series provided by correspondent ROI fluorescent imaging within subepicardial layer.
-The vertical axis shows the Fourier periods. The horizontal axis shows time step counts.
-Further plot design options concern: plot of the cone of influence, plot of contour lines to border areas of significance, plot of the ridge, and plot of arrows to reflect phase differences.}
+\caption{ Analysis of selected ROIs }
 \label{fig:fig11}
 \end{figure}
 
@@ -604,6 +617,8 @@ in the \ce{Ca^2+} transients was not predominantly
 observed in intact ventricles, and the observed features in
 the atrial \ce{Ca^2+} dynamics would partly be related to the
 structural difference, i.e., paucity of t-tubules.
+
+Pearson, Kendall and Spearman correlation coefficients show significant negative correlation between \ce{Ca^2+} concentration and \ce{Ca^2+} oscillations frequency
 
 \fi
 
