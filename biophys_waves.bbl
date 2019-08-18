@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -109,6 +109,13 @@ Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.
 \newblock Subcellular Ca2+ alternans represents a novel mechanism for the
   generation of arrhythmogenic Ca2+ waves in cat atrial myocytes.
 \newblock \emph{The Journal of physiology} 545:65--79.
+
+\bibitem[Sharma et~al.(2017)Sharma, Newman, Long, Gasiewski, and
+  Barnes]{sharma2017use}
+Sharma, P., K.~Newman, C.~Long, A.~Gasiewski, and F.~Barnes, 2017.
+\newblock Use of Wavelet Transform to Detect Compensated and Decompensated
+  Stages in the Congestive Heart Failure Patient.
+\newblock \emph{Biosensors} 7:40.
 
 \bibitem[Matsuura et~al.(2018)Matsuura, Miyagawa, Fukushima, Goto, Harada,
   Shimozaki, Yamaki, Sanami, Kikuta, Ishii, et~al.]{matsuura2018intravital}
