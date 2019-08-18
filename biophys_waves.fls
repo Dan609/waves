@@ -366,21 +366,16 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rtxmi7
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\rntxmi7.tfm
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\newtx\ntxexx.vf
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\newtx\txexs.tfm
-INPUT fig1.png
-INPUT .\fig1.png
-INPUT .\fig1.png
-INPUT .\fig1.png
-INPUT .\fig1.png
+INPUT fig1.jpg
+INPUT .\fig1.jpg
+INPUT .\fig1.jpg
+INPUT .\fig1.jpg
+INPUT .\fig1.jpg
 INPUT fig2.jpg
 INPUT .\fig2.jpg
 INPUT .\fig2.jpg
 INPUT .\fig2.jpg
 INPUT .\fig2.jpg
-INPUT fig3.png
-INPUT .\fig3.png
-INPUT .\fig3.png
-INPUT .\fig3.png
-INPUT .\fig3.png
 INPUT fig4.jpg
 INPUT .\fig4.jpg
 INPUT .\fig4.jpg
@@ -391,6 +386,11 @@ INPUT .\fig5.png
 INPUT .\fig5.png
 INPUT .\fig5.png
 INPUT .\fig5.png
+INPUT fig3.png
+INPUT .\fig3.png
+INPUT .\fig3.png
+INPUT .\fig3.png
+INPUT .\fig3.png
 INPUT fig6.png
 INPUT .\fig6.png
 INPUT .\fig6.png
