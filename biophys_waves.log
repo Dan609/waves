@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  17 AUG 2019 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  18 AUG 2019 17:26
 entering extended mode
 **./biophys_waves.tex
 (biophys_waves.tex
@@ -1589,129 +1589,126 @@ ine 78.
 
 [2]
 
-Package hyperref Warning: Suppressing empty link on input line 148.
+Package hyperref Warning: Suppressing empty link on input line 154.
 
 [3]
-
-LaTeX Warning: Reference `waves are represented in the picture' on page 4 undef
-ined on input line 238.
-
-<fig1.png, id=67, 877.2775pt x 982.67125pt>
+<fig1.png, id=70, 877.2775pt x 982.67125pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 253.
+Package pdftex.def Info: fig1.png  used on input line 258.
 (pdftex.def)             Requested size: 399.36157pt x 447.34103pt.
-[4] [5 <./fig1.png (PNG copy)>]
-<fig2.jpg, id=83, 602.25pt x 720.7728pt>
+ [4] [5 <./fig1.png (PNG copy)>]
+<fig2.jpg, id=89, 602.25pt x 720.7728pt>
 File: fig2.jpg Graphic file (type jpg)
 <use fig2.jpg>
-Package pdftex.def Info: fig2.jpg  used on input line 268.
+Package pdftex.def Info: fig2.jpg  used on input line 273.
 (pdftex.def)             Requested size: 399.36157pt x 477.97711pt.
-<fig3.png, id=84, 1578.89874pt x 849.1725pt>
+<fig3.png, id=90, 1578.89874pt x 849.1725pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 284.
+Package pdftex.def Info: fig3.png  used on input line 289.
 (pdftex.def)             Requested size: 449.27701pt x 241.62796pt.
 
 
-biophys_waves.tex:306: LaTeX Error: Something's wrong--perhaps a missing \item.
+biophys_waves.tex:311: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 \end{tablenotes}
+l.311 \end{tablenotes}
                       
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<fig4.png, id=85, 1926.19624pt x 1083.04625pt>
-File: fig4.png Graphic file (type png)
-<use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 314.
-(pdftex.def)             Requested size: 449.27701pt x 252.61542pt.
+<fig4.jpg, id=91, 758.835pt x 1011.78pt>
+File: fig4.jpg Graphic file (type jpg)
+<use fig4.jpg>
+Package pdftex.def Info: fig4.jpg  used on input line 319.
+(pdftex.def)             Requested size: 449.27701pt x 599.04466pt.
 
-biophys_waves.tex:326: LaTeX Error: Illegal character in array arg.
+biophys_waves.tex:331: LaTeX Error: Illegal character in array arg.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.326 \begin{tabular}{c l r f}
+l.331 \begin{tabular}{c l r f}
                               
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<fig5.png, id=86, 1494.58376pt x 1083.04625pt>
+<fig5.png, id=92, 1494.58376pt x 1083.04625pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 344.
+Package pdftex.def Info: fig5.png  used on input line 349.
 (pdftex.def)             Requested size: 449.27701pt x 325.5609pt.
-<fig6.png, id=87, 1375.1375pt x 1083.04625pt>
+<fig6.png, id=93, 1375.1375pt x 1083.04625pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 365.
+Package pdftex.def Info: fig6.png  used on input line 370.
 (pdftex.def)             Requested size: 449.27701pt x 353.83676pt.
-[6] [7 <./fig2.jpg>] [8 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>]
-[9 <./fig5.png (PNG copy)>] [10 <./fig6.png (PNG copy)>]
-<fig7.png, id=118, 1463.4675pt x 1083.04625pt>
+[6] [7 <./fig2.jpg>]
+<fig7.png, id=108, 1463.4675pt x 1083.04625pt>
 File: fig7.png Graphic file (type png)
 <use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 388.
+Package pdftex.def Info: fig7.png  used on input line 393.
 (pdftex.def)             Requested size: 449.27701pt x 332.48526pt.
-<fig8.png, id=119, 1926.19624pt x 1083.04625pt>
+ [8 <./fig3.png (PNG copy)>] [9 <./fig4.jpg>] [10 <./fig5.png (PNG copy)>] [11 
+<./fig6.png (PNG copy)>] [12 <./fig7.png (PNG copy)>]
+<fig8.png, id=133, 1926.19624pt x 1083.04625pt>
 File: fig8.png Graphic file (type png)
 <use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 405.
+Package pdftex.def Info: fig8.png  used on input line 410.
 (pdftex.def)             Requested size: 449.27701pt x 252.61542pt.
- [11 <./fig7.png (PNG copy)>]
-<fig9.png, id=125, 1467.4825pt x 1083.04625pt>
+<fig9.png, id=134, 1467.4825pt x 1083.04625pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
-Package pdftex.def Info: fig9.png  used on input line 420.
+Package pdftex.def Info: fig9.png  used on input line 425.
 (pdftex.def)             Requested size: 449.27701pt x 331.57632pt.
-<fig10.png, id=126, 1911.14pt x 1083.04625pt>
+<fig10.png, id=135, 1911.14pt x 1083.04625pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
-Package pdftex.def Info: fig10.png  used on input line 433.
+Package pdftex.def Info: fig10.png  used on input line 438.
 (pdftex.def)             Requested size: 449.27701pt x 254.59853pt.
-<fig11.png, id=128, 1589.94pt x 1083.04625pt>
+
+[13 <./fig8.png (PNG copy)>]
+<fig11.png, id=144, 1589.94pt x 1083.04625pt>
 File: fig11.png Graphic file (type png)
 <use fig11.png>
-Package pdftex.def Info: fig11.png  used on input line 447.
+Package pdftex.def Info: fig11.png  used on input line 452.
 (pdftex.def)             Requested size: 449.27701pt x 306.04376pt.
- [12 <./fig8.png (PNG copy)>] [13 <./fig9.png (PNG copy)>]
-Underfull \vbox (badness 2409) has occurred while \output is active []
+ [14 <./fig9.png (PNG copy)>] [15 <./fig10.png (PNG copy)> <./fig11.png (PNG co
+py)>] [16]
 
- [14 <./fig10.png (PNG copy)> <./fig11.png (PNG copy)>] [15]
-
-biophys_waves.tex:660: Package inputenc Error: Unicode character А (U+0410)
+biophys_waves.tex:665: Package inputenc Error: Unicode character А (U+0410)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.660 ...sic Research (project no. 19-015-00139 А
+l.665 ...sic Research (project no. 19-015-00139 А
                                                   )
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-(biophys_waves.bbl [16] [17])
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 672
+[17] (biophys_waves.bbl [18])
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 677
 .
 
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\t1ntxtt.fd"
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 672.
+(Font)              scaled to size 10.0pt on input line 677.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
+[19]
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.sty"
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 ) ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang2.st
@@ -1720,18 +1717,12 @@ File: lstlang2.sty 2019/02/27 1.8b listings language file
 )
 ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang3.sty"
 File: lstlang3.sty 2019/02/27 1.8b listings language file
-) [18]
+)
 LaTeX Font Info:    Font shape `TS1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `TS1/ntxtlf/b/n' tried instead on input line 736
+(Font)              Font shape `TS1/ntxtlf/b/n' tried instead on input line 741
 .
 LaTeX Font Info:    Font shape `TS1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 736.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(Font)              scaled to size 10.0pt on input line 741.
  [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1748,15 +1739,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+[27]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1145.
-[26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1145.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1150.
+[28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1150.
  (biophys_waves.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1145.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1145.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1150.
 
 Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1765,15 +1760,12 @@ Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 28274 strings out of 492895
- 481643 string characters out of 3125603
- 894248 words of memory out of 3000000
- 31162 multiletter control sequences out of 15000+200000
+ 28283 strings out of 492895
+ 481841 string characters out of 3125603
+ 900249 words of memory out of 3000000
+ 31167 multiletter control sequences out of 15000+200000
  632481 words of font info for 204 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,15n,94p,923b,2592s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1798,9 +1790,9 @@ Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/1/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/AppDat
 a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (26 pages, 16171831 bytes).
+Output written on biophys_waves.pdf (28 pages, 15045748 bytes).
 PDF statistics:
- 842 PDF objects out of 1000 (max. 8388607)
- 528 named destinations out of 1000 (max. 500000)
+ 856 PDF objects out of 1000 (max. 8388607)
+ 532 named destinations out of 1000 (max. 500000)
  27704 words of extra memory for PDF output out of 29859 (max. 10000000)
 

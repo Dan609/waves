@@ -145,6 +145,12 @@ Frequency estimation using Fast Fourier Transform with Kaiser or Hamming window 
 
 Spectral analysis of calcium oscillations was carried out using a fast Fourier transform.
 
+Since the sampling rate is 14.142211, the Nyquist frequency is 7.071105.
+
+Scaling: 455.9 $\mu$m in 512px , 1 px = 0.8904296875 $\mu$m.
+Area = 318.363, x = 17.8427296118, $\approx$ 17.84 $\mu$m.
+
+
 576 ROI 17.84 x 17.84 $\mu$m were selected using ImageJ macros (see Supplementary\ref{macros})
 Wavelet analysis
 Formula from \cite{grinsted2004application} and from \cite{kahraman2016multiple} ...
@@ -234,14 +240,13 @@ The significance level of contour lines defined to . The plot of the ridge can b
 
 30 simulations was run to compute wavelet coherency.
 
-Calibration with a sine wave signal
-1 Hz and 5 Hz waves are represented in the picture \ref{waves are represented in the picture}
-A Test Signal Containing Four Sequential Sinusoids
+Calibration with a sine wave signal.
+1 Hz and 3 Hz waves are represented in the picture \ref{fig:fig7}.
+A test signal containing three sequential sinusoids.
 
-since the sampling rate is 14.142211, the Nyquist frequency is 7.071105
-for 094--: 455.9 mkm / 512px = 0,8904296875
-Area = 318,363, x = 17.8427296118, $\approx$ 17.84 $\mu$ m
-analyze - tools - scale bar
+
+
+For cluster analysis we used the PAM algorithm (\cite{kaufman2009finding}; \cite{kassambara2017practical}).
 
 
 \section*{Results}
@@ -311,8 +316,8 @@ We found that cardiomyocytes located in the border zone adjacent to the necrosis
 The effect of hypoxia on calcium oscillations in the epicardial layer of cardiomyocytes.
 
 \begin{figure}
-    \includegraphics[width=0.9\linewidth]{fig4.png}
-    \caption{(A) Fluo-4 raw signal image in spectral view.  (B) 8-Di-ANEPPS raw signal image in spectral view. (C) Fluo-4 raw signal image in normal view with manually selected cardiomyocytes. (D) Fluo-4 raw signal image in normal view with 576 ROI grid. (E) Boxplots of Fluo-4 and 8-Di-ANEPPS raw signal intensities in 40 manually selected cells. (F) Fluo-4 and 8-Di-ANEPPS raw signals intensities plotted against each other.}
+    \includegraphics[width=0.9\linewidth]{fig4.jpg}
+    \caption{(A) Fluo-4 and 8-Di-ANEPPS raw signals images in spectral view.  (B) Fluo-4 raw signal image in normal view with manually selected cardiomyocytes. (C) Fluo-4 raw signal image in normal view with 576 ROI grid. (D) Boxplots of Fluo-4 and 8-Di-ANEPPS raw signal intensities in 40 manually selected cells. (E) Fluo-4 and 8-Di-ANEPPS raw signals intensities plotted against each other. (F) Optimal number of clusterx estimtion. (G) 3 cluster partitioning visualization.}
     \label{fig:fig4}
 \end{figure}
 
