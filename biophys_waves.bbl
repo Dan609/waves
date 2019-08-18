@@ -50,14 +50,6 @@ Takamatsu, T., 2008.
 \newblock Arrhythmogenic substrates in myocardial infarct.
 \newblock \emph{Pathology international} 58:533--543.
 
-\bibitem[Matsuura et~al.(2018)Matsuura, Miyagawa, Fukushima, Goto, Harada,
-  Shimozaki, Yamaki, Sanami, Kikuta, Ishii, et~al.]{matsuura2018intravital}
-Matsuura, R., S.~Miyagawa, S.~Fukushima, T.~Goto, A.~Harada, Y.~Shimozaki,
-  K.~Yamaki, S.~Sanami, J.~Kikuta, M.~Ishii, et~al., 2018.
-\newblock Intravital imaging with two-photon microscopy reveals cellular
-  dynamics in the ischeamia-reperfused rat heart.
-\newblock \emph{Scientific reports} 8:15991.
-
 \bibitem[Kong and Fast(2014)]{kong2014role}
 Kong, W., and V.~G. Fast, 2014.
 \newblock The role of dye affinity in optical measurements of Cai2+ transients
@@ -117,6 +109,14 @@ Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.
 \newblock Subcellular Ca2+ alternans represents a novel mechanism for the
   generation of arrhythmogenic Ca2+ waves in cat atrial myocytes.
 \newblock \emph{The Journal of physiology} 545:65--79.
+
+\bibitem[Matsuura et~al.(2018)Matsuura, Miyagawa, Fukushima, Goto, Harada,
+  Shimozaki, Yamaki, Sanami, Kikuta, Ishii, et~al.]{matsuura2018intravital}
+Matsuura, R., S.~Miyagawa, S.~Fukushima, T.~Goto, A.~Harada, Y.~Shimozaki,
+  K.~Yamaki, S.~Sanami, J.~Kikuta, M.~Ishii, et~al., 2018.
+\newblock Intravital imaging with two-photon microscopy reveals cellular
+  dynamics in the ischeamia-reperfused rat heart.
+\newblock \emph{Scientific reports} 8:15991.
 
 \bibitem[Bonilla et~al.(2019)Bonilla, Belevych, Baine, Stepanov, Mezache,
   Bodnar, Liu, Volpe, Priori, Weisleder, et~al.]{bonilla2019enhancement}

@@ -437,9 +437,9 @@ INPUT biophys_waves.aux
 INPUT .\biophys_waves.out
 INPUT .\biophys_waves.out
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\tex-gyre\q-ts1.enc
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\newtx\ntx-ec-tlf.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\newtx\ntx-ot1-tlf.enc
-INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\newtx\ntx-ec-tlf.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\tex-gyre\q-ec.enc
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\qhvb.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\qhvb.pfb
@@ -453,6 +453,8 @@ INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\q
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\qtmr.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\qtmri.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\tex-gyre\qtmri.pfb
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\newtx\rntxmi.pfb
+INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\newtx\rntxmi.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\newtx\rntxmi7.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\newtx\rntxmi7.pfb
 INPUT C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\txfonts\rtxmi.pfb

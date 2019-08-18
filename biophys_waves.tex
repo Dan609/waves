@@ -71,18 +71,6 @@ The aim of the work was to find out whether hypoxia as one of the factors of myo
 We applied the method of confocal microscopy and carried out a frequency analysis of calcium oscillations in cardiomyocytes from border zone between the necrotic and healthy myocardium.
 
 
-CICR and sinus rhythm
-Measurement of \ce{Ca^2+} waves in isolated rat heart
-Now it is well acknowledged that \ce{Ca^2+} - overloaded cardiomyocytes are essential substrate for arrhythmias and contractile failure, especially in acute myocardial infarct.
-
-Wavelet tranform of electrocardiogram (ECG) ECG-derived data \cite{sharma2017use}
-For optical registration of calcium waves \cite{matsuura2018intravital} ...
-Here
-Unstationarity in Calcium Oscillations in Isolated Heart Revealed by Wavelet Analysis
-Spectral analysis of hypoxia-indused calcium waves in isolated rat heart on the subcellular level reveal local hypercontraction sites as sources for hight-frequency oscillations.
-Local hypercontracts are centers of high-frequency calcium oscillations
-damage progression line
-
 \section*{Materials and Methods}
 
 \textcolor{red}{Capitalize trade names and give manufacturers full names and addresses (city and state).}
@@ -91,11 +79,12 @@ damage progression line
 
 Studies were conducted in accordance with regulations of the National Committee on Bioethics of the Russian Academy of Sciences.
 The protocol was approved by the Ethics Committee of the Sechenov Institute of Physiology and Evolutionary Biochemistry.
-Experiments were performed in hearts isolated from adult Wistar male rats (N = 00; body weight 200–250 g).
+Experiments were performed in hearts isolated from adult Wistar male rats (N = 10; body weight 200–250 g).
 
 \subsection*{Heart staining}
 
 Animals were anesthetized with sodium Nembutal (50 kg - 1 , i.p., 50 mg), and then the hearts were harvested/removed via thoracotomy.
+Studies were carried out on the model of an isolated working rat heart perfused by the method of Langendorff.
 The preparation was retrogradely perfused via the aortic cannula through with a Tyrode’s solution of the following composition (mM): 140 NaCl, 1.0 \(\,\mathrm{Mg}\mathrm{Cl}_2\), 4.5 \ce{KCl}, 10 glucose, 1 \ce{CaCl2} and 10 HEPES.
 The pH of the solution was maintained at 7.4 by continuously bubbling with 95\% \ce{O2}/ 5\% \ce{CO2} and temperature maintained at 37 C\degree.
 Effluent was drained via a catheter placed in dish so as not to touch the heart.
@@ -103,32 +92,35 @@ Myosin ATPase inhibitor, blebbistatin (10 $\mu$M, Sigma, USA) was added to the T
 To prevent motion artifact in optical recordings, muscle contraction was inhibited with 20 $\mu$ M/L of (-)-blebbistatin \cite{kong2014role}.
 The dyes Fluo-4-AM,Tetramethylrhodamine Methyl Ester Perchlorate, TMRM, and Di-8-ANEPPS, was obtained from Thermo Fisher Scientific.
 Heart perfusion was performed using a modified Langendorff system. Tyrode solution with \ce{CaCl2} (1 mM/L) was used as the perfusion medium.
-A similar solution with the addition of the fluorescent dyes Fluo-4 (20 $\mu$ M/L) and Di-8-ANEPPS (20 $\mu$ M/L) was used for visualization of the \ce{Ca^2+} waves.
+A similar solution with the addition of the fluorescent dyes Fluo-4 (20 $\mu$M/L) and Di-8-ANEPPS (20 $\mu$M/L) was used for visualization of the \ce{Ca^2+} waves.
+For dyeing mitochondria, the TMRM dye was used, the fluorescence intensity of which is proportional to the value of the mitochondrial membrane potential ( $\Delta\psi$).
+For sumultaneus visualization of free \ce{Ca^2+} ions and membrane potential in cardiomyocytes, the Fluo-4 dye was used in combination with Di-8-ANEPPS.
+Perfusion of the hearts was performed with combinations of solution: Fluo-4 and TMRM, Fluo-4 and Di-8-ANEPPS.
 
 
 \subsection*{Confocal microscopy}
-To investigate spontaneous \ce{Ca^2+} waves in myocardium, we positioned isolated perfused heart in organ bath with thin bottom (180 $\mu$ m), left ventricle in conjunction with an oil-immersible objective lens on an inverted microscope (Leica).
-This combination provide sufficient depth discrimination to focus directly onto the epicardial layers and individual cells within the intact functioning organ.
 
-To the simultaneous detection of fluorescence of Fluo-4 and TMRM we used an argon laser with a wavelength 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\%. The fluorescence detection was carried out in the spectral range 493 nm -- 540 nm for Fluo-4 and 552 nm -- 792 nm for TMRM. Since the specific values of the background fluorescence depended on the density of the capillary network, the amount of connective tissue in the field of view, and other factors, the sensitivity of the PMT detector (gain) was selected individually each time, depending on the conditions of the survey, and was usually 600 to 800 units.
-changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, a resonant scanner (8000 Hz) was used, and the diameter of the confocal pinhole was set to 100 $\mu$m.
-A fluorescent signal was registered in the first layer of cardiomyocytes adjacent to the epicardial surface of an isolated heart (Fig. 1). The fluorescent signal was measured in a whole frame or in certain regions of interest (regions of interest, ROI).
-Spectral analysis of calcium oscillations was carried out using a fast Fourier transform.
-Studies were carried out on the model of an isolated working rat heart perfused by the method of Langendorff.
-The subepicardial layers of the myocardium were examined using an inverted Leica TCS SP5 laser scanning confocal microscope equipped with a resonance scanner and x10, x20, x63 lenses with oil immersion.
-For visualization of cardiomyocytes, vascular network and connective tissue, perfusion of the hearts was performed with a solution with the addition of the fluorescent dye Di-8-ANEPPS.
-To visualize free \ce{Ca^2+} ions, the Fluo-4 dye was used.
-For dyeing mitochondria, the TMRM dye was used, the fluorescence intensity of which is proportional to the value of the mitochondrial membrane potential ( $\Delta\psi$).
+Calcium imaging with  was performed using a confocal laser scanning microscope
+
+The subepicardial layers of the myocardium were examined using an inverted Leica TCS SP5 laser scanning confocal microscope equipped with a resonance scanner and with a x10, x20, x63 oil immersion lenses (NA = 1.3) (Leica, Germany).
+
+To investigate fluorescent signals in myocardium, we positioned isolated perfused heart in organ bath with thin bottom (180 $\mu$m), left ventricle was in conjunction with an oil-immersible objective lens on an inverted microscope.
+
+This setting provide sufficient depth discrimination to focus directly onto the epicardial layers and individual cells within the intact functioning organ.
+
 With the simultaneous detection of fluorescence Fluo-4 and Di-8-ANEPPS, an argon laser with a wavelength of 488 nm and a power of 80\% was used to excite the fluorescence.
 
-With the simultaneous detection of fluorescence Fluo-4 and TMRM, an argon laser with a wavelength of 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\% were used to excite the fluorescence.
-The fluorescence detection was carried out in the spectral range 493 nm-540 nm for Fluo-4 and 552 nm --- 792 nm for TMRM.
-Calcium imaging with Fluo-4/AM was performed using a confocal laser scanning microscope Leica SP5 with a 40x (NA = 1.3) oil immersion objective. Fluorescence images (excited at 488 nm).
+To the simultaneous detection of fluorescence of Fluo-4 and TMRM we used an argon laser with a wavelength 488 nm and a power of 80\% and a HeNe laser with a wavelength of 543 nm and a power of 80\%.
+
+Fluorescence detection was carried out using two photomultiplier tubes (PMT)in the spectral range 493---540 nm for Fluo-4 and 552---792 nm for TMRM.
+
 The pinhole was set to 200 mm, resulting in , 2.5-mm optical slices. Amplifier gain and detector offset were adjusted such that neither saturation nor threshold cutoff occurred.
-Fluorescence detection was carried out using two photomultiplier tubes (PMT), 491nm - 581nm for Fluo-4 and 611nm - 792nm for Di-8-ANEPPS.
+
 Since the specific values of the background fluorescence depended on the density of the capillary network, the amount of connective tissue in the field of view, and other factors, the sensitivity of the PMT detector (gain) was selected individually each time, depending on the conditions of the survey, and was usually 600 to 800 units.
-For optical registration of calcium waves, changes in fluorescence intensity of Fluo-4 over time (xyt mode) were measured, a resonant scanner (8000 Hz) was used, and the diameter of the confocal pinhole was set to 100 $\mu$m.
-A fluorescent signal was registered in the first layer of cardiomyocytes adjacent to the epicardial surface of an isolated heart (Fig. 1). The fluorescent signal was measured in a whole frame or in certain regions of interest (regions of interest, ROI).
+
+Changes in fluorescence intensity of all used dyes over time ($xyt$ mode) were measured with a resonant scanner (8000 Hz), while the diameter of the confocal pinhole was set to 100 $\mu$m.
+
+The fluorescent signal was measured in a whole frame or in certain regions of interest (regions of interest, ROI).
 
 
 \subsection*{Data collection and analysis}
@@ -157,12 +149,12 @@ Formula from \cite{grinsted2004application} and from \cite{kahraman2016multiple}
 To cite R in publications use:  \cite{team2014r}
 
 To cite package WaveletComp in publications use: \cite{rosch2016waveletcomp}
-Wavelet methodology is a reasonable choice to study periodic phenomena in time series, particularly in
-the presence of potential frequency changes across time.
+Wavelet methodology is a reasonable choice to study periodic phenomena in time series, particularly in the presence of potential frequency changes across time.
 packages for wavelet analysis in R
 number of simulations = 100
 WaveletComp (version 1.1) analyzes the frequency structure of uni- and bivariate time series using the Morlet wavelet.
-This wavelet leads to a continuous, complex-valued wavelet transform of the time series withy careful selection of time and frequency resolution parameters. The transform provides information on both local amplitude and instantaneous phase of any periodic process across time with subsequent investigation of coherency between two time series.
+This wavelet leads to a continuous, complex-valued wavelet transform of the time series withy careful selection of time and frequency resolution parameters.
+The transform provides information on both local amplitude and instantaneous phase of any periodic process across time with subsequent investigation of coherency between two time series.
 
 
 The “mother” Morlet wavelet is:
@@ -222,6 +214,7 @@ Wavelet coherency  measures the cross-correlation between two time series as a f
 \begin{equation}\label{eq:coherence}
 \text{Coherence}=\frac{|\text{sWave.xy}|^2}{\text{sPower.x}\cdot\text{sPower.y}}
 \end{equation}
+
 The need for smoothing is indicated by the prefix s.
 
 Wavelet coherence images of two time series provided by correspondent ROI fluorescent imaging within subepicardial layer.
@@ -229,14 +222,15 @@ The vertical axis shows the Fourier periods. The horizontal axis shows time step
 Further plot design options concern: plot of the cone of influence, plot of contour lines to border areas of significance, plot of the ridge, and plot of arrows to reflect phase differences.
 
 Contour lines added to the wavelet power spectrum delineate areas of high significance.
-Wavelet power spectrum of the series with variable period
+Wavelet power spectrum of the series with variable period.
 Horizontal arrows pointing to the right indicate that the two series x and y are in phase at the respective period with vanishing phase differences.
 Likewise, horizontal arrows pointing to the left indicate that the two series are in anti-phase;
 The arrows are plotted only within white contour lines indicating significance (with respect to the null hypothesis of white noise processes) at the 10\% level.
 
 10 simulations using analyze.wavelet function from WaveletComp package was run do plot Cross-Wavelet power spectrum of the series with interval color key and restricted arrow area.
-Limit the area where arrows are drawn to the region where both individual wavelet transforms of x and y show significance (set which.arrow.sig = "wt"), and avoid the artifacts of the
-The significance level of contour lines defined to . The plot of the ridge can be restricted to a high-level region ("high" according to a given level of plotted values). In particular, the area to be filled with arrows can be determined in several ways: to reflect significance (at a given level) with respect to cross-wavelet power, wavelet coherence, or individual wavelet power, and/or to flag a high-value region. Furthermore, there is an option to clear out the area where the p-values of cross-wavelet power (coherence, respectively) exceed a given level.
+Limit the area where arrows are drawn to the region where both individual wavelet transforms of x and y show significance (set which.arrow.sig = "wt"), and avoid the artifacts.
+The significance level of contour lines defined to . The plot of the ridge can be restricted to a high-level region ("high" according to a given level of plotted values).
+In particular, the area to be filled with arrows can be determined in several ways: to reflect significance (at a given level) with respect to cross-wavelet power, wavelet coherence, or individual wavelet power, and/or to flag a high-value region. Furthermore, there is an option to clear out the area where the p-values of cross-wavelet power (coherence, respectively) exceed a given level.
 
 30 simulations was run to compute wavelet coherency.
 
@@ -244,14 +238,15 @@ Calibration with a sine wave signal.
 1 Hz and 3 Hz waves are represented in the picture \ref{fig:fig7}.
 A test signal containing three sequential sinusoids.
 
-
-
 For cluster analysis we used the PAM algorithm (\cite{kaufman2009finding}; \cite{kassambara2017practical}).
 
 
 \section*{Results}
 
 
+Fluorescence images.
+Vascular network and connective tissue, TMRM.
+A fluorescent signal was registered in the first layer of cardiomyocytes adjacent to the epicardial surface of an isolated heart (Fig. \ref{fig:fig1}).
 
 \begin{figure}[hbt!]
 \centering
@@ -260,8 +255,9 @@ For cluster analysis we used the PAM algorithm (\cite{kaufman2009finding}; \cite
 \label{fig:fig1}
 \end{figure}
 
-Fig. 1. Cardiomyocytes adjacent to the epicardial surface of the heart.
+
 Based on a series of optical sections, a three-dimensional image of a portion of the myocardium of an isolated rat heart stained with a potential dependent Di-8-ANEPPS dye.
+
 The epicardial surface of the heart is located on top.
 Different types of myocardial damage.
 Different parts of the myocardium of the rat, colored for active mitochondria (red) and free calcium ions (green). a is a normal tissue; b - groups of cells with reduced mitochondrial potential and elevated calcium content; c, d - groups of cells with necrotic striation. Optical sections of subepicardial ventricular layers.
@@ -313,7 +309,7 @@ Calcium waves in rat myocardium against a background of global calcium release. 
 \end{tabular}
 \begin{tablenotes}
 \item[a] Mean ROI area and SD.
-\item[b] Manully selected.
+\item[b] Manually selected.
 \end{tablenotes}
 \end{threeparttable}
 \end{table}
@@ -376,8 +372,6 @@ The scale segment is 100 $\mu$m.
  3d harminic & 2.6984 & 0.5887    \\
  \hline
  \end{tabular}
- \begin{tablenotes}
- \end{tablenotes}
  \end{threeparttable}
  \end{table}
 
@@ -501,6 +495,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 \section*{Discussion}
 
+To investigate spontaneous \ce{Ca^2+} waves and sinus rhythm in myocardium, we
+CICR .
+Measurements of \ce{Ca^2+} waves in isolated rat heart.
+Now it is well acknowledged that \ce{Ca^2+} - overloaded cardiomyocytes are essential substrate for arrhythmias and contractile failure, especially in acute myocardial infarct.
+
+So far, wavelet transformation has been used only for the analysis of electrocardiogram (ECG) ECG-derived data \cite{sharma2017use}.
+
+We decided to use this method for the analysis of calcium oscillations in the myocardium of a working heart.
+The experimental limitations of the method used allowed us to register 100 seconds of the signal.
+We cannot register a signal of sufficient duration to fully trace the evolution of frequency-amplitude characteristics in a pathological ischemic process.
+Therefore, we applied a comparative analysis of these characteristics recorded from cardiomyocytes at various stages of damage.
+
+For optical registration of calcium waves we implement method described by \cite{matsuura2018intravital}.
+
+Unstationarity in Calcium Oscillations in Isolated Heart Revealed by Wavelet Analysis
+Spectral analysis of hypoxia-indused calcium waves in isolated rat heart on the subcellular level reveal local hypercontraction sites as sources for hight-frequency oscillations.
+Local hypercontracts are centers of high-frequency calcium oscillations
+damage progression line
 \cite{bonilla2019enhancement} provide the first demonstration of local, transient \ce{Ca^2+} entry
 (LoCE) events, which comprise cardiac SOCE. Although infrequent in WT myocytes, LoCEs occurred
 with greater frequency and amplitude in CpVt myocytes.
@@ -668,7 +680,7 @@ Understanding these mechanisms will help to further protect the heart muscle dur
 Author2 designed the research. Author1 carried out all simulations, analyzed the data. Author1 and Author2 wrote the article.
 
 \section*{Funding}
-This work was supported by the Russian Foundation for Basic Research (project no. 19-015-00139 А)
+This work was supported by the Russian Foundation for Basic Research (project no. 19-015-00139 A)
 
 \section*{Acknowledgments}
 We thank Dr. Polyanski , B. Harper, and J. Doe for their help.
