@@ -1,16 +1,60 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: biophys_waves.aux
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: biophys_waves.aux
 The style file: biophysj.bst
 Database file #1: mybib.bib
-Repeated entry---line 953 of file mybib.bib
+Repeated entry---line 1905 of file mybib.bib
  : @article{jiang2014pacing
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1671 of file mybib.bib
+Repeated entry---line 3341 of file mybib.bib
  : @article{kong2014role
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1820 of file mybib.bib
+Repeated entry---line 3639 of file mybib.bib
  : @article{sato2014depolarization
  :                                ,
 I'm skipping whatever remains of this entry
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 33 entries,
+            3176 wiz_defined-function locations,
+            855 strings with 12080 characters,
+and the built_in function-call counts, 16042 in all, are:
+= -- 1110
+> -- 908
+< -- 17
++ -- 309
+- -- 242
+* -- 1122
+:= -- 2297
+add.period$ -- 98
+call.type$ -- 33
+change.case$ -- 33
+chr.to.int$ -- 32
+cite$ -- 33
+duplicate$ -- 1379
+empty$ -- 1292
+format.name$ -- 322
+if$ -- 3299
+int.to.chr$ -- 2
+int.to.str$ -- 34
+missing$ -- 310
+newline$ -- 169
+num.names$ -- 99
+pop$ -- 465
+preamble$ -- 1
+purify$ -- 33
+quote$ -- 0
+skip$ -- 320
+stack$ -- 0
+substring$ -- 597
+swap$ -- 726
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 225
+warning$ -- 0
+while$ -- 107
+width$ -- 0
+write$ -- 426
 (There were 3 error messages)
