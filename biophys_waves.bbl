@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{32}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -57,17 +57,22 @@ Kong, W., and V.~G. Fast, 2014.
 \newblock \emph{American Journal of Physiology-Heart and Circulatory
   Physiology} .
 
-\bibitem[Team et~al.(2014)]{team2014r}
-Team, R.~C., et~al., 2014.
-\newblock R: A language and environment for statistical computing.
-\newblock \emph{R} .
-
 \bibitem[Rueden et~al.(2017)Rueden, Schindelin, Hiner, DeZonia, Walter, Arena,
   and Eliceiri]{rueden2017imagej2}
 Rueden, C.~T., J.~Schindelin, M.~C. Hiner, B.~E. DeZonia, A.~E. Walter, E.~T.
   Arena, and K.~W. Eliceiri, 2017.
 \newblock ImageJ2: ImageJ for the next generation of scientific image data.
 \newblock \emph{BMC bioinformatics} 18:529.
+
+\bibitem[Team et~al.(2014)]{team2014r}
+Team, R.~C., et~al., 2014.
+\newblock R: A language and environment for statistical computing.
+\newblock \emph{R} .
+
+\bibitem[Addison(2018)]{addison2018introduction}
+Addison, P.~S., 2018.
+\newblock Introduction to redundancy rules: the continuous wavelet transform
+  comes of age.
 
 \bibitem[Grinsted et~al.(2004)Grinsted, Moore, and
   Jevrejeva]{grinsted2004application}
@@ -99,11 +104,6 @@ Kassambara, A., 2017.
   learning, volume~1.
 \newblock STHDA.
 
-\bibitem[Addison(2018)]{addison2018introduction}
-Addison, P.~S., 2018.
-\newblock Introduction to redundancy rules: the continuous wavelet transform
-  comes of age.
-
 \bibitem[Kocksk{\"a}mper and Blatter(2002)]{kockskamper2002subcellular}
 Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.
 \newblock Subcellular Ca2+ alternans represents a novel mechanism for the
@@ -124,6 +124,12 @@ Matsuura, R., S.~Miyagawa, S.~Fukushima, T.~Goto, A.~Harada, Y.~Shimozaki,
 \newblock Intravital imaging with two-photon microscopy reveals cellular
   dynamics in the ischeamia-reperfused rat heart.
 \newblock \emph{Scientific reports} 8:15991.
+
+\bibitem[Chang and Glover(2010)]{chang2010time}
+Chang, C., and G.~H. Glover, 2010.
+\newblock Time--frequency dynamics of resting-state brain connectivity measured
+  with fMRI.
+\newblock \emph{Neuroimage} 50:81--98.
 
 \bibitem[Bonilla et~al.(2019)Bonilla, Belevych, Baine, Stepanov, Mezache,
   Bodnar, Liu, Volpe, Priori, Weisleder, et~al.]{bonilla2019enhancement}
@@ -172,19 +178,6 @@ Tracqui, P., and J.~Ohayon, 2009.
   driving spatio-temporal contractions of cardiac myocytes.
 \newblock \emph{Philosophical Transactions of the Royal Society of London A:
   Mathematical, Physical and Engineering Sciences} 367:4887--4905.
-
-\bibitem[Chang and Glover(2010)]{chang2010time}
-Chang, C., and G.~H. Glover, 2010.
-\newblock Time--frequency dynamics of resting-state brain connectivity measured
-  with fMRI.
-\newblock \emph{Neuroimage} 50:81--98.
-
-\bibitem[Walker et~al.(2017)Walker, Gurev, Rice, Greenstein, and
-  Winslow]{walker2017estimating}
-Walker, M.~A., V.~Gurev, J.~J. Rice, J.~L. Greenstein, and R.~L. Winslow, 2017.
-\newblock Estimating the probabilities of rare arrhythmic events in multiscale
-  computational models of cardiac cells and tissue.
-\newblock \emph{PLoS computational biology} 13:e1005783.
 
 \bibitem[Macquaide et~al.(2007)Macquaide, Dempster, and
   Smith]{macquaide2007measurement}
