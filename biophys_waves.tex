@@ -290,11 +290,6 @@ The green line is a cell with a normal rhythm; blue line - a cell with a high co
 Calcium waves in cardiomyocytes lying near the necrosis zone.
 Optical section of the myocardium stained with Fluo-4 (green) and Di-8-ANEPPS (red).
 
-\begin{figure}
-    \includegraphics[width=0.9\linewidth]{fig3.png}
-    \caption{Comparison between signals from different size ROIs. (A) One frame from F0-normalized Fluo-4 signal, red rectangles are  ROIs including damaged cell (180x40 px) and hypercontracted region of that cell (10x10 px). (B) Mean intensiy of raw Fluo-4 signal from different size ROIs: Y0 ---512x512 px, Y1 --- 180x40, Y2 --- 10x10, Y3 --- 2x2 px. (C) FFT-derived frequency spectrograms of F0-normalized Fluo-4 signals from ROIs varying in area. (D) Spectral density of F0-normalized Fluo-4 signals from ROIs varying in area. The red circle indicates peak detected as main sinus frequency }
-    \label{fig:fig3}
-\end{figure}
 
 
 On the combined image, the dotted rectangles indicate the selected ROI.
@@ -346,6 +341,11 @@ The scale segment is 100 $\mu$m.
 
 
 
+ \begin{figure}
+     \includegraphics[width=0.9\linewidth]{fig8.jpg}
+     \caption{(A) Image (B) Kymogram (C) Cross-wavelet coherence between Fluo-4 and 8-Di-Anepps signals in selected ROIs. Power spectrum plots. }
+     \label{fig:fig8}
+ \end{figure}
 
 
 Fig. 2.  Calcium waves in rat myocardium against a background of global calcium release.
@@ -356,15 +356,6 @@ Fluorescent fluorescence intensity plots in selected ROI: red line - ROI 01, gre
 Measurement of the fluorescence intensity versus time in the myocardium, stained for active mitochondria (red) and free calcium ions (green).
 The scale segment is 20 $\mu$m. Shooting for 25 min, the frame corresponding to a point of 500 seconds is presented.
 A plot of the fluorescence intensity measured in the frame is plotted against time.
-
-
-\begin{figure}
-    \includegraphics[width=0.9\linewidth]{fig8.jpg}
-    \caption{(A) Image (B) Kymogram (C) Cross-wavelet coherence between Fluo-4 and 8-Di-Anepps signals in selected ROIs. Power spectrum plots. }
-    \label{fig:fig8}
-\end{figure}
-
-
 
 
 A test signal containing 3 sequential sinusoids.
@@ -401,12 +392,7 @@ in cell 9, an increase in coherence is observed as the frequency decreases to th
 self-coherence increases in intensity and does not change in phase
 cell 10 is shrinking, it can be seen on non-normalized video (see appendix)
 
-\begin{figure}[hbt!]
-\centering
-\includegraphics[width=0.9\linewidth]{fig11.png}
-\caption{ Analysis of selected ROIs }
-\label{fig:fig11}
-\end{figure}
+
 
 
 We performed a calculation of the \ref{fig:fig8} coherence between the sinus rhythm and cardiomyocytes in various stages of damage.
@@ -542,12 +528,6 @@ individual myocytes often exhibited spatially non-uniform \ce{Ca^2+} dynamics,
 e.g., cluster-like rises of \ce{Ca^2+}, wave-like propagation of \ce{Ca^2+},
 and beattobeat variability of durations and amplitude alternans of \ce{Ca^2+} transients, all of which emerged on excitation instead of uniform \ce{Ca^2+} transients (\cite{jiang2014pacing}, \cite{aguirre2014intravital}).
 
-%\begin{figure}
-%    \includegraphics[width=0.6\linewidth]{figA.jpg}
-%    \caption{Arrhythmia}
-%    \label{fig:figA}
-%\end{figure}
-
 Analysis of calcium alternans in ischemic condition reveal spectrum of cell conditions that may affect cardiac function.
 
 Spectral analysis of hypoxia-indused calcium waves in isolated rat heart on the subcellular level.
@@ -590,21 +570,14 @@ We thank B. Harper and J. Doe for their help.
 \section*{Supplementary Material}
 An online supplement to this article can be found by visiting BJ Online at \url{http://www.biophysj.org}.
 
-\subsection*{}\label{github}
+\subsection*{Sdifferent size ROIs}
 
-ImageJ macros, R code, and raw data are available at \url{https://github.com/Dan609/ratheart}.
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{fig3.png}
+    \caption{Comparison between signals from different size ROIs. (A) One frame from F0-normalized Fluo-4 signal, red rectangles are  ROIs including damaged cell (180x40 px) and hypercontracted region of that cell (10x10 px). (B) Mean intensiy of raw Fluo-4 signal from different size ROIs: Y0 ---512x512 px, Y1 --- 180x40, Y2 --- 10x10, Y3 --- 2x2 px. (C) FFT-derived frequency spectrograms of F0-normalized Fluo-4 signals from ROIs varying in area. (D) Spectral density of F0-normalized Fluo-4 signals from ROIs varying in area. The red circle indicates peak detected as main sinus frequency }
+    \label{fig:fig3}
+\end{figure}
 
-\subsection*{Video files}
-
-calcium-waves-Fluo-4-ANEPPS-10fps.wmv
-
-094Roi.avi
-
-\subsection*{Tables in csv format}
-
-calcium.csv
-
-094px.csv
 
 \subsection*{Signal Clustering}
 
@@ -622,9 +595,33 @@ calcium.csv
     \label{fig:fig7}
 \end{figure}
 
+\subsection*{}\label{github}
+
+ImageJ macros, R code, and raw data are available at \url{https://github.com/Dan609/ratheart}.
+
+\subsection*{Video files}
+
+calcium-waves-Fluo-4-ANEPPS-10fps.wmv
+
+094Roi.avi
+
+\subsection*{Tables in csv format}
+
+calcium.csv
+
+094px.csv
+
 \iffalse
 А не посчитать ли дифференциальное уравнение, декремент затухания?..
 причина затуханий - сокращение клетки?
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=0.9\linewidth]{fig11.png}
+\caption{ Analysis of selected ROIs }
+\label{fig:fig11}
+\end{figure}
+
 \fi
 
 \end{document}
