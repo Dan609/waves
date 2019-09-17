@@ -10,7 +10,7 @@
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
 \usepackage{listings}
 
-\title{ Wavelet analysis reveals dynamic coherence between trigerred and spontaneous \ce{Ca^2+} oscillations in subepicardial cardiomyocytes }
+\title{ Wavelet analysis reveals dynamic coherence between \ce{Ca^2+} waves and membrane potential oscillations in subepicardial cardiomyocytes }
 \runningtitle{Calcium waves wavelet analysis} %% For page header
 \author[1,*]{Danila Bobkov}
 \author[8]{Galina Sakuta}
@@ -302,14 +302,14 @@ The scale segment is 100 $\mu$m.
 On the fluorescence intensity curves of Fluo-4 in the selected ROI, damped oscillations are seen.
 Total observation time is 110 sec.
 Optical recording of sinus rhythm in the myocardium.
+
+
+
+
 A - Optical sections of the epicardial region of the ventricular myocardium of the isolated working heart of the rat, painted with Di-8-ANEPPS (red) and Fluo-4 (green). B - Fluorescence intensity curves Fluo-4 (black line) and myocardial contractions (red line) versus time. Presented frames are indicated by black arrows.
 The scale segment is 100 $\mu$m.
 
-\begin{figure}
-    \includegraphics[width=0.9\linewidth]{fig6.png}
-    \caption{(A) Heat maps fragments for clusterized signals, obrained from  F0-nomalized Fluo-4 and 8-Di-ANEPPS signals. Red arrow indicates 'normal' ROI555. (B) Spectral density with detected peaks of F0-normalized and signal segmants of raw signals.}
-    \label{fig:fig6}
-\end{figure}
+
 
 
  With a slight increase in the intracellular calcium concentration, such waves are erased by each subsequent global calcium release (Figure 11, B), and with a strong increase in \ce{Ca^2+} in cardiomyocytes relative to the baseline observed in the normal myocardium, the global calcium release does not interfere with the formation of calcium waves (Fig. 11, B, D).
@@ -345,11 +345,7 @@ The scale segment is 100 $\mu$m.
  The cardiomyocytes adjacent to the necrosis zone were characterized mainly by slow, damped calcium waves with a large amplitude (Fig. 8).
 
 
-\begin{figure}
-    \includegraphics[width=0.9\linewidth]{fig7.png}
-    \caption{Comparative time series analisys of generated 1, 3 and 3 Hz sin waves with ROI555 F-0 normalized Fluo-4 signal. 1st row --- Spectral density; 2nd row --- FFT-derived spectrograms. 3d row --- Wavelet power spectrum plots. 4th row --- Cross-wavelet coherence with 0.9 Hz sin wave power spectrum plots. }
-    \label{fig:fig7}
-\end{figure}
+
 
 
 Fig. 2.  Calcium waves in rat myocardium against a background of global calcium release.
@@ -363,10 +359,12 @@ A plot of the fluorescence intensity measured in the frame is plotted against ti
 
 
 \begin{figure}
-    \includegraphics[width=0.9\linewidth]{fig8.png}
-    \caption{(A) Image (B) Kymogram (C) Analysis of selected ROIs}
+    \includegraphics[width=0.9\linewidth]{fig8.jpg}
+    \caption{(A) Image (B) Kymogram (C) Cross-wavelet coherence between Fluo-4 and 8-Di-Anepps signals in selected ROIs. Power spectrum plots. }
     \label{fig:fig8}
 \end{figure}
+
+
 
 
 A test signal containing 3 sequential sinusoids.
@@ -607,6 +605,22 @@ calcium-waves-Fluo-4-ANEPPS-10fps.wmv
 calcium.csv
 
 094px.csv
+
+\subsection*{Signal Clustering}
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{fig6.png}
+    \caption{(A) Heat maps fragments for clusterized signals, obrained from  F0-nomalized Fluo-4 and 8-Di-ANEPPS signals. Red arrow indicates 'normal' ROI555. (B) Spectral density with detected peaks of F0-normalized and signal segmants of raw signals.}
+    \label{fig:fig6}
+\end{figure}
+
+\subsection*{Sinus calibration}
+
+\begin{figure}
+    \includegraphics[width=0.9\linewidth]{fig7.png}
+    \caption{Comparative time series analisys of generated 1, 3 and 3 Hz sin waves with ROI555 F-0 normalized Fluo-4 signal. 1st row --- Spectral density; 2nd row --- FFT-derived spectrograms. 3d row --- Wavelet power spectrum plots. 4th row --- Cross-wavelet coherence with 0.9 Hz sin wave power spectrum plots. }
+    \label{fig:fig7}
+\end{figure}
 
 \iffalse
 А не посчитать ли дифференциальное уравнение, декремент затухания?..

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  22 AUG 2019 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.17)  17 SEP 2019 20:57
 entering extended mode
 **./biophys_waves.tex
 (biophys_waves.tex
@@ -1618,66 +1618,63 @@ File: fig3.png Graphic file (type png)
 Package pdftex.def Info: fig3.png  used on input line 294.
 (pdftex.def)             Requested size: 449.27701pt x 241.62796pt.
  [5 <./fig1.jpg>] [6 <./fig2.jpg>] [7 <./fig4.jpg>] [8 <./fig5.png (PNG copy)>]
-<fig6.png, id=114, 1375.1375pt x 1083.04625pt>
-File: fig6.png Graphic file (type png)
-<use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 309.
-(pdftex.def)             Requested size: 449.27701pt x 353.83676pt.
- [9 <./fig3.png (PNG copy)>] [10 <./fig6.png (PNG copy)>]
-<fig7.png, id=129, 1463.4675pt x 1083.04625pt>
-File: fig7.png Graphic file (type png)
-<use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 349.
-(pdftex.def)             Requested size: 449.27701pt x 332.48526pt.
-
-Underfull \vbox (badness 3386) has occurred while \output is active []
-
- [11 <./fig7.png (PNG copy)>]
-<fig8.png, id=134, 1926.19624pt x 1083.04625pt>
-File: fig8.png Graphic file (type png)
-<use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 366.
-(pdftex.def)             Requested size: 449.27701pt x 252.61542pt.
-<fig9.png, id=135, 1467.4825pt x 1083.04625pt>
+ [9 <./fig3.png (PNG copy)>]
+<fig8.jpg, id=123, 963.6pt x 542.025pt>
+File: fig8.jpg Graphic file (type jpg)
+<use fig8.jpg>
+Package pdftex.def Info: fig8.jpg  used on input line 362.
+(pdftex.def)             Requested size: 449.27701pt x 252.71721pt.
+ [10 <./fig8.jpg>]
+<fig9.png, id=129, 1467.4825pt x 1083.04625pt>
 File: fig9.png Graphic file (type png)
 <use fig9.png>
-Package pdftex.def Info: fig9.png  used on input line 381.
+Package pdftex.def Info: fig9.png  used on input line 379.
 (pdftex.def)             Requested size: 449.27701pt x 331.57632pt.
-<fig10.png, id=136, 1911.14pt x 1083.04625pt>
+<fig10.png, id=130, 1911.14pt x 1083.04625pt>
 File: fig10.png Graphic file (type png)
 <use fig10.png>
-Package pdftex.def Info: fig10.png  used on input line 394.
+Package pdftex.def Info: fig10.png  used on input line 392.
 (pdftex.def)             Requested size: 449.27701pt x 254.59853pt.
-<fig11.png, id=137, 1589.94pt x 1083.04625pt>
+<fig11.png, id=131, 1589.94pt x 1083.04625pt>
 File: fig11.png Graphic file (type png)
 <use fig11.png>
-Package pdftex.def Info: fig11.png  used on input line 408.
+Package pdftex.def Info: fig11.png  used on input line 406.
 (pdftex.def)             Requested size: 449.27701pt x 306.04376pt.
- [12 <./fig8.png (PNG copy)>] [13 <./fig9.png (PNG copy)>]
-Overfull \vbox (11.51926pt too high) has occurred while \output is active []
+ [11 <./fig9.png (PNG copy)>]
+Underfull \vbox (badness 2409) has occurred while \output is active []
 
-
-[14 <./fig10.png (PNG copy)> <./fig11.png (PNG copy)>] [15] (biophys_waves.bbl
-[16] [17])
-LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 593
+ [12 <./fig10.png (PNG copy)> <./fig11.png (PNG copy)>] [13] [14] (biophys_wave
+s.bbl
+[15])
+LaTeX Font Info:    Try loading font information for T1+ntxtt on input line 591
 .
-
-("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\t1ntxtt.fd"
+ ("C:\Users\1\AppData\Local\Programs\MiKTeX 2.9\tex/latex/newtx\t1ntxtt.fd"
 File: t1ntxtt.fd 2012/04/20 v3.1
 )
 LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 593.
+(Font)              scaled to size 10.0pt on input line 591.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ntxtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 616.
+ [16]
+<fig6.png, id=196, 1375.1375pt x 1083.04625pt>
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 612.
+(pdftex.def)             Requested size: 449.27701pt x 353.83676pt.
+<fig7.png, id=197, 1463.4675pt x 1083.04625pt>
+File: fig7.png Graphic file (type png)
+<use fig7.png>
+Package pdftex.def Info: fig7.png  used on input line 620.
+(pdftex.def)             Requested size: 449.27701pt x 332.48526pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 630.
+ [17 <./fig6.png (PNG copy)>] [18 <./fig7.png (PNG copy)>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 630.
 
-[18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 616.
- (biophys_waves.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 616.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 616.
+(biophys_waves.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 630.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 630.
 Package rerunfilecheck Info: File `biophys_waves.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1692,11 +1689,11 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  26689 strings out of 492895
  463113 string characters out of 3125603
- 680721 words of memory out of 3000000
+ 682721 words of memory out of 3000000
  30041 multiletter control sequences out of 15000+200000
  632103 words of font info for 203 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,94p,923b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,15n,94p,923b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-ec-tl
 f.enc}{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }{C:/Users/1/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/tex-gyre/q-ts1.e
@@ -1719,7 +1716,7 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Users/1/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/txfonts/txmia.pfb><C:/Users/1/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/txsys.pfb><C:/Users/1/App
 Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on biophys_waves.pdf (18 pages, 14010185 bytes).
+Output written on biophys_waves.pdf (18 pages, 12114986 bytes).
 PDF statistics:
  282 PDF objects out of 1000 (max. 8388607)
  75 named destinations out of 1000 (max. 500000)
