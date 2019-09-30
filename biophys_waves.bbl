@@ -1,4 +1,4 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{ }
 
@@ -49,6 +49,19 @@ Ishide, N., T.~Urayama, K.~Inoue, T.~Komaru, and T.~Takishima, 1990.
 Takamatsu, T., 2008.
 \newblock Arrhythmogenic substrates in myocardial infarct.
 \newblock \emph{Pathology international} 58:533--543.
+
+\bibitem[Sobolev and Babichenko(2013)]{sobolev2013application}
+Sobolev, I., and S.~Babichenko, 2013.
+\newblock Application of the wavelet transform for feature extraction in the
+  analysis of hyperspectral laser-induced fluorescence data.
+\newblock \emph{International journal of remote sensing} 34:7218--7235.
+
+\bibitem[Sharma et~al.(2017)Sharma, Newman, Long, Gasiewski, and
+  Barnes]{sharma2017use}
+Sharma, P., K.~Newman, C.~Long, A.~Gasiewski, and F.~Barnes, 2017.
+\newblock Use of Wavelet Transform to Detect Compensated and Decompensated
+  Stages in the Congestive Heart Failure Patient.
+\newblock \emph{Biosensors} 7:40.
 
 \bibitem[Kong and Fast(2014)]{kong2014role}
 Kong, W., and V.~G. Fast, 2014.
@@ -109,13 +122,6 @@ Kocksk{\"a}mper, J., and L.~A. Blatter, 2002.
 \newblock Subcellular Ca2+ alternans represents a novel mechanism for the
   generation of arrhythmogenic Ca2+ waves in cat atrial myocytes.
 \newblock \emph{The Journal of physiology} 545:65--79.
-
-\bibitem[Sharma et~al.(2017)Sharma, Newman, Long, Gasiewski, and
-  Barnes]{sharma2017use}
-Sharma, P., K.~Newman, C.~Long, A.~Gasiewski, and F.~Barnes, 2017.
-\newblock Use of Wavelet Transform to Detect Compensated and Decompensated
-  Stages in the Congestive Heart Failure Patient.
-\newblock \emph{Biosensors} 7:40.
 
 \bibitem[Matsuura et~al.(2018)Matsuura, Miyagawa, Fukushima, Goto, Harada,
   Shimozaki, Yamaki, Sanami, Kikuta, Ishii, et~al.]{matsuura2018intravital}
