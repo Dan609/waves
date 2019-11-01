@@ -2,6 +2,7 @@
 \documentclass{biophys-new}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{minted}
 \usepackage[colorlinks,allcolors=cyan!70!black]{hyperref}
 \usepackage{lipsum}
 \usepackage{xcolor}
@@ -623,5 +624,34 @@ calcium.csv
 \end{figure}
 
 \fi
+
+\usemintedstyle{vim} %note here you can use different highlighting
+                      %styles see the final note below
+
+\begin{document}
+
+\begin{minted}{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+T=1
+delta_T=T/200
+alpha=0.5
+fc=40/T
+A_m=1
+t=[i for i in np.arange(-5,5,1/200)]
+t_arr=np.array(t)
+N=len(t)
+
+g_T=[]
+for i in range(N):
+    if (abs(t[i])!=(T/2*alpha)):
+        g_T.append(np.sinc(t[i])*(np.cos(np.pi*alpha*t[i]/T)/
+            (1- 4*alpha**2 *(t[i])**2 /(T**2))))
+    else:
+        g_T.append(0)
+\end{minted}
+
+\end{document}
 
 \end{document}
