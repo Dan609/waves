@@ -2,7 +2,6 @@
 \documentclass{biophys-new}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\usepackage{minted}
 \usepackage[colorlinks,allcolors=cyan!70!black]{hyperref}
 \usepackage{lipsum}
 \usepackage{xcolor}
@@ -119,7 +118,7 @@ The fluorescent signal was measured in a whole frame or in certain regions of in
 Recorded time-series image stack were analyzed in ImageJ v.1.52p software \cite{rueden2017imagej2}.
 Area = 318.363, x = 17.8427296118, $\approx$ 17.84 $\mu$m.
 Scaling: 455.9 $\mu$m in 512px , 1 px = 0.8904296875 $\mu$m.
-576 ROI 17.84 x 17.84 $\mu$m were selected using ImageJ macros (see Supplementary\ref{macros}).
+576 ROI 17.84 x 17.84 $\mu$m were selected using ImageJ macros (see Supplementary).
 Time series were obtained in BAR plugin using multi ROI profiler from image stack with as raw signals and after normalization against F0 and saved as csv files.
 The accumulation, correction, systematization of the initial information were carried out in Microsoft Office Excel 2016 spreadsheets.
 Visualization of the obtained results and Time series analysis was done using the free software computing environment R v. 3.5.3 (\cite{team2014r}).
@@ -624,34 +623,5 @@ calcium.csv
 \end{figure}
 
 \fi
-
-\usemintedstyle{vim} %note here you can use different highlighting
-                      %styles see the final note below
-
-\begin{document}
-
-\begin{minted}{python}
-import matplotlib.pyplot as plt
-import numpy as np
-
-T=1
-delta_T=T/200
-alpha=0.5
-fc=40/T
-A_m=1
-t=[i for i in np.arange(-5,5,1/200)]
-t_arr=np.array(t)
-N=len(t)
-
-g_T=[]
-for i in range(N):
-    if (abs(t[i])!=(T/2*alpha)):
-        g_T.append(np.sinc(t[i])*(np.cos(np.pi*alpha*t[i]/T)/
-            (1- 4*alpha**2 *(t[i])**2 /(T**2))))
-    else:
-        g_T.append(0)
-\end{minted}
-
-\end{document}
 
 \end{document}
