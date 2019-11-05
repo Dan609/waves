@@ -28,6 +28,8 @@ library(scatterplot3d)
 
 calcium <- read.csv2('20x20.csv')
 
+calcium <- read.csv2('Plot.csv', sep = ',')
+
 head(calcium)
 
 # insert ROI 57 cells
@@ -40,7 +42,10 @@ z <- ts(calcium$ROI333, start = calcium$Time[1])
 
 xcal <- calcium$ROI416
 
+xcal <- calcium$Y
+
 # time series analysis
+calcium_ts <- ts(xcal, start = calcium$X[1])
 
 calcium_ts <- ts(xcal, start = calcium$Time[1])
 
@@ -53,7 +58,8 @@ spy <- 2*x.spec$spec
 
 # plot results
 
-par(mfrow=c(2,3))
+
+#par(mfrow=c(2,3))
 
 plot(xcal ~ calcium$Time, 
      xlab = "time (s)", ylab = "fluorescence intensity (a.u.)", t="l", 
@@ -70,6 +76,8 @@ plot(spy ~ spx, xlab="frequency (Hz)", ylab="spectral density",
      type="l", lwd = 2)
 
 acf(xcal, lag.max = 100, main = "Autocorrelation")
+
+par(op)
 
 # Entropy measure
 
@@ -1181,6 +1189,18 @@ plot(entropyHeuristic(calcium_ts), ylim = c(0.6, 1), main = "Entropy")
 
 # The wavelet transform of x is computed as follows:
 
+x <- ts(xcal, start = calcium$X[1])
+my.data <- data.frame(x = x)
+my.w <- analyze.wavelet(my.data, "x",
+                        loess.span = 0,
+                        dt = 1, 
+                        dj = 1/250,
+                        lowerPeriod = 2,
+                        upperPeriod = 128,
+                        make.pval = TRUE, n.sim = 10)
+
+
+
 x <- ts(xcal, start = calcium$Time[1])
 my.data <- data.frame(x = x)
 my.w <- analyze.wavelet(my.data, "x",
@@ -1410,15 +1430,9 @@ wc.phasediff.image(my.wc, which.contour = "wc", use.sAngle = TRUE,
 
 par(mfrow=c(1,1))
 
-s.rate <- 14.29745
-lenght 109.6 s
+#s.rate <- 14.29745
+#lenght 109.6 s
 
-409
-412
-414
-415
-416
-422
 
 z <- ts(calcium$ROI415, start = calcium$Time[1])
 
@@ -1472,6 +1486,31 @@ spectrogram(z, 14.29745)
 ?spectrogram
 ###
 
+z <- x
+
+spectro(z, 95.52821, wl = 512, wn = "hanning", zp = 0,
+        ovlp = 0, complex = FALSE, norm = TRUE, correction="none",
+        fftw = FALSE, plot = TRUE,
+        flog = FALSE, grid = TRUE, osc = FALSE, scale = TRUE, cont = FALSE,
+        collevels = NULL, palette = spectro.colors,
+        contlevels = NULL, colcont = "black",
+        colbg = "white", colgrid = "black",
+        colaxis = "black", collab="black",
+        cexlab = 1, cexaxis = 1, 
+        tlab = "Time (s)",
+        flab = "Frequency (kHz)",
+        alab = "Amplitude",
+        scalelab = "Amplitude",
+        main = NULL,
+        scalefontlab = 1, scalecexlab =0.75,
+        axisX = TRUE, axisY = TRUE, tlim = NULL, trel = TRUE,
+        flim = NULL, flimd = NULL,
+        widths = c(6,1), heights = c(3,1),
+        oma = rep(0,4),
+        listen=FALSE)
+
+###       
+
 spectro(z, 14.29745, wl = 512, wn = "hanning", zp = 0,
         ovlp = 0, complex = FALSE, norm = TRUE, correction="none",
         fftw = FALSE, plot = TRUE,
@@ -1518,10 +1557,7 @@ z <- ts(calcium$ROI416, start = calcium$Time[1])
 plot(z)
 plot(fft(z), ylim = c(-2000, 2000))
 
-
 #####
-
-
 
 z <- ts(calcium$ROI543, start = calcium$Time[1])
 z1 <- ts(calcium$ROI543, start = calcium$Time[1])
@@ -1619,7 +1655,7 @@ autopairs(x, lag=3, type="regression")
 
 # The marginal histogram of data shows unimodality:
 
- ags 2 and 3:
+# ags 2 and 3:
 
 delta.test(x)
 delta.lin.test(x)
